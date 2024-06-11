@@ -59,7 +59,7 @@ h1 {
     color: white;
     margin: 20px 0px 20px;
     font-size: 75px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 h3 {
