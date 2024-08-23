@@ -23,6 +23,11 @@ body{
 /*--------------------NAVIGATION SECTION START--------------------*/
 #navigation{
     border: 4px solid green;
+    height: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10px;
 }
 
 #navigation ul {
@@ -45,6 +50,15 @@ body{
 /*--------------------HEAD SECTION START--------------------*/
 #head{
     border: 2px solid yellow;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+#head h1{
+    font-size: 50px;
 }
 /*--------------------HEAD SECTION END--------------------*/
 
@@ -52,11 +66,17 @@ body{
 
 
 
-/*--------------------HOME SECTION START--------------------*/
-#home{
+/*--------------------ABOUT SECTION START--------------------*/
+#about{
     border: 2px solid black;
+    display: flex;
 }
-/*--------------------HOME SECTION END--------------------*/
+
+img{
+    height: auto;
+    width: 430px;
+} 
+/*--------------------ABOUT SECTION END--------------------*/
 
 
 
