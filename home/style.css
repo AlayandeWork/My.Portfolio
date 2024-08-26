@@ -70,6 +70,8 @@ body{
 #about{
     border: 2px solid black;
     display: flex;
+    padding: 100px;
+    gap: 20px;
 }
 
 img{
