@@ -8,9 +8,16 @@
 }
 
 body{
+    background-image: url(../images/1.gif);
+    background-position: center;
+    background-repeat: repeat;
+    border: 1px solid red;
+}
+
+.wrapper{
     width: 70%;
     margin: 0 auto;
-    border: 1px solid red;
+    background: white;
 }
 
 /*--------------------GLOBAL CALLS END--------------------*/
@@ -143,6 +150,29 @@ img{
 
 /*--------------------FOOTER SECTION START--------------------*/
 footer{
-    border: 2px solid orange;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer p:nth-child(2){
+    font-size: 17px;
+    width: 500px;
+    color: white;
+    text-align: center;
+    line-height: 26px;
+}
+
 /*--------------------FOOTER SECTION END--------------------*/
