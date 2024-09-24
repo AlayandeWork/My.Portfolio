@@ -8,9 +8,7 @@
 }
 
 body{
-    background-image: url(../images/2.gif);
-    background-position: center;
-    background-repeat: repeat;
+    background-color: grey;
 }
 
 .wrapper{
@@ -72,6 +70,7 @@ body{
 
 /*--------------------ABOUT SECTION START--------------------*/
 #about{
+    border: 2px solid black;
     display: flex;
     padding: 100px;
     gap: 20px;
