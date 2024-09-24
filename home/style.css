@@ -19,6 +19,10 @@ body{
     /* border: 2px solid red; */
 }
 
+.wrapOne{
+    border: 2px solid purple;
+    margin-top: 40px;
+}
 /*--------------------GLOBAL CALLS END--------------------*/
 
 
@@ -47,20 +51,6 @@ body{
     text-decoration: none;
 }
 
-/* .Outer{
-    border: 2px solid black;
-}
-
-.Middle{
-    border: 2px solid black;
-    margin: 10px;
-} */
-
-.Inner{
-    border: 2px solid black;
-    margin: 15px;
-}
-
 
 /*--------------------NAVIGATION SECTION END--------------------*/
 
@@ -72,16 +62,28 @@ body{
 /*--------------------HEAD SECTION START--------------------*/
 #head{
     height: 500px;
+    border: 2px solid black;
+    background-image: url(../images/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 10px;
-    border: 2px solid green;
 }
 
-#head h1{
+#head h1,h4,h3{
     font-size: 40px;
+    color: black;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 /*--------------------HEAD SECTION END--------------------*/
 
