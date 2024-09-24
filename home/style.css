@@ -8,13 +8,15 @@
 }
 
 body{
-    background-color: grey;
+    background-color: #fffaf6;
 }
 
 .wrapper{
     width: 70%;
     margin: 0 auto;
-    background: white;
+    /* padding: 20px; */
+    /* background: white; */
+    /* border: 2px solid red; */
 }
 
 /*--------------------GLOBAL CALLS END--------------------*/
@@ -30,7 +32,8 @@ body{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    padding: 10px;
+    justify-content: center;
+    /* padding: 10px; */
 }
 
 #navigation ul {
@@ -43,6 +46,22 @@ body{
 #navigation ul a{
     text-decoration: none;
 }
+
+/* .Outer{
+    border: 2px solid black;
+}
+
+.Middle{
+    border: 2px solid black;
+    margin: 10px;
+} */
+
+.Inner{
+    border: 2px solid black;
+    margin: 15px;
+}
+
+
 /*--------------------NAVIGATION SECTION END--------------------*/
 
 
@@ -55,12 +74,14 @@ body{
     height: 500px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     padding: 10px;
+    border: 2px solid green;
 }
 
 #head h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 /*--------------------HEAD SECTION END--------------------*/
 
@@ -69,7 +90,7 @@ body{
 
 
 /*--------------------ABOUT SECTION START--------------------*/
-#about{
+/* #about{
     border: 2px solid black;
     display: flex;
     padding: 100px;
@@ -83,7 +104,7 @@ img{
 
 .description{
     width: 500px;
-}
+} */
 /*--------------------ABOUT SECTION END--------------------*/
 
 
@@ -91,9 +112,9 @@ img{
 
 
 /*--------------------XP SECTION START--------------------*/
-#xp{
+/* #xp{
     border: 2px solid purple;
-}
+} */
 /*--------------------XP SECTION END--------------------*/
 
 
@@ -101,9 +122,9 @@ img{
 
 
 /*--------------------CONTACT SECTION START--------------------*/
-#contact{
+/* #contact{
     border: 2px solid blue;
-}
+} */
 /*--------------------CONTACT SECTION END--------------------*/
 
 
@@ -111,7 +132,7 @@ img{
 
 
 /*--------------------PROJECTS SECTION START--------------------*/
-#pro{
+/* #pro{
     border: 2px solid grey;
     padding: 100px;
 }
@@ -136,7 +157,7 @@ img{
     position: relative;
     overflow: hidden;
     text-align: center;
-}
+} */
 /*--------------------PROJECTS SECTION END--------------------*/
 
 
@@ -144,7 +165,7 @@ img{
 
 
 /*--------------------FOOTER SECTION START--------------------*/
-footer{
+/* footer{
     position: relative;
     width: 100%;
     height: 400px;
@@ -168,6 +189,6 @@ footer p:nth-child(2){
     color: white;
     text-align: center;
     line-height: 26px;
-}
+} */
 
 /*--------------------FOOTER SECTION END--------------------*/
