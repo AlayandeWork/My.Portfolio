@@ -93,7 +93,7 @@ body{
 
 
 /*--------------------ABOUT SECTION START--------------------*/
-/* #about{
+#about{
     border: 2px solid black;
     display: flex;
     padding: 100px;
@@ -107,7 +107,7 @@ img{
 
 .description{
     width: 500px;
-} */
+}
 /*--------------------ABOUT SECTION END--------------------*/
 
 
