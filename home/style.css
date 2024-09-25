@@ -63,8 +63,8 @@ body{
 /*--------------------HEAD SECTION START--------------------*/
 #head{
     height: 500px;
-    border: 2px solid black;
-    background-image: url(../images/4.jpg);
+    /* border: 2px solid black; */
+    /* background-image: url(../images/4.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
