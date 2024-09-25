@@ -37,6 +37,7 @@ body{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
     /* padding: 10px; */
 }
 
@@ -74,7 +75,7 @@ body{
     padding: 10px;
 }
 
-#head h1,h4,h3{
+#head h1{
     font-size: 40px;
     color: black;
 }
