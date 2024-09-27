@@ -36,8 +36,10 @@ body{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    background-color: grey;
     justify-content: center;
-    margin-bottom: 40px;
+    margin: 15px;
+    /* margin-bottom: 40px; */
     /* padding: 10px; */
 }
 
@@ -50,6 +52,7 @@ body{
 
 #navigation ul a{
     text-decoration: none;
+    color: white;
 }
 
 
@@ -64,15 +67,15 @@ body{
 #head{
     height: 500px;
     /* border: 2px solid black; */
-    /* background-image: url(../images/4.jpg); */
+    background-image: url(../images/6.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
+    margin: 15px;
     align-items: center;
     justify-content: center;
-    padding: 10px;
 }
 
 #head h1{
