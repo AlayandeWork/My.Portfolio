@@ -111,31 +111,8 @@ img{
 /*--------------------ABOUT SECTION END--------------------*/
 
 
-
-
-
-/*--------------------XP SECTION START--------------------*/
-/* #xp{
-    border: 2px solid purple;
-} */
-/*--------------------XP SECTION END--------------------*/
-
-
-
-
-
-/*--------------------CONTACT SECTION START--------------------*/
-/* #contact{
-    border: 2px solid blue;
-} */
-/*--------------------CONTACT SECTION END--------------------*/
-
-
-
-
-
 /*--------------------PROJECTS SECTION START--------------------*/
-/* #pro{
+#pro{
     border: 2px solid grey;
     padding: 100px;
 }
@@ -160,8 +137,25 @@ img{
     position: relative;
     overflow: hidden;
     text-align: center;
-} */
+}
 /*--------------------PROJECTS SECTION END--------------------*/
+
+
+/*--------------------XP SECTION START--------------------*/
+/* #xp{
+    border: 2px solid purple;
+} */
+/*--------------------XP SECTION END--------------------*/
+
+
+
+
+
+/*--------------------CONTACT SECTION START--------------------*/
+/* #contact{
+    border: 2px solid blue;
+} */
+/*--------------------CONTACT SECTION END--------------------*/
 
 
 
