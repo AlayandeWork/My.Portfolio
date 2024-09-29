@@ -8,20 +8,21 @@
 }
 
 body{
-    background-color: #fffaf6;
+    background-color: #ecf3f5;
 }
 
 .wrapper{
     width: 70%;
     margin: 0 auto;
-    /* padding: 20px; */
-    /* background: white; */
-    /* border: 2px solid red; */
+    background-color: white;
+    height: auto;
+    padding-top: 40px;
 }
 
 .wrapOne{
     border: 2px solid purple;
-    margin-top: 40px;
+
+    
 }
 /*--------------------GLOBAL CALLS END--------------------*/
 
@@ -32,30 +33,22 @@ body{
 
 /*--------------------NAVIGATION SECTION START--------------------*/
 #navigation{
-    height: 40px;
+    margin: 25px;
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    background-color: grey;
-    justify-content: center;
-    margin: 15px;
-    /* margin-bottom: 40px; */
-    /* padding: 10px; */
+    flex-direction: column;
 }
 
 #navigation ul {
     display: flex;
-    justify-content: flex-end;
-    gap: 20px;
-    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-image: url("../images/bullet1.png");
 }
 
 #navigation ul a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
-
-
 /*--------------------NAVIGATION SECTION END--------------------*/
 
 
@@ -66,28 +59,27 @@ body{
 /*--------------------HEAD SECTION START--------------------*/
 #head{
     height: 500px;
-    /* border: 2px solid black; */
-    background-image: url(../images/6.jpg);
+    background-image: url(../images/8.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.5);
     background-size: cover;
     display: flex;
     flex-direction: column;
-    margin: 15px;
+    margin: 25px;
     align-items: center;
     justify-content: center;
 }
 
-#head h1{
-    font-size: 40px;
-    color: black;
+#head > h1,h3{
+    color: white;
 }
 
 .title{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 /*--------------------HEAD SECTION END--------------------*/
 
@@ -97,7 +89,7 @@ body{
 
 /*--------------------ABOUT SECTION START--------------------*/
 #about{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     padding: 100px;
     gap: 20px;
@@ -116,7 +108,7 @@ img{
 
 /*--------------------PROJECTS SECTION START--------------------*/
 #pro{
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     padding: 100px;
 }
 
