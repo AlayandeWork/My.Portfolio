@@ -34,6 +34,7 @@ body{
     margin: 25px;
     display: flex;
     flex-direction: column;
+    border: 5px solid red;
 }
 
 #navigation ul {
@@ -87,8 +88,9 @@ body{
 
 /*--------------------ABOUT SECTION START--------------------*/
 #about{
-    /* border: 2px solid black; */
+    border: 2px solid black;
     display: flex;
+    background-color: #ecf3f5;
     padding: 100px;
     gap: 20px;
 }
@@ -99,7 +101,17 @@ img{
 } 
 
 .description{
-    width: 500px;
+    border: 2px solid green;
+    width: 800px;
+}
+
+.desText{
+    text-align: justify;
+}
+
+.imageDiv{
+    border: 10px solid white;
+    padding: 15px;
 }
 /*--------------------ABOUT SECTION END--------------------*/
 
