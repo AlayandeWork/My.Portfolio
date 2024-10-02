@@ -150,9 +150,15 @@ img{
 
 
 /*--------------------XP SECTION START--------------------*/
-/* #xp{
+#xp{
     border: 2px solid purple;
-} */
+    background: #ecf3f5;
+    padding: 50px;
+}
+
+#xp h1{
+    text-align: center;
+}
 /*--------------------XP SECTION END--------------------*/
 
 
