@@ -122,6 +122,9 @@ img{
     padding: 100px;
 }
 
+#pro h1,h4{
+    text-align: center;
+}
 
 .box{
     display: flex;
@@ -137,7 +140,7 @@ img{
     padding: 20px 35px;
     background: white;
     border-radius: 20px;
-    border: 2px solid black;
+    border: 10px solid #ecf3f5;
     margin: 15px;
     position: relative;
     overflow: hidden;
