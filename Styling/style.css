@@ -20,7 +20,7 @@ body{
 }
 
 .wrapOne{
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
 }
 /*--------------------GLOBAL CALLS END--------------------*/
 
@@ -130,7 +130,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     min-height: 400px;
 }
 
@@ -191,20 +191,42 @@ img{
 
 /*--------------------CONTACT SECTION START--------------------*/
 #contact{
-    border: 2px solid blue;
-    margin: 25px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
     /* display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center; */
 }
 
-#contact form input, form textarea {
-    width:100%;
+#contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact form input, form textarea{
     padding: 17px;
+    width:100%;
     border: none;
-    outline-color: #ecf3f5;
     border-radius: 10px;
-    font-size: 1.1rem;
+    color: black;
+    background: #ecf3f5;
+}
+
+#contact h1{
+    text-align: center;
+}
+
+#contact textarea{
+    resize: none;
+    height: 200px;
+
+}
+
+#contact .btn{
+    cursor: pointer;
 }
 /*--------------------CONTACT SECTION END--------------------*/
 
