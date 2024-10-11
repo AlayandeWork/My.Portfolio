@@ -42,7 +42,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    list-style-image: url("../images/bullet1.png");
+    list-style-image: url("../Images/bullet1.png");
 }
 
 #navigation ul a{
