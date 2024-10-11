@@ -20,7 +20,7 @@ body{
 }
 
 .wrapOne{
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     /*--Continue With Update---*/
 }
 /*--------------------GLOBAL CALLS END--------------------*/
@@ -236,11 +236,11 @@ img{
 
 
 /*--------------------FOOTER SECTION START--------------------*/
-/* footer{
+footer{
     position: relative;
     width: 100%;
     height: 400px;
-    background: #101010;
+    background: #ecf3f5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -250,16 +250,16 @@ img{
 footer p:nth-child(1){
     font-size: 30px;
     font-weight: bold;
-    color: white;
+    /* color: white; */
     margin-bottom: 20px;
 }
 
 footer p:nth-child(2){
     font-size: 17px;
     width: 500px;
-    color: white;
+    /* color: white; */
     text-align: center;
     line-height: 26px;
-} */
+}
 
 /*--------------------FOOTER SECTION END--------------------*/
