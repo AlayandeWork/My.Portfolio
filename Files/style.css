@@ -8,15 +8,15 @@
 }
 
 body{
-    background-color: #ecf3f5;
+    background-color: #202634;
 }
 
 .wrapper{
     width: 70%;
     margin: 0 auto;
-    background-color: white;
+    background-color: #283044;
     height: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding-top: 40px;
 }
 
@@ -92,7 +92,7 @@ body{
 #about{
     /* border: 2px solid black; */
     display: flex;
-    background-color: #ecf3f5;
+    background-color: #202634;
     padding: 100px;
     gap: 20px;
 }
