@@ -191,6 +191,34 @@ img{
 
 
 
+
+/*--------------------RESUME SECTION END--------------------*/
+#resume-download{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.button-design{
+    background-color: #ecf3f5;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+/*--------------------RESUME SECTION END--------------------*/
+
+
+
+
+
+
+
+
+
 /*--------------------CONTACT SECTION START--------------------*/
 #contact{
     /* border: 2px solid blue; */
