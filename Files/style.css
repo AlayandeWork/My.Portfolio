@@ -8,16 +8,13 @@
 }
 
 body {
-    /* background-color: #202634; */
     background-color: whitesmoke;
 }
 
 .wrapper {
     width: 70%;
     margin: 0 auto;
-    /* background-color: #283044; */
     height: auto;
-    /* border: 2px solid red; */
     padding-top: 40px;
 }
 
@@ -36,8 +33,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
     padding: 20px;
 }
+
+
 
 .logo {
     font-size: 24px;
@@ -98,6 +98,7 @@ nav {
 .banner-text p {
     font-size: 24px;
 }
+
 /*-------Header End-------*/
 
 
@@ -108,8 +109,6 @@ nav {
 #about {
     border: 2px solid black;
     display: flex;
-    /* background-color: #202634; */
-    /* background-color: whitesmoke; */
     background: #ecf3f5;
     padding: 100px;
     gap: 20px;
@@ -121,7 +120,6 @@ img {
 }
 
 .description {
-    /* border: 2px solid green; */
     width: 800px;
 }
 
@@ -139,7 +137,6 @@ img {
 
 /*--------------------PROJECTS SECTION START--------------------*/
 #pro {
-    /* border: 2px solid grey; */
     padding: 100px;
 }
 
@@ -152,7 +149,6 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid red; */
     min-height: 400px;
 }
 
@@ -175,7 +171,6 @@ h4 {
 
 /*--------------------XP SECTION START--------------------*/
 #xp {
-    /* border: 2px solid purple; */
     background: #ecf3f5;
     padding: 50px;
 }
@@ -185,11 +180,6 @@ h4 {
 }
 
 .cont {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid blue;
-    min-height: 400px; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -301,14 +291,12 @@ footer {
 footer p:nth-child(1) {
     font-size: 30px;
     font-weight: bold;
-    /* color: white; */
     margin-bottom: 20px;
 }
 
 footer p:nth-child(2) {
     font-size: 17px;
     width: 500px;
-    /* color: white; */
     text-align: center;
     line-height: 26px;
 }
