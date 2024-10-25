@@ -1,18 +1,18 @@
 /*--------------------GLOBAL CALLS START--------------------*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
+body {
     /* background-color: #202634; */
     background-color: whitesmoke;
 }
 
-.wrapper{
+.wrapper {
     width: 70%;
     margin: 0 auto;
     /* background-color: #283044; */
@@ -21,74 +21,15 @@ body{
     padding-top: 40px;
 }
 
-.wrapOne{
+.wrapOne {
     border: 2px solid purple;
-    
+
 }
+
 /*--------------------GLOBAL CALLS END--------------------*/
 
-
-
-
-
-
-/*--------------------NAVIGATION SECTION START--------------------*/
-/* #navigation{
-    margin: 25px;
-    display: flex;
-    flex-direction: column;
-    border: 5px solid red;
-}
-
-#navigation ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style-image: url("bullet1.png");
-}
-
-#navigation ul a{
-    text-decoration: none;
-    color: black;
-} */
-/*--------------------NAVIGATION SECTION END--------------------*/
-
-
-
-
-
-
-/*--------------------HEAD SECTION START--------------------*/
-/* #head{
-    height: 700px;
-    background-image: url(8.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.5);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    margin: 25px;
-    align-items: center;
-    justify-content: center;
-}
-
-#head > h1,h3{
-    color: white;
-}
-
-.title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 60px;
-} */
-
-
-/*--------------------HEAD SECTION END--------------------*/
-
-/*--Header Start--*/
-header{
+/*-------Header Start-------*/
+header {
     position: absolute;
     top: 0;
     width: 100%;
@@ -102,65 +43,69 @@ header{
     font-size: 24px;
     font-weight: bold;
     color: white;
-  }
+}
 
-  nav {
+nav {
     display: flex;
-  }
-  
-  .nav-list {
+}
+
+.nav-list {
     display: flex;
     list-style-type: none;
-  }
-  
-  .nav-list li {
+}
+
+.nav-list li {
     margin-left: 20px;
-  }
-  
-  .nav-list a {
+}
+
+.nav-list a {
     color: white;
     text-decoration: none;
     font-size: 16px;
-  }
-  
-  .nav-list a:hover {
-    color: #ff9800;
-  }
+}
 
-  .banner{
+.nav-list a:hover {
+    color: #ff9800;
+}
+
+.banner {
     width: 100%;
     height: 100vh;
     overflow: hidden;
 
-  }
-  
-  .banner img {
+}
+
+.banner img {
     width: 100%;
     height: 100%;
     display: block;
-  }
+}
 
-  .banner-text {
+.banner-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-  }
-  
-  .banner-text h1 {
+}
+
+.banner-text h1 {
     font-size: 48px;
     margin-bottom: 10px;
-  }
-  
-  .banner-text p {
+}
+
+.banner-text p {
     font-size: 24px;
-  }
+}
+/*-------Header End-------*/
+
+
+
 
 
 /*--------------------ABOUT SECTION START--------------------*/
-#about{
+#about {
     border: 2px solid black;
     display: flex;
     /* background-color: #202634; */
@@ -170,38 +115,40 @@ header{
     gap: 20px;
 }
 
-img{
+img {
     height: auto;
     width: 430px;
-} 
+}
 
-.description{
+.description {
     /* border: 2px solid green; */
     width: 800px;
 }
 
-.desText{
+.desText {
     text-align: justify;
 }
 
-.imageDiv{
+.imageDiv {
     border: 10px solid white;
     padding: 15px;
 }
+
 /*--------------------ABOUT SECTION END--------------------*/
 
 
 /*--------------------PROJECTS SECTION START--------------------*/
-#pro{
+#pro {
     /* border: 2px solid grey; */
     padding: 100px;
 }
 
-#pro h1,h4{
+#pro h1,
+h4 {
     text-align: center;
 }
 
-.box{
+.box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -210,7 +157,7 @@ img{
 }
 
 
-.card{
+.card {
     height: 365px;
     width: 335px;
     padding: 20px 35px;
@@ -222,21 +169,22 @@ img{
     overflow: hidden;
     text-align: center;
 }
+
 /*--------------------PROJECTS SECTION END--------------------*/
 
 
 /*--------------------XP SECTION START--------------------*/
-#xp{
+#xp {
     /* border: 2px solid purple; */
     background: #ecf3f5;
     padding: 50px;
 }
 
-#xp h1{
+#xp h1 {
     text-align: center;
 }
 
-.cont{
+.cont {
     /* display: flex;
     justify-content: center;
     align-items: center;
@@ -247,7 +195,7 @@ img{
 }
 
 
-.area{
+.area {
     justify-content: center;
     height: auto;
     width: auto;
@@ -258,6 +206,7 @@ img{
     position: relative;
     text-align: center;
 }
+
 /*--------------------XP SECTION END--------------------*/
 
 
@@ -266,7 +215,7 @@ img{
 
 
 /*--------------------RESUME SECTION END--------------------*/
-#resume-download{
+#resume-download {
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -276,12 +225,13 @@ img{
     flex-direction: column;
 }
 
-.button-design{
+.button-design {
     background-color: #ecf3f5;
     padding: 20px;
     border-radius: 20px;
     font-size: 20px;
 }
+
 /*--------------------RESUME SECTION END--------------------*/
 
 
@@ -293,44 +243,42 @@ img{
 
 
 /*--------------------CONTACT SECTION START--------------------*/
-#contact{
-    /* border: 2px solid blue; */
+#contact {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    /* display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center; */
 }
 
-#contact form{
+#contact form {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-#contact form input, form textarea{
+#contact form input,
+form textarea {
     padding: 17px;
-    width:100%;
+    width: 100%;
     border: none;
     border-radius: 10px;
     color: black;
     background: #ecf3f5;
 }
 
-#contact h1{
+#contact h1 {
     text-align: center;
 }
 
-#contact textarea{
+#contact textarea {
     resize: none;
     height: 200px;
 
 }
 
-#contact .btn{
+#contact .btn {
     cursor: pointer;
 }
+
 /*--------------------CONTACT SECTION END--------------------*/
 
 
@@ -338,7 +286,7 @@ img{
 
 
 /*--------------------FOOTER SECTION START--------------------*/
-footer{
+footer {
     position: relative;
     width: 100%;
     height: 400px;
@@ -350,14 +298,14 @@ footer{
     justify-content: center;
 }
 
-footer p:nth-child(1){
+footer p:nth-child(1) {
     font-size: 30px;
     font-weight: bold;
     /* color: white; */
     margin-bottom: 20px;
 }
 
-footer p:nth-child(2){
+footer p:nth-child(2) {
     font-size: 17px;
     width: 500px;
     /* color: white; */
@@ -365,15 +313,15 @@ footer p:nth-child(2){
     line-height: 26px;
 }
 
-.fa-linkedin{
+.fa-linkedin {
     font-size: 40px;
 }
 
-.fa-github-alt{
+.fa-github-alt {
     font-size: 40px;
 }
 
-.end{
+.end {
     margin-bottom: 10px;
 }
 

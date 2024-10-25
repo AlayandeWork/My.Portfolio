@@ -1,3 +1,5 @@
+
+//-----Header Changing text Start-----//
 const texts = [
     "Data Scientist",
     "Game Designer",
@@ -19,3 +21,4 @@ function changeText() {
 }
 
 setInterval(changeText, 2000);
+//-----Header Changing text End-----//
