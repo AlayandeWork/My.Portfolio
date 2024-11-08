@@ -6,9 +6,19 @@ const texts = [
     "Petroleum Engineer"
 ];
 
-const subtitle = document.getElementById('subtitle');
-let index = 0;
+const bannerImages = [
+    "../Images/6.jpg",  // Replace with actual image paths
+    "../Images/10.jpg",
+    "../Images/13.jpg",
+    "../Images/11.jpg"
+];
 
+const subtitle = document.getElementById('subtitle');
+const bannerImage = document.getElementById('banner-image');
+let textIndex = 0;
+let imageIndex = 0;
+
+// Typewriter effect for changing text
 function typeWriterEffect(text) {
     let i = 0;
     subtitle.textContent = ''; // Clear current text
@@ -26,10 +36,20 @@ function typeWriterEffect(text) {
     }, 100); // Typing speed (in ms)
 }
 
+// Function to cycle through text
 function changeText() {
-    index = (index + 1) % texts.length; // Cycle through array
-    typeWriterEffect(texts[index]);
+    textIndex = (textIndex + 1) % texts.length; // Cycle through text array
+    typeWriterEffect(texts[textIndex]);
 }
 
-// Initialize with the first text and start loop
-typeWriterEffect(texts[index]);
+// Function to change banner image every 2 seconds
+function changeBannerImage() {
+    imageIndex = (imageIndex + 1) % bannerImages.length; // Cycle through images
+    bannerImage.src = bannerImages[imageIndex];
+}
+
+// Start typewriter effect for the first text
+typeWriterEffect(texts[textIndex]);
+
+// Change banner image every 2 seconds
+setInterval(changeBannerImage, 1800000);
