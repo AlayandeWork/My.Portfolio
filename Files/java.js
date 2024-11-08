@@ -7,10 +7,10 @@ const texts = [
 ];
 
 const bannerImages = [
-    "../Images/6.jpg",  // Replace with actual image paths
-    "../Images/10.jpg",
-    "../Images/13.jpg",
-    "../Images/11.jpg"
+    "6.jpg",  // Replace with actual image paths
+    "10.jpg",
+    "13.jpg",
+    "11.jpg"
 ];
 
 const subtitle = document.getElementById('subtitle');
