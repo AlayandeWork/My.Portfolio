@@ -123,7 +123,7 @@ nav {
 .banner-text h1 {
     font-size: 70px;
     margin-bottom: 10px;
-    line-height: 1.2; /* Maintain consistent height */
+    line-height: 1.2; 
     transition: opacity 0.5s ease-in-out; /* Smooth transition */
 }
 
