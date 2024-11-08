@@ -7,7 +7,7 @@ const texts = [
 ];
 
 const bannerImages = [
-    "6.jpg",  // Replace with actual image paths
+    "6.jpg",
     "10.jpg",
     "13.jpg",
     "11.jpg"
@@ -16,40 +16,40 @@ const bannerImages = [
 const subtitle = document.getElementById('subtitle');
 const bannerImage = document.getElementById('banner-image');
 let textIndex = 0;
-let imageIndex = 0;
+let lastImageIndex = -1;
 
-// Typewriter effect for changing text
 function typeWriterEffect(text) {
     let i = 0;
-    subtitle.textContent = ''; // Clear current text
-    subtitle.style.width = '0'; // Reset width for typing effect
+    subtitle.textContent = '';
+    subtitle.style.width = '0';
     
     const typingInterval = setInterval(() => {
         subtitle.textContent += text.charAt(i);
-        subtitle.style.width = 'auto'; // Expand width as text is typed
+        subtitle.style.width = 'auto';
         i++;
         
         if (i >= text.length) {
             clearInterval(typingInterval);
-            setTimeout(changeText, 3000); // Pause before next text
+            setTimeout(changeText, 3000);
         }
-    }, 100); // Typing speed (in ms)
+    }, 100);
 }
 
-// Function to cycle through text
 function changeText() {
-    textIndex = (textIndex + 1) % texts.length; // Cycle through text array
+    textIndex = (textIndex + 1) % texts.length;
     typeWriterEffect(texts[textIndex]);
 }
 
-// Function to change banner image every 2 seconds
-function changeBannerImage() {
-    imageIndex = (imageIndex + 1) % bannerImages.length; // Cycle through images
-    bannerImage.src = bannerImages[imageIndex];
+function setRandomBannerImage() {
+    let randomIndex;
+    
+    do {
+        randomIndex = Math.floor(Math.random() * bannerImages.length);
+    } while (randomIndex === lastImageIndex);
+    
+    bannerImage.src = bannerImages[randomIndex];
+    lastImageIndex = randomIndex;
 }
 
-// Start typewriter effect for the first text
 typeWriterEffect(texts[textIndex]);
-
-// Change banner image every 2 seconds
-setInterval(changeBannerImage, 1800000);
+setRandomBannerImage();
