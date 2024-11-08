@@ -23,6 +23,30 @@ body {
 
 }
 
+/* Typewriter effect */
+.typewriter {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid white;
+    animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
 /*--------------------GLOBAL CALLS END--------------------*/
 
 /*-------Header Start-------*/
@@ -31,6 +55,7 @@ header {
     top: 0;
     width: 100%;
     display: flex;
+    z-index: 1000;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.3);
@@ -72,20 +97,25 @@ nav {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-
+    position: relative;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner img {
     width: 100%;
     height: 100%;
     display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
 }
 
 .banner-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    z-index: 1;
     text-align: center;
     color: white;
 }
@@ -93,11 +123,16 @@ nav {
 .banner-text h1 {
     font-size: 70px;
     margin-bottom: 10px;
+    line-height: 1.2; /* Maintain consistent height */
+    transition: opacity 0.5s ease-in-out; /* Smooth transition */
 }
 
 .banner-text p {
     font-size: 24px;
+    line-height: 1.2; /* Ensure consistent spacing */
+    height: 30px; /* Fixed height for stability */
 }
+
 
 /*-------Header End-------*/
 
