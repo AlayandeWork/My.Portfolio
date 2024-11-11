@@ -53,3 +53,12 @@ function setRandomBannerImage() {
 
 typeWriterEffect(texts[textIndex]);
 setRandomBannerImage();
+
+
+function scrollToNextSection() {
+    const nextSection = document.querySelector('#about'); // Change '#about' to the ID of your next section
+    if (nextSection) {
+        nextSection.scrollIntoView({ behavior: 'smooth' });
+    }
+}
+

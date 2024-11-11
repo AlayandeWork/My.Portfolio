@@ -32,6 +32,7 @@ body {
     from {
         width: 0;
     }
+
     to {
         width: 100%;
     }
@@ -119,18 +120,54 @@ nav {
 .banner-text h1 {
     font-size: 70px;
     margin-bottom: 10px;
-    line-height: 1.2; 
-    transition: opacity 0.5s ease-in-out; /* Smooth transition */
+    line-height: 1.2;
+    transition: opacity 0.5s ease-in-out;
+    /* Smooth transition */
 }
 
 .banner-text p {
     font-size: 24px;
-    line-height: 1.2; /* Ensure consistent spacing */
-    height: 30px; /* Fixed height for stability */
+    line-height: 1.2;
+    /* Ensure consistent spacing */
+    height: 30px;
+    /* Fixed height for stability */
 }
 
 
 /*-------Header End-------*/
+
+/* Pulsating arrow at the bottom of the banner */
+.arrow {
+    position: absolute;
+    bottom: 20px;
+    /* Adjust this value to control the distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%) rotate(315deg); /* Base rotation */
+    width: 20px;
+    height: 20px;
+    border-left: 4px solid white;
+    border-bottom: 4px solid white;
+    animation: pulse 1.5s infinite ease-in-out;
+    cursor: pointer;
+}
+
+/* Animation for the arrow */
+@keyframes pulse {
+    0% {
+        transform: translateX(-50%) translateY(0) rotate(315deg); /* Keep rotation constant */
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateX(-50%) translateY(10px) rotate(315deg); /* Keep rotation constant */
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(0) rotate(315deg); /* Keep rotation constant */
+        opacity: 1;
+    }
+}
 
 
 
