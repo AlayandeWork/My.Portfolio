@@ -3,7 +3,7 @@ const texts = [
     "Game Designer",
     "UX/UI Designer",
     "Data Analyst",
-    "Petroleum Engineer"
+    "Petroleum & Gas Engineer"
 ];
 
 const bannerImages = [
