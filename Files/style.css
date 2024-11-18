@@ -8,8 +8,8 @@
 }
 
 body {
-    /* background-color: #202634; */
-    background-image: url(../Images/backback.jpg);
+    background-color: #2C4251;
+    /* background-image: url(../Images/backback.jpg); */
 }
 
 .wrapper {
@@ -182,8 +182,8 @@ nav {
     /* border: 2px solid white; */
     border-radius: 20px;
     display: flex;
-    background: #202634;
-    color: white;
+    background: #C1C1C1;
+    color: BLACK;
     padding: 100px;
     gap: 20px;
 }
