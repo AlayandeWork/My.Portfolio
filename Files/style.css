@@ -182,8 +182,9 @@ nav {
     /* border: 2px solid white; */
     border-radius: 20px;
     display: flex;
-    background: #C1C1C1;
-    color: BLACK;
+    background: #2C3E50;
+    border: 5px solid #283044;
+    color: white;
     padding: 100px;
     gap: 20px;
 }
