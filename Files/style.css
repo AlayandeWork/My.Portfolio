@@ -250,7 +250,7 @@ h4 {
 
 /*--------------------XP SECTION START--------------------*/
 #xp {
-    background: #ecf3f5;
+    background: #F5E8D3;
     padding: 50px;
 }
 
@@ -268,9 +268,11 @@ h4 {
     justify-content: center;
     height: auto;
     width: auto;
+    background-color: #2C3E50;
     border-radius: 20px;
+    color: white;
     margin: 15px;
-    border: 10px solid white;
+    border: 5px solid #283044;
     height: 365px;
     position: relative;
     text-align: center;
