@@ -6,17 +6,8 @@ const texts = [
     "Petroleum & Gas Engineer"
 ];
 
-const bannerImages = [
-    "6.jpg",
-    "10.jpg",
-    "13.jpg",
-    "11.jpg"
-];
-
 const subtitle = document.getElementById('subtitle');
-const bannerImage = document.getElementById('banner-image');
 let textIndex = 0;
-let lastImageIndex = -1;
 
 function typeWriterEffect(text) {
     let i = 0;
@@ -40,16 +31,6 @@ function changeText() {
     typeWriterEffect(texts[textIndex]);
 }
 
-function setRandomBannerImage() {
-    let randomIndex;
-    
-    do {
-        randomIndex = Math.floor(Math.random() * bannerImages.length);
-    } while (randomIndex === lastImageIndex);
-    
-    bannerImage.src = bannerImages[randomIndex];
-    lastImageIndex = randomIndex;
-}
 
 typeWriterEffect(texts[textIndex]);
 setRandomBannerImage();
