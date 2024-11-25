@@ -2,7 +2,7 @@ const texts = [
     "Data Scientist",
     "Game Designer",
     "UX/UI Designer",
-    "Data Analyst",
+    "Data Analyst Technician",
     "Petroleum & Gas Engineer"
 ];
 
