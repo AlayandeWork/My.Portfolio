@@ -175,6 +175,17 @@ nav {
 }
 
 
+.aboutme{
+    margin-bottom: 40px ;
+    font-size: 3.2em;
+    color: #F5E8D3;
+}
+
+.red{
+    margin-bottom: 40px ;
+    font-size: 1.1em;
+}
+
 
 
 
@@ -184,9 +195,9 @@ nav {
     border-radius: 20px;
     display: flex;
     background: #2C3E50;
-    border: 5px solid #283044;
+    /* border: 5px solid red; */
     color: white;
-    padding: 100px;
+    padding: 10px;
     gap: 20px;
 }
 
@@ -196,7 +207,11 @@ img {
 }
 
 .description {
-    width: 800px;
+    width: 740px;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    /* border: 2px solid red; */
 }
 
 .desText {
@@ -383,12 +398,37 @@ footer p:nth-child(2) {
     line-height: 26px;
 }
 
+.socialplat{
+    margin-top: 40px ;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
 .fa-linkedin {
-    font-size: 40px;
+    font-size: 35px;
+    color: #F5E8D3;
 }
 
 .fa-github-alt {
-    font-size: 40px;
+    font-size: 35px;
+    color: #F5E8D3;
+}
+
+.fa-google{
+    font-size: 35px;
+    color: #F5E8D3;
+}
+
+.fa-twitter{
+    font-size: 35px;
+    color: #F5E8D3;
+}
+
+.fa-itch-io{
+    font-size: 35px;
+    color: #F5E8D3;
 }
 
 .end {
