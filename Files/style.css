@@ -433,11 +433,6 @@ footer p:nth-child(2) {
     margin-bottom: 10px;
 }
 
-/*--------------------FOOTER SECTION END--------------------*/
-
-
-
-
 
 .socialplat a {
     position: relative;
@@ -469,5 +464,6 @@ footer p:nth-child(2) {
     opacity: 1;
     visibility: visible;
 }
+/*--------------------FOOTER SECTION END--------------------*/
 
 
