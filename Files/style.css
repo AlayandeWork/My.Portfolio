@@ -407,30 +407,27 @@ footer p:nth-child(2) {
     /* border: 2px solid red; */
 }
 
-.fa-linkedin {
+.fa-linkedin,
+.fa-github-alt,
+.fa-google,
+.fa-twitter,
+.fa-itch-io {
     font-size: 35px;
     color: #F5E8D3;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.fa-github-alt {
-    font-size: 35px;
-    color: #F5E8D3;
+.fa-linkedin:hover,
+.fa-github-alt:hover,
+.fa-google:hover,
+.fa-twitter:hover,
+.fa-itch-io:hover {
+    color: white;
+    transform: scale(1.1); /* Slightly increase size */
+    cursor: pointer; /* Change cursor to pointer */
 }
 
-.fa-google{
-    font-size: 35px;
-    color: #F5E8D3;
-}
 
-.fa-twitter{
-    font-size: 35px;
-    color: #F5E8D3;
-}
-
-.fa-itch-io{
-    font-size: 35px;
-    color: #F5E8D3;
-}
 
 .end {
     margin-bottom: 10px;
