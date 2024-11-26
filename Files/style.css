@@ -443,7 +443,9 @@ footer p:nth-child(2) {
     position: relative;
     text-decoration: none;
 }
-
+.data-tooltip{
+    size: 50px;
+}
 .socialplat a::after {
     content: attr(data-tooltip);
     position: absolute;
