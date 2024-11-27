@@ -15,6 +15,7 @@ body {
 .wrapper {
     width: 70%;
     margin: 0 auto;
+    /* border: 2px solid red; */
     height: auto;
     /* background-color: #202634; */
     padding-top: 40px;
@@ -230,9 +231,10 @@ img {
 
 /*--------------------PROJECTS SECTION START--------------------*/
 #pro {
-    padding: 100px;
+    margin-top: 60px;
+    /* padding: 100px; */
     /* border: 2px solid white; */
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 #pro h1,
@@ -242,20 +244,31 @@ h4 {
 
 .box {
     display: flex;
-    justify-content: center;
+    /* border: 2px solid blue; */
+    width: auto;
+    justify-content: space-between;
     align-items: center;
-    min-height: 400px;
+    min-height: auto;
+    
 }
 
+.card1{
+    border: 4px solid white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10px;
+    height: 320px;
+    
+}
 
 .card {
-    height: 365px;
-    width: 335px;
-    padding: 20px 35px;
+    height: auto;
+    width: 320px;
+    /* padding: 20px 35px; */
     background: #2C3E50;
     border-radius: 20px;
-    border: 5px solid #283044;
-    margin: 15px;
+    /* border: 5px solid #283044; */
+    /* margin: 15px; */
     color: white;
     position: relative;
     overflow: hidden;
@@ -397,6 +410,14 @@ footer p:nth-child(2) {
     width: 500px;
     text-align: center;
     line-height: 26px;
+}
+
+.socialplat2{
+    border: 2px solid red;
+    margin-top: 50px ;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
 }
 
 .socialplat{
