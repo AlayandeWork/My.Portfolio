@@ -273,6 +273,7 @@ h4 {
     position: relative;
     overflow: hidden;
     text-align: center;
+    cursor: pointer;
 }
 
 /*--------------------PROJECTS SECTION END--------------------*/
