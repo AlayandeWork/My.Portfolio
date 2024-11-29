@@ -414,7 +414,7 @@ footer p:nth-child(2) {
 }
 
 .socialplat2{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 50px ;
     display: flex;
     justify-content: space-between;
