@@ -237,8 +237,13 @@ img {
     /* margin-bottom: 20px; */
 }
 
-#pro h1,
-h4 {
+.project{
+    font-size: 3.2em;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#pro h4 {
     text-align: center;
 }
 
