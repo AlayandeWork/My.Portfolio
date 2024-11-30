@@ -282,7 +282,7 @@ img {
     flex: 0 0 auto; /* Prevent shrinking or growing */
     width: 420px; /* Fixed width for the card */
     height: 620px; /* Fixed height for the card */
-    background-image: url(/space.jpg);
+    background-image: url(space.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
