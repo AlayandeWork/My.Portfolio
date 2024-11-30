@@ -56,7 +56,7 @@ function scrollLeft() {
 function scrollRight() {
     const container = document.querySelector('.scroll-container');
     container.scrollBy({
-        left: -300, // Adjust the value as needed
+        left: 300, // Adjust the value as needed
         behavior: 'smooth'
     });
 }
