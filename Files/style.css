@@ -8,9 +8,14 @@
 }
 
 body {
-    background-color: #F5E8D3;
-    /* background-image: url(../Images/backback.jpg); */
+    /* background-color: #F5E8D3; */
+    background-image: url(image2.jpg);
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    
 }
+
 
 .wrapper {
     width: 70%;
@@ -147,7 +152,8 @@ nav {
     bottom: 20px;
     /* Adjust this value to control the distance from the bottom */
     left: 50%;
-    transform: translateX(-50%) rotate(315deg); /* Base rotation */
+    transform: translateX(-50%) rotate(315deg);
+    /* Base rotation */
     width: 20px;
     height: 20px;
     background-color: black;
@@ -160,30 +166,33 @@ nav {
 /* Animation for the arrow */
 @keyframes pulse {
     0% {
-        transform: translateX(-50%) translateY(0) rotate(315deg); /* Keep rotation constant */
+        transform: translateX(-50%) translateY(0) rotate(315deg);
+        /* Keep rotation constant */
         opacity: 1;
     }
 
     50% {
-        transform: translateX(-50%) translateY(10px) rotate(315deg); /* Keep rotation constant */
+        transform: translateX(-50%) translateY(10px) rotate(315deg);
+        /* Keep rotation constant */
         opacity: 0.5;
     }
 
     100% {
-        transform: translateX(-50%) translateY(0) rotate(315deg); /* Keep rotation constant */
+        transform: translateX(-50%) translateY(0) rotate(315deg);
+        /* Keep rotation constant */
         opacity: 1;
     }
 }
 
 
-.aboutme{
-    margin-bottom: 40px ;
+.aboutme {
+    margin-bottom: 40px;
     font-size: 3.2em;
     color: #F5E8D3;
 }
 
-.red{
-    margin-bottom: 40px ;
+.red {
+    margin-bottom: 40px;
     font-size: 1.1em;
     color: white;
 }
@@ -237,7 +246,7 @@ img {
     /* margin-bottom: 20px; */
 }
 
-.project{
+.project {
     font-size: 3.2em;
     text-align: center;
     margin-bottom: 60px;
@@ -273,20 +282,26 @@ img {
 } */
 /* Ensure .box supports horizontal scrolling */
 .box {
-    display: inline-flex; /* Align cards horizontally */
-    gap: 20px; /* Space between cards */
+    display: inline-flex;
+    /* Align cards horizontally */
+    gap: 20px;
+    /* Space between cards */
 }
 
 /* Ensure cards are properly sized */
 .card {
-    flex: 0 0 auto; /* Prevent shrinking or growing */
-    width: 420px; /* Fixed width for the card */
-    height: 620px; /* Fixed height for the card */
+    flex: 0 0 auto;
+    /* Prevent shrinking or growing */
+    width: 420px;
+    /* Fixed width for the card */
+    height: 620px;
+    /* Fixed height for the card */
     background-image: url(space.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Adds shadow */
     border-radius: 80px;
     color: white;
     position: relative;
@@ -294,12 +309,12 @@ img {
     text-align: center;
     cursor: pointer;
 }
+
 /*--------------------PROJECTS SECTION END--------------------*/
 
 
 /*--------------------XP SECTION START--------------------*/
 #xp {
-    background: #F5E8D3;
     padding: 50px;
 }
 
@@ -354,57 +369,6 @@ img {
 
 /*--------------------RESUME SECTION END--------------------*/
 
-
-
-
-
-
-
-
-
-/*--------------------CONTACT SECTION START--------------------*/
-#contact {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-}
-
-#contact form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-#contact form input,
-form textarea {
-    padding: 17px;
-    width: 100%;
-    border: none;
-    border-radius: 10px;
-    color: black;
-    background: #ecf3f5;
-}
-
-#contact h1 {
-    text-align: center;
-}
-
-#contact textarea {
-    resize: none;
-    height: 200px;
-
-}
-
-#contact .btn {
-    cursor: pointer;
-}
-
-/*--------------------CONTACT SECTION END--------------------*/
-
-
-
-
-
 /*--------------------FOOTER SECTION START--------------------*/
 footer {
     position: relative;
@@ -431,16 +395,16 @@ footer p:nth-child(2) {
     line-height: 26px;
 }
 
-.socialplat2{
+.socialplat2 {
     /* border: 2px solid red; */
-    margin-top: 50px ;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     width: auto;
 }
 
-.socialplat{
-    margin-top: 50px ;
+.socialplat {
+    margin-top: 50px;
     display: flex;
     width: 400px;
     justify-content: space-between;
@@ -463,8 +427,10 @@ footer p:nth-child(2) {
 .fa-twitter:hover,
 .fa-itch-io:hover {
     color: white;
-    transform: scale(1.1); /* Slightly increase size */
-    cursor: pointer; /* Change cursor to pointer */
+    transform: scale(1.1);
+    /* Slightly increase size */
+    cursor: pointer;
+    /* Change cursor to pointer */
 }
 
 .end {
@@ -475,42 +441,57 @@ footer p:nth-child(2) {
     position: relative;
     text-decoration: none;
 }
-.data-tooltip{
+
+.data-tooltip {
     size: 50px;
 }
+
 .socialplat a::after {
     content: attr(data-tooltip);
     position: absolute;
-    bottom: 120%; /* Position above the icon */
+    bottom: 120%;
+    /* Position above the icon */
     left: 50%;
     transform: translateX(-50%);
-    background-color: #F5E8D3; /* Custom background color */
-    color: black; /* Custom text color */
-    padding: 2px 5px; /* Minimal padding for tight fit */
-    border: 4px solid #333; /* Dark border around text */
-    border-radius: 3px; /* Slightly rounded corners */
+    background-color: #F5E8D3;
+    /* Custom background color */
+    color: black;
+    /* Custom text color */
+    padding: 2px 5px;
+    /* Minimal padding for tight fit */
+    border: 4px solid #333;
+    /* Dark border around text */
+    border-radius: 3px;
+    /* Slightly rounded corners */
     font-size: 12px;
     white-space: nowrap;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease;
-    pointer-events: none; /* Prevent interfering with cursor */
+    pointer-events: none;
+    /* Prevent interfering with cursor */
 }
 
 .socialplat a:hover::after {
     opacity: 1;
     visibility: visible;
 }
+
 /*--------------------FOOTER SECTION END--------------------*/
 
 
 
 .scroll-container {
-    width: 100%; /* Full width of the parent container */
-    overflow-x:hidden; /* Enables horizontal scrolling */
-    white-space: nowrap; /* Prevent wrapping of child elements */
-    padding: 10px; /* Optional: Padding for better spacing */
-    scroll-behavior: smooth; /* Enables smooth scrolling */
+    width: 100%;
+    /* Full width of the parent container */
+    overflow-x: hidden;
+    /* Enables horizontal scrolling */
+    white-space: nowrap;
+    /* Prevent wrapping of child elements */
+    padding: 10px;
+    /* Optional: Padding for better spacing */
+    scroll-behavior: smooth;
+    /* Enables smooth scrolling */
     /* background-color: #f9f9f9; Optional: Background color for visibility */
 }
 
@@ -518,27 +499,34 @@ footer p:nth-child(2) {
     position: relative;
     display: flex;
     align-items: center;
-    gap: 10px; /* Space between arrows and container */
+    gap: 10px;
+    /* Space between arrows and container */
 }
 
 .scroll-arrow {
-    background-color: #2C3E50; /* Arrow background color */
-    color: white; /* Arrow color */
+    background-color: #2C3E50;
+    /* Arrow background color */
+    color: white;
+    /* Arrow color */
     border: none;
-    padding: 10px 20px; /* Adjust padding for size */
+    padding: 10px 20px;
+    /* Adjust padding for size */
     font-size: 24px;
     cursor: pointer;
-    border-radius: 50%; /* Circular arrows */
+    border-radius: 50%;
+    /* Circular arrows */
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* Optional shadow */
     transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 /* Left Arrow Position */
 .left-arrow {
-    position: relative; /* Adjust position within the wrapper */
+    position: relative;
+    /* Adjust position within the wrapper */
 }
 
 /* Right Arrow Position */
