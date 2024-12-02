@@ -45,18 +45,19 @@ function scrollToNextSection() {
 
 
 
-function scrollLeft() {
-    const container = document.querySelector('.scroll-container');
-    container.scrollBy({
-        left: -300, // Adjust the value as needed
-        behavior: 'smooth'
-    });
-}
-
-function scrollRight() {
-    const container = document.querySelector('.scroll-container');
+function scrollToRight() {
+    var container = document.querySelector('.scroll-container');
     container.scrollBy({
         left: 300, // Adjust the value as needed
         behavior: 'smooth'
     });
 }
+
+function scrollToLeft() {
+    var container = document.querySelector('.scroll-container');
+    container.scrollBy({
+        left: -300,
+        behavior: 'smooth'
+    });
+}
+
