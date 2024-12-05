@@ -211,6 +211,10 @@ nav {
     gap: 20px;
 }
 
+.imageDiv:hover{
+    border: 5px solid white;
+}
+
 img {
     height: auto;
     width: 430px;
