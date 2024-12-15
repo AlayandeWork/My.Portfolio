@@ -122,57 +122,93 @@
         <!--------------------PROJECTS SECTION END------------------->
 
         <!--------------------EXPERIENCE SECTION START------------------->
-        <div class="container-fluid main-section bg-grey">
-            <div class="container">
-                <div class="heading">
-                    <h5>EXPERIENCE</h5>
-                    <h2><span class="heading-border"></span> MY EXPERIENCE<span class="heading-border"></span></h2>
+        <section class="newnew">
+            <div class="grid-container">
+                <!-- Box 1 -->
+                <div class="grid-item">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <!-- Front Side -->
+                            <div class="flip-card-front">
+                                <img src="apple.png" alt="logo" class="icon">
+                                <h3>Company A</h3>
+                                <p>Position: Web Developer</p>
+                                <p>From 1800 to 1890</p>
+                            </div>
+                            <!-- Back Side -->
+                            <div class="flip-card-back">
+                                <p>During my time at Company A, I developed responsive websites, optimized performance,
+                                    and collaborated with designers to implement modern UI/UX solutions.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <div class="experience">
-                            <div class=" col-12">
-                                <h5>Sep, 2016 – May, 2017</h5>
+                <!-- Box 2 -->
+                <div class="grid-item">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="apple.png" alt="logo" class="icon">
+                                <h3>Company B</h3>
+                                <p>Position: Software Engineer</p>
+                                <p>From 1800 to 1890</p>
                             </div>
-                            <div class=" col-12 ex-left">
-                                <h4>Junior Designer</h4>
-                                <p>Lorem Ipsusm is simpldy dummy text of the prisnting and typesitting induitry. Lorem
-                                    Ipsum has been the induktry magnl alisua.</p>
-                                <span>- Las Vegas, USA</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <div class="experience">
-                            <div class=" col-12">
-                                <h5>Sep, 2017 – May, 2022</h5>
-                            </div>
-                            <div class=" col-12 ex-left">
-                                <h4>Systems Analyst / Web Developer</h4>
-                                <p>Lorems Ispsum is siimply duummy txt of thes priniting and typeesetting indusstry.
-                                    Lorrem Ipsuum haes been the industrry magnsa aliqua.</p>
-                                <span>- Las Vegas, USA</span>
+                            <div class="flip-card-back">
+                                <p>At Company B, I worked on backend systems, improved API performance, and integrated
+                                    third-party services into scalable web applications.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <div class="experience">
-                            <div class="col-12">
-                                <h5>Sep, 2022 – May, 2023</h5>
+                </div>
+                <!-- Box 3 -->
+                <div class="grid-item">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="apple.png" alt="logo" class="icon">
+                                <h3>Company C</h3>
+                                <p>Position: UI Designer</p>
+                                <p>From 1800 to 1890</p>
                             </div>
-                            <div class="col-12 ex-left">
-                                <h4>Full Stack Developer</h4>
-                                <p>Liorem Ipisum is simpsly dummys texts of the printig and typesetting indistry. Lorem
-                                    Ipsmm has besn the induetry magne aliquas.</p>
-                                <span>- Las Vegas, USA</span>
+                            <div class="flip-card-back">
+                                <p>Designed intuitive user interfaces, conducted user research, and collaborated with
+                                    developers to ensure seamless user experiences.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Box 4 -->
+                <div class="grid-item">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="apple.png" alt="logo" class="icon">
+                                <h3>Company D</h3>
+                                <p>Position: Project Manager</p>
+                                <p>From 1800 to 1890</p>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>Led a team of developers and designers, managed project timelines, and ensured
+                                    successful delivery of software products.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <!-- JavaScript -->
+            <script>
+                // Add click event listener to each flip card
+                document.querySelectorAll('.flip-card').forEach(card => {
+                    card.addEventListener('click', () => {
+                        card.classList.toggle('flipped'); // Toggle the 'flipped' class
+                    });
+                });
+            </script>
+        </section>
         <!-- <section id="xp">
+
             <h1>Experience</h1>
+            
             <div class="cont">
                 <div class="area">
                     <h1>Work 1</h1>
