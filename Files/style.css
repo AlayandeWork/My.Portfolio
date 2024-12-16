@@ -286,7 +286,7 @@ img {
 /* Ensure .box supports horizontal scrolling */
 .box {
     display: inline-flex;
-    /* Align cards horizontally */
+    /* Align cards ddhorizontally */
     gap: 20px;
     /* Space between cards */
 }
