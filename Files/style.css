@@ -209,6 +209,7 @@ nav {
     color: white;
     padding: 10px;
     gap: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .imageDiv:hover {
@@ -243,6 +244,7 @@ img {
 
 /*--------------------PROJECTS SECTION START--------------------*/
 #pro {
+    
     margin-top: 60px;
     /* padding: 100px; */
     /* border: 2px solid white; */
@@ -251,6 +253,7 @@ img {
 
 .project {
     font-size: 3.2em;
+    
     text-align: center;
     margin-bottom: 60px;
 }
@@ -293,13 +296,14 @@ img {
 
 /* Ensure cards are properly sized */
 .card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
     /* Prevent shrinking or growing */
     width: 420px;
     /* Fixed width for the card */
     height: 620px;
     /* Fixed height for the card */
-    background-image: url(space.jpg);
+    background-image: url(1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -349,6 +353,7 @@ img {
     perspective: 1000px; /* Enables the 3D flip effect */
     /* padding: 20px; */
     /* border:2px solid yellow; */
+    /* background-color: #2C3E50; */
 }
 
 /* Flip Card */
@@ -358,12 +363,14 @@ img {
     height: 450px; /* Fixed height for the cards */
     position: relative;
     cursor: pointer;
+    /* background-color: #2C3E50; */
 }
 
 .flip-card-inner {
     position: relative;
     /* border:2px solid blue; */
     width: 100%;
+    /* background-color: #2C3E50; */
     height: 100%;
     transition: transform 0.6s; /* Smooth flip effect */
     transform-style: preserve-3d;
@@ -387,20 +394,21 @@ img {
     align-items: center;
     text-align: center;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     padding: 20px;
 }
 
 /* Front Side */
 .flip-card-front {
-    background-color: #d9d9d9;
-    color: #333;
+    /* background-color: #d9d9d9; */
+    background-color: #2C3E50;
+    color: #F5E8D3;
 }
 
 /* Back Side */
 .flip-card-back {
-    background-color: #e71d3c;
-    color: #fff;
+    background-color: #F5E8D3;
+    color: black;
     transform: rotateY(180deg);
 }
 
