@@ -26,6 +26,13 @@ function typeWriterEffect(text) {
     }, 100);
 }
 
+
+document.querySelectorAll('.flip-card').forEach(card => {
+    card.addEventListener('click', () => {
+        card.classList.toggle('flipped'); // Toggle the 'flipped' class
+    });
+});
+
 function changeText() {
     textIndex = (textIndex + 1) % texts.length;
     typeWriterEffect(texts[textIndex]);
