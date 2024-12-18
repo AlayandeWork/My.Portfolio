@@ -244,7 +244,7 @@ img {
 
 /*--------------------PROJECTS SECTION START--------------------*/
 #pro {
-    
+
     margin-top: 60px;
     /* padding: 100px; */
     /* border: 2px solid white; */
@@ -253,7 +253,7 @@ img {
 
 .project {
     font-size: 3.2em;
-    
+
     text-align: center;
     margin-bottom: 60px;
 }
@@ -332,16 +332,19 @@ img {
     /* border: 2px solid red; */
     /* background-color: #f5f5f5; */
 }
-.icon{
+
+.icon {
     width: 10%;
-    height:auto;
+    height: auto;
     /* border: 2px solid red; */
     margin-bottom: 10px;
 }
+
 /* Grid Container */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2x2 Grid */
+    grid-template-columns: repeat(2, 1fr);
+    /* 2x2 Grid */
     grid-gap: 30px;
     width: 100%;
     /* max-width: 1200px; */
@@ -350,7 +353,8 @@ img {
 
 /* Grid Item */
 .grid-item {
-    perspective: 1000px; /* Enables the 3D flip effect */
+    perspective: 1000px;
+    /* Enables the 3D flip effect */
     /* padding: 20px; */
     /* border:2px solid yellow; */
     /* background-color: #2C3E50; */
@@ -360,12 +364,14 @@ img {
 .flip-card {
     /* border: 2px solid red; */
     width: 100%;
-    height: 450px; /* Fixed height for the cards */
+    height: 450px;
+    /* Fixed height for the cards */
     position: relative;
     cursor: pointer;
     /* background-color: #2C3E50; */
 }
-.test{
+
+.test {
     border: 5px solid #F5E8D3;
     height: 100%;
     display: flex;
@@ -375,12 +381,24 @@ img {
     align-items: center;
 }
 
-.testing{
-    border: 5px solid #2C3E50;
+.testing p {
+    margin-bottom: 7px;
+    text-align: left;
+}
+
+.rework-margin {
+    margin-bottom: 20px;
+    text-align: justify;
+    border-bottom: 5px solid #2C3E50;
+}
+
+.testing {
     height: 100%;
     display: flex;
+    text-align: left;
+
+    line-height: 1.5em;
     flex-direction: column;
-    justify-content: center;
     border-radius: 8px;
     align-items: center;
 }
@@ -391,7 +409,8 @@ img {
     width: 100%;
     /* background-color: #2C3E50; */
     height: 100%;
-    transition: transform 0.6s; /* Smooth flip effect */
+    transition: transform 0.6s;
+    /* Smooth flip effect */
     transform-style: preserve-3d;
 }
 
@@ -406,7 +425,8 @@ img {
     position: absolute;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden; /* Hides the back side when flipped */
+    backface-visibility: hidden;
+    /* Hides the back side when flipped */
     display: flex;
     flex-direction: column;
     justify-content: center;
