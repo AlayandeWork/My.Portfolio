@@ -216,10 +216,10 @@ nav {
     border: 5px solid white;
 }
 
-img {
+/* img {
     height: auto;
     width: 430px;
-}
+} */
 
 .description {
     width: 740px;
@@ -333,12 +333,12 @@ img {
     /* background-color: #f5f5f5; */
 }
 
-.icon {
+/* .icon {
     width: 10%;
     height: auto;
-    /* border: 2px solid red; */
+    
     margin-bottom: 10px;
-}
+} */
 
 /* Grid Container */
 .grid-container {
@@ -395,7 +395,7 @@ img {
 .testing {
     height: 100%;
     display: flex;
-    text-align: left;
+    /* text-align: left; */
 
     line-height: 1.5em;
     flex-direction: column;
