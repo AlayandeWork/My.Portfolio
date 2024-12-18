@@ -216,10 +216,10 @@ nav {
     border: 5px solid white;
 }
 
-/* img {
+img {
     height: auto;
     width: 430px;
-} */
+}
 
 .description {
     width: 740px;
@@ -333,12 +333,12 @@ nav {
     /* background-color: #f5f5f5; */
 }
 
-/* .icon {
+.icon {
     width: 10%;
     height: auto;
     
     margin-bottom: 10px;
-} */
+}
 
 /* Grid Container */
 .grid-container {
