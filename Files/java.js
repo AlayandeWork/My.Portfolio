@@ -55,7 +55,7 @@ function scrollToNextSection() {
 function scrollToRight() {
     var container = document.querySelector('.scroll-container');
     container.scrollBy({
-        left: 500, // Adjust the value as needed
+        left: 600, // Adjust the value as needed
         behavior: 'smooth'
     });
 }
@@ -63,7 +63,7 @@ function scrollToRight() {
 function scrollToLeft() {
     var container = document.querySelector('.scroll-container');
     container.scrollBy({
-        left: -500,
+        left: -600,
         behavior: 'smooth'
     });
 }
