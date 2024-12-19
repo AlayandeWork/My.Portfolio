@@ -333,8 +333,26 @@ img {
     /* background-color: #f5f5f5; */
 }
 
-.icon {
-    width: 10%;
+.icon1 {
+    width: 60%;
+    /* height: auto; */
+    /* border: 2px solid white; */
+    margin-bottom: 10px;
+}
+.icon2 {
+    width: 60%;
+    height: auto;
+    /* border: 2px solid red; */
+    margin-bottom: 10px;
+}
+.icon3 {
+    width: 40%;
+    height: auto;
+    /* border: 2px solid red; */
+    margin-bottom: 10px;
+}
+.icon4 {
+    width: 20%;
     height: auto;
     
     margin-bottom: 10px;
