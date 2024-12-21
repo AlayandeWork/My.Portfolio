@@ -751,41 +751,41 @@ footer p:nth-child(2) {
     /* background-color: #f9f9f9; Optional: Background color for visibility */
 /* } */
 
-.scroll-wrapper {
+/* .scroll-wrapper {
     position: relative;
     display: flex;
     align-items: center;
     gap: 10px;
-    /* Space between arrows and container */
-}
+    
+} */
 
-.scroll-arrow {
+/* .scroll-arrow {
     background-color: #2C3E50;
-    /* Arrow background color */
+    
     color: white;
-    /* Arrow color */
+   
     border: none;
     padding: 10px 20px;
-    /* Adjust padding for size */
+    
     font-size: 24px;
     cursor: pointer;
     border-radius: 50%;
-    /* Circular arrows */
+   
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    /* Optional shadow */
+    
     transition: transform 0.2s ease, background-color 0.2s ease;
-}
+} */
 
-/* Left Arrow Position */
+/* 
 .left-arrow {
     position: relative;
-    /* Adjust position within the wrapper */
+    
 }
 
-/* Right Arrow Position */
+
 .right-arrow {
     position: relative;
-}
+} */
