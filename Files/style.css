@@ -644,30 +644,59 @@ img {
 /*--------------------RESUME SECTION END--------------------*/
 
 /*--------------------FOOTER SECTION START--------------------*/
+
+
+
+
+
 footer {
-    position: relative;
+    /* width: 100%;
+    height: 400px; */
+    /* background: #ecf3f5; */
+    padding: 20px;
+    
+    /* position: relative;
     width: 100%;
     height: 400px;
     background: #ecf3f5;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+}
+.footerclass{
+    background-color: #ecf3f5;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.topone {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
 }
 
-footer p:nth-child(1) {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 20px;
+.middleone {
+    border: 3px solid yellow;
 }
 
-footer p:nth-child(2) {
-    font-size: 17px;
-    width: 500px;
-    text-align: center;
-    line-height: 26px;
+.lastone {
+    border: 5px solid blue;
+    display: flex;
+    justify-content: space-between;
 }
+
+.linkclass{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+
 
 .socialplat2 {
     /* border: 2px solid red; */
