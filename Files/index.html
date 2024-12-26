@@ -396,38 +396,40 @@
 
     <!--------------------FOOTER SECTION START------------------->
     <footer>
-        <!-- <p>AbdulMatin Nuhu</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero illo perspiciatis corporis similique ipsum
-            fugiat quia ratione corrupti aliquid facere?.</p>
-        <p class="end">Copyright 2024 by AbdulMatin Nuhu</p>
-        <div class="icons">
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-github-alt"></i>
-        </div> -->
-
         <section class="footerclass">
+            <!-- Top Section -->
             <div class="topone">
-                <p>C 2024</p>
-                <p>Back To Top</p>
+                <p>&copy; 2024</p>
+                <div class="back-to-top">
+                    <span>Back to Top</span>
+                    <img class="arrowup" src="arrow-icon.png" alt="Arrow Icon"/>
+                </div>
             </div>
+
+            <!-- Middle Section -->
             <div class="middleone">
                 <p>Have a project in mind?</p>
-                <h1>Let's Talk</h1>
+                <h1>LET'S TALK</h1>
             </div>
+
+            <!-- Bottom Section -->
             <div class="lastone">
                 <div class="linkclass">
                     <p>Github</p>
                     <p>LinkedIn</p>
                     <p>Twitter</p>
                 </div>
-
                 <div class="nameclass">
                     <p>By AbdulMatin</p>
                 </div>
             </div>
         </section>
-
     </footer>
+    <script>
+        document.querySelector('.back-to-top').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
     <!--------------------FOOTER SECTION END------------------->
     <script src="java.js"></script>
 </body>

@@ -52,6 +52,8 @@ function scrollToNextSection() {
 
 
 
+
+
 function scrollToRight() {
     var container = document.querySelector('.scroll-container');
     container.scrollBy({
