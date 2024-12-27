@@ -659,12 +659,14 @@ footer {
     font-family: Arial, sans-serif;
     color: #333;
     padding: 20px;
-    
+
     width: 100%;
 }
-.arrowup{
+
+.arrowup {
     width: 20px;
 }
+
 .footerclass {
     width: 100%;
     text-align: center;
@@ -714,7 +716,17 @@ footer {
     gap: 20px;
 }
 
-.linkclass p {
+.linkclass a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.linkclass a:hover{
+    color: white;
+}
+
+.git {
     background: #fff;
     border: 1px solid #ccc;
     border-radius: 25px;
@@ -723,7 +735,7 @@ footer {
     transition: all 0.3s ease-in-out;
 }
 
-.linkclass p:hover {
+.git:hover {
     background: #333;
     color: #fff;
     border-color: #333;
@@ -851,7 +863,7 @@ footer {
     scroll-behavior: smooth;
 
     /* background-color: #f9f9f9; */
-   
+
 }
 
 .scroll-wrapper {
