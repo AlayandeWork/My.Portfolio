@@ -5,7 +5,7 @@ const texts = [
     "Data Analyst Technician",
     "Petroleum & Gas Engineer"
 ];
-
+const currentYear = new Date().getFullYear();
 const subtitle = document.getElementById('subtitle');
 let textIndex = 0;
 
@@ -13,18 +13,25 @@ function typeWriterEffect(text) {
     let i = 0;
     subtitle.textContent = '';
     subtitle.style.width = '0';
-    
+
     const typingInterval = setInterval(() => {
         subtitle.textContent += text.charAt(i);
         subtitle.style.width = 'auto';
         i++;
-        
+
         if (i >= text.length) {
             clearInterval(typingInterval);
             setTimeout(changeText, 3000);
         }
     }, 100);
 }
+
+document.getElementById("currentYear").textContent = currentYear;
+
+
+document.querySelector('.back-to-top').addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
 
 
 document.querySelectorAll('.flip-card').forEach(card => {
@@ -69,4 +76,7 @@ function scrollToLeft() {
         behavior: 'smooth'
     });
 }
+
+
+
 
