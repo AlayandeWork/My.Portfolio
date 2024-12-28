@@ -306,13 +306,13 @@ img {
     display: inline-flex;
     gap: 20px;
 }
-
-.card {
+/* CARD 1 */
+.card1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
     width: 420px;
     height: 620px;
-    background-image: url(1.jpg);
+    background-image: url(Scrawlsense.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -328,13 +328,13 @@ img {
     /* For hover scale effect */
 }
 
-.card .details {
+.card1 .details {
     position: absolute;
-    bottom: -60%;
+    bottom: -50%;
     /* Hidden initially */
     left: 0;
     width: 100%;
-    height: 60%;
+    height: 50%;
     /* Increased to 60% of the card's height */
     background-color: rgba(44, 62, 80, 0.9);
     /* Semi-transparent color */
@@ -360,24 +360,250 @@ img {
     /* Ensure content doesn't overflow the container */
 }
 
+.card1 .details p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.card1:hover .details {
+    bottom: 0;
+    /* Slides up when hovered */
+    z-index: 1;
+    /* Keep it visible while hovered */
+}
+
+/* CARD 1 END*/
+
+
+
+
+
+
+
+
+.card2 {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+    flex: 0 0 auto;
+    width: 420px;
+    height: 620px;
+    background-image: url(marss.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 80px;
+    color: black;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    /* For hover scale effect */
+}
+
+
+
+.card2 .details {
+    position: absolute;
+    bottom: -50%;
+    /* Hidden initially */
+    left: 0;
+    width: 100%;
+    height: 50%;
+    /* Increased to 60% of the card's height */
+    background-color: rgba(44, 62, 80, 0.9);
+    /* Semi-transparent color */
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 80px 80px;
+    /* Matches card's rounded corners */
+    transition: bottom 0.8s ease;
+    /* Smooth transition for sliding */
+    z-index: 0;
+    /* Default */
+    overflow-wrap: break-word;
+    /* Ensures long words break to the next line */
+    word-wrap: break-word;
+    /* Fallback for older browsers */
+    word-break: break-word;
+    /* Break long words */
+    white-space: normal;
+    /* Allow text to wrap onto the next line */
+    overflow: hidden;
+    /* Ensure content doesn't overflow the container */
+}
+
+.card2 .details p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.card2:hover .details {
+    bottom: 0;
+    /* Slides up when hovered */
+    z-index: 1;
+    /* Keep it visible while hovered */
+}
+
+
+
+
+
+.card3 {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+    flex: 0 0 auto;
+    width: 420px;
+    height: 620px;
+    background-image: url(medisense.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 80px;
+    color: black;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    /* For hover scale effect */
+}
+
+
+
+.card3 .details {
+    position: absolute;
+    bottom: -50%;
+    /* Hidden initially */
+    left: 0;
+    width: 100%;
+    height: 50%;
+    /* Increased to 60% of the card's height */
+    background-color: rgba(44, 62, 80, 0.9);
+    /* Semi-transparent color */
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 80px 80px;
+    /* Matches card's rounded corners */
+    transition: bottom 0.8s ease;
+    /* Smooth transition for sliding */
+    z-index: 0;
+    /* Default */
+    overflow-wrap: break-word;
+    /* Ensures long words break to the next line */
+    word-wrap: break-word;
+    /* Fallback for older browsers */
+    word-break: break-word;
+    /* Break long words */
+    white-space: normal;
+    /* Allow text to wrap onto the next line */
+    overflow: hidden;
+    /* Ensure content doesn't overflow the container */
+}
+
+.card3 .details p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.card3:hover .details {
+    bottom: 0;
+    /* Slides up when hovered */
+    z-index: 1;
+    /* Keep it visible while hovered */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card4 {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+    flex: 0 0 auto;
+    width: 420px;
+    height: 620px;
+    background-image: url(shape.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 80px;
+    color: black;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    /* For hover scale effect */
+}
+
+
+
+.card4 .details {
+    position: absolute;
+    bottom: -50%;
+    /* Hidden initially */
+    left: 0;
+    width: 100%;
+    height: 50%;
+    /* Increased to 60% of the card's height */
+    background-color: rgba(44, 62, 80, 0.9);
+    /* Semi-transparent color */
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 80px 80px;
+    /* Matches card's rounded corners */
+    transition: bottom 0.8s ease;
+    /* Smooth transition for sliding */
+    z-index: 0;
+    /* Default */
+    overflow-wrap: break-word;
+    /* Ensures long words break to the next line */
+    word-wrap: break-word;
+    /* Fallback for older browsers */
+    word-break: break-word;
+    /* Break long words */
+    white-space: normal;
+    /* Allow text to wrap onto the next line */
+    overflow: hidden;
+    /* Ensure content doesn't overflow the container */
+}
+
+.card4 .details p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.card4:hover .details {
+    bottom: 0;
+    /* Slides up when hovered */
+    z-index: 1;
+    /* Keep it visible while hovered */
+}
 .info {
     margin-top: 30px;
     gap: 10px;
     display: flex;
     flex-direction: column;
     align-items: start;
-}
-
-.card .details p {
-    text-align: justify;
-    font-size: 16px;
-}
-
-.card:hover .details {
-    bottom: 0;
-    /* Slides up when hovered */
-    z-index: 1;
-    /* Keep it visible while hovered */
 }
 
 .language {
@@ -447,6 +673,10 @@ img {
     overflow: hidden;
     /* border: 2px solid red; */
     /* background-color: #f5f5f5; */
+}
+
+.marsicon1{
+    width: 10%;
 }
 
 .icon1 {

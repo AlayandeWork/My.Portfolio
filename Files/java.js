@@ -33,6 +33,9 @@ document.querySelector('.back-to-top').addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
+document.getElementById('marsImage').addEventListener('click', function() {
+    window.location.href = 'https://space-fje5.onrender.com';
+  });
 
 document.querySelectorAll('.flip-card').forEach(card => {
     card.addEventListener('click', () => {
