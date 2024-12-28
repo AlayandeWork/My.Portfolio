@@ -33,10 +33,21 @@ document.querySelector('.back-to-top').addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
-document.getElementById('marsImage').addEventListener('click', function() {
+document.getElementById('marsImage').addEventListener('click', function () {
     window.location.href = 'https://space-fje5.onrender.com';
-  });
+});
 
+document.getElementById('githublink').addEventListener('click', function () {
+    window.location.href = 'https://github.com/AlayandeWork';
+});
+
+document.getElementById('linkedinlink').addEventListener('click', function () {
+    window.location.href = 'https://www.linkedin.com/in/abdulmatinnuhu/';
+});
+
+document.getElementById('logo').addEventListener('click', function () {
+    window.location.href = 'index.html';
+});
 document.querySelectorAll('.flip-card').forEach(card => {
     card.addEventListener('click', () => {
         card.classList.toggle('flipped'); // Toggle the 'flipped' class
