@@ -50,7 +50,7 @@ document.getElementById('logo').addEventListener('click', function () {
 });
 document.querySelectorAll('.flip-card').forEach(card => {
     card.addEventListener('click', () => {
-        card.classList.toggle('flipped'); // Toggle the 'flipped' class
+        card.classList.toggle('flipped'); // Toggggle the 'flipped' class
     });
 });
 
