@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,7 +15,9 @@
 
 
 <body>
-    <!------------------------------------------------------------------------------------------------------------------------------->
+
+
+    <!-- HEADER START-->
     <header>
         <div id="logo" class="logo">PortNuhu</div>
         <nav>
@@ -24,24 +26,75 @@
                 <li><a href="#pro">PROJECTS</a></li>
                 <li><a href="#xp">EXPERIENCE</a></li>
                 <li><a href="Resume.pdf">RESUME</a>
-
                     <div class="tooltip">Click to download resume</div>
                 </li>
 
             </ul>
         </nav>
     </header>
+    <!-- HEADER END-->
+
+
+
+    <!--BANNER START-->
     <div class="banner">
         <img id="banner-image" src="banner4.jpg" alt="Banner-image">
         <div class="banner-text">
             <h1>AbdulMatin Nuhu</h1>
+
+            <!--TYPEWRITER EFFECT START-->
             <p id="subtitle" class="typewriter"></p>
+            <!--TYPEWRITER EFFECT END-->
         </div>
         <div class="arrow" onclick="scrollToNextSection()"></div>
 
     </div>
-    <!------------------------------------------------------------------------------------------------------------------------------->
-    
+    <!--BANNER END-->
+    <section class="wrapper">
+        <!--------------------ABOUT SECTION START------------------->
+        <section id="about">
+            <div class="imageDiv">
+                <img src="profile1.jpg" alt="profile picture">
+            </div>
+            <br>
+            <div class="description">
+                <h1 class="aboutme">ABOUT ME</h1>
+                <h3 class="red">AbdulMatin - Data Analyst Technician</h3>
+                <p class="desText">I'm Abdulmatin Nuhu, a data scientist, full-stack developer, and game developer with
+                    expertise in web development, machine learning, and creating engaging experiences using game engines
+                    like Godot and Unity. I've worked on impactful projects like the Efficient Project for assessing
+                    COVID-19 patient severity, a Flask app for disease detection, an image recognition system for
+                    improved decision-making, and innovative games that combine entertainment with problem-solving.
+                    <br>
+                    <br>
+                    With a background in petroleum and energy engineering, I bring a multidisciplinary approach to
+                    solving technical challenges, blending insights from technology, large-scale systems management, and
+                    creative design. Collaboration drives my work, and I’m always eager to learn, innovate, and push
+                    boundaries.
+                </p>
+                <p class="big">Let's Talk:</p>
+                <div class="socialplat">
+
+                    <a href="https://www.linkedin.com/in/abdulmatinnuhu/" target="_blank" rel="noopener noreferrer"
+                        data-tooltip="Linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/AlayandeWork" target="_blank" rel="noopener noreferrer"
+                        data-tooltip="Github">
+                        <i class="fa-brands fa-github-alt"></i>
+                    </a>
+                    <a href="mailto:nuhu238@gmail.com" target="_blank" rel="noopener noreferrer" data-tooltip="Google">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                    <a href="https://nuhu238.itch.io/" target="_blank" rel="noopener noreferrer" data-tooltip="Itch.io">
+                        <i class="fa-brands fa-itch-io"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
 </body>
 
 </html>

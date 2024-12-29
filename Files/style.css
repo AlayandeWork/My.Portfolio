@@ -1,5 +1,4 @@
 /*--------------------GLOBAL CALLS START--------------------*/
-
 * {
     margin: 0;
     padding: 0;
@@ -22,37 +21,12 @@ body {
     margin-bottom: 25px;
 }
 
-.typewriter {
-    display: inline-block;
-    overflow: hidden;
-    color: white;
-    white-space: nowrap;
-    border-right: 3px solid white;
-    animation: blink-caret 0.75s step-end infinite;
-}
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 100%;
-    }
-}
-
-@keyframes blink-caret {
-    50% {
-        border-color: transparent;
-    }
-}
-
 /*--------------------GLOBAL CALLS END--------------------*/
 
 
 
 
-/*-------Header Start-------*/
+/*-------HEADER ITEMS START-------*/
 header {
     position: absolute;
     top: 0;
@@ -94,7 +68,7 @@ nav {
 }
 
 .nav-list a:hover {
-    color: #ff9800;
+    color: orange;
 }
 
 .banner {
@@ -134,22 +108,39 @@ nav {
 .banner-text p {
     font-size: 24px;
     line-height: 1.2;
-    /* Ensure consistent spacing */
     height: 30px;
-    /* Fixed height for stability */
 }
 
+.typewriter {
+    display: inline-block;
+    overflow: hidden;
+    color: white;
+    white-space: nowrap;
+    border-right: 3px solid white;
+    animation: blink-caret 0.75s step-end infinite;
+}
 
-/*-------Header End-------*/
+@keyframes typing {
+    from {
+        width: 0;
+    }
 
-/* Pulsating arrow at the bottom of the banner */
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
 .arrow {
     position: absolute;
     bottom: 20px;
-    /* Adjust this value to control the distance from the bottom */
     left: 50%;
     transform: translateX(-50%) rotate(315deg);
-    /* Base rotation */
     width: 20px;
     height: 20px;
     background-color: black;
@@ -159,27 +150,44 @@ nav {
     cursor: pointer;
 }
 
-/* Animation for the arrow */
 @keyframes pulse {
     0% {
         transform: translateX(-50%) translateY(0) rotate(315deg);
-        /* Keep rotation constant */
         opacity: 1;
     }
 
     50% {
         transform: translateX(-50%) translateY(10px) rotate(315deg);
-        /* Keep rotation constant */
         opacity: 0.5;
     }
 
     100% {
         transform: translateX(-50%) translateY(0) rotate(315deg);
-        /* Keep rotation constant */
         opacity: 1;
     }
 }
 
+/*-------HEADER ITEMS END-------*/
+
+
+
+
+/*--------------------ABOUT SECTION START--------------------*/
+#about {
+    border-radius: 20px;
+    display: flex;
+    background: #2C3E50;
+    color: white;
+    padding: 10px;
+    gap: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    height: auto;
+    width: 430px;
+    
+}
 
 .aboutme {
     margin-bottom: 40px;
@@ -193,40 +201,14 @@ nav {
     color: white;
 }
 
-
-
-
-/*--------------------ABOUT SECTION START--------------------*/
-#about {
-    /* border: 2px solid cecwhiite; */
-    border-radius: 20px;
-    display: flex;
-    background: #2C3E50;
-    /* border: 5px solid red; */
-    color: white;
-    padding: 10px;
-    gap: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-}
-
-.imageDiv:hover {
-    border: 5px solid white;
-}
-
-img {
-    height: auto;
-    width: 430px;
-}
-
 .description {
     width: 740px;
     flex-direction: column;
     justify-content: center;
     display: flex;
-    /* border: 2px soflid red; */
 }
 
-.big{
+.big {
     font-size: 20px;
 }
 
@@ -241,7 +223,88 @@ img {
     padding: 15px;
 }
 
+.socialplat {
+    margin-top: 30px;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.fa-linkedin,
+.fa-github-alt,
+.fa-google,
+.fa-twitter,
+.fa-itch-io {
+    font-size: 35px;
+    color: #F5E8D3;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.fa-linkedin:hover,
+.fa-github-alt:hover,
+.fa-google:hover,
+.fa-twitter:hover,
+.fa-itch-io:hover {
+    color: white;
+    transform: scale(1.1);
+    /* Slightly increase size */
+    cursor: pointer;
+    /* Change cursor to pointer */
+}
+
+.end {
+    margin-bottom: 10px;
+}
+
+.socialplat a {
+    position: relative;
+    text-decoration: none;
+}
+
+.data-tooltip {
+    size: 50px;
+}
+
+.socialplat a::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 120%;
+    /* Position above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #F5E8D3;
+    /* Custom background color */
+    color: black;
+    /* Custom text color */
+    padding: 2px 5px;
+    /* Minimal padding for tight fit */
+    border: 4px solid #333;
+    /* Dark border around text */
+    border-radius: 3px;
+    /* Slightly rounded corners */
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    /* Prevent interfering with cursor */
+}
+
+.socialplat a:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+
 /*--------------------ABOUT SECTION END--------------------*/
+
+
+
+
+
+
 
 
 /*--------------------PROJECTS SECTION START--------------------*/
@@ -308,6 +371,7 @@ img {
     display: inline-flex;
     gap: 20px;
 }
+
 /* CARD 1 */
 .card1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
@@ -317,7 +381,7 @@ img {
     background-image: url(Scrawlsense.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 80px;
     color: black;
@@ -600,6 +664,7 @@ img {
     z-index: 1;
     /* Keep it visible while hovered */
 }
+
 .info {
     margin-top: 30px;
     gap: 10px;
@@ -677,7 +742,7 @@ img {
     /* background-color: #f5f5f5; */
 }
 
-.marsicon1{
+.marsicon1 {
     width: 10%;
 }
 
@@ -951,10 +1016,10 @@ footer {
 .linkclass a {
     text-decoration: none;
     color: inherit;
-    
+
 }
 
-.linkclass a:hover{
+.linkclass a:hover {
     color: white;
 }
 
@@ -1003,80 +1068,6 @@ footer {
     display: flex;
     justify-content: space-between;
     width: auto;
-}
-
-.socialplat {
-    margin-top: 30px;
-    display: flex;
-    width: 400px;
-    justify-content: space-between;
-    /* border: 2px solid red; */
-}
-
-.fa-linkedin,
-.fa-github-alt,
-.fa-google,
-.fa-twitter,
-.fa-itch-io {
-    font-size: 35px;
-    color: #F5E8D3;
-    transition: transform 0.3s ease, color 0.3s ease;
-}
-
-.fa-linkedin:hover,
-.fa-github-alt:hover,
-.fa-google:hover,
-.fa-twitter:hover,
-.fa-itch-io:hover {
-    color: white;
-    transform: scale(1.1);
-    /* Slightly increase size */
-    cursor: pointer;
-    /* Change cursor to pointer */
-}
-
-.end {
-    margin-bottom: 10px;
-}
-
-.socialplat a {
-    position: relative;
-    text-decoration: none;
-}
-
-.data-tooltip {
-    size: 50px;
-}
-
-.socialplat a::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    bottom: 120%;
-    /* Position above the icon */
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #F5E8D3;
-    /* Custom background color */
-    color: black;
-    /* Custom text color */
-    padding: 2px 5px;
-    /* Minimal padding for tight fit */
-    border: 4px solid #333;
-    /* Dark border around text */
-    border-radius: 3px;
-    /* Slightly rounded corners */
-    font-size: 12px;
-    white-space: nowrap;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
-    /* Prevent interfering with cursor */
-}
-
-.socialplat a:hover::after {
-    opacity: 1;
-    visibility: visible;
 }
 
 /*--------------------FOOTER SECTION END--------------------*/
@@ -1144,7 +1135,8 @@ footer {
     visibility: hidden;
     opacity: 0;
     position: absolute;
-    top: 100%; /* Position it directly below the link */
+    top: 100%;
+    /* Position it directly below the link */
     left: 92.4%;
     transform: translateX(-50%);
     background-color: #333;
@@ -1154,42 +1146,102 @@ footer {
     font-size: 22px;
     white-space: nowrap;
     transition: opacity 0.3s ease, visibility 0.3s ease;
-    margin-top: 5px; /* Add some space between the link and tooltip */
-  }
-  
-  li:hover .tooltip {
+    margin-top: 5px;
+    /* Add some space between the link and tooltip */
+}
+
+li:hover .tooltip {
     visibility: visible;
     opacity: 1;
-  }
-  
-  .tooltip::after {
+}
+
+.tooltip::after {
     content: '';
     position: absolute;
-    top: -6px; /* Arrow sits at the top of the tooltip */
+    top: -6px;
+    /* Arrow sits at the top of the tooltip */
     left: 50%;
     transform: translateX(-50%);
     border-width: 6px;
     border-style: solid;
     border-color: transparent transparent #333 transparent;
-  }
+}
 
 
 
 
 
 
-  /*RESPONSIVENESS START*/
+/*RESPONSIVENESS START*/
 
-  /* MOBILE */
-  @media (max-width: 767px){
-    .nav-list{
-        display:flex;
+/* MOBILE */
+@media (max-width: 767px) {
+    .nav-list li {
+        margin-left: 0px;
+    }
+
+    .nav-list {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    header{
+    header {
         flex-direction: column;
-        
+
     }
-  }
+
+    .banner-text h1 {
+        font-size: 3em;
+    }
+
+    .banner-text p {
+        font-size: 2em;
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fa-linkedin,
+    .fa-github-alt,
+    .fa-google,
+    .fa-twitter,
+    .fa-itch-io {
+        font-size: 25px;
+    }
+
+    .aboutme{
+        font-size: 1.6em;
+    }
+
+    .socialplat{
+        width: 300px;
+    }
+
+    .red{
+        font-size: 1.0em;
+    }
+
+    .description{
+        width: 379px;
+    }
+
+    .big{
+        font-size: 1em;
+    }
+
+    .imageDiv{
+        border: 2px solid #F5E8D3;
+    }
+
+    img{
+        width: 100%;
+    }
+
+}
