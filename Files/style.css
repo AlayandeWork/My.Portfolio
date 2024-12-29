@@ -320,7 +320,7 @@ img {
     background-image: url(Scrawlsense.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 80px;
     color: black;
@@ -462,7 +462,7 @@ img {
     flex: 0 0 auto;
     width: 420px;
     height: 620px;
-    background-image: url(medisense.jpg);
+    background-image: url(medisense.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
