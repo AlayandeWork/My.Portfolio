@@ -1175,3 +1175,13 @@ footer {
     border-style: solid;
     border-color: transparent transparent #333 transparent;
   }
+
+
+
+
+
+
+  /*RESPONSIVENESS START*/
+  @media (max-width: 1800px) and (min-width: 1200px){
+
+  }
