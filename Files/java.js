@@ -6,9 +6,6 @@ const texts = [
     "Petroleum & Gas Engineer"
 ];
 const currentYear = new Date().getFullYear();
-
-document.getElementById("currentYear").textContent = currentYear;
-
 const subtitle = document.getElementById('subtitle');
 let textIndex = 0;
 
@@ -28,6 +25,9 @@ function typeWriterEffect(text) {
         }
     }, 100);
 }
+
+document.getElementById("currentYear").textContent = currentYear;
+
 
 document.querySelector('.back-to-top').addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });

@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,9 +14,7 @@
 
 
 <body>
-
-
-    <!-- HEADER START-->
+    <!------------------------------------------------------------------------------------------------------------------------------->
     <header>
         <div id="logo" class="logo">PortNuhu</div>
         <nav>
@@ -27,31 +23,28 @@
                 <li><a href="#pro">PROJECTS</a></li>
                 <li><a href="#xp">EXPERIENCE</a></li>
                 <li><a href="Resume.pdf">RESUME</a>
+
                     <div class="tooltip">Click to download resume</div>
                 </li>
 
             </ul>
         </nav>
     </header>
-    <!-- HEADER END-->
-
-
-
-    <!--BANNER START-->
     <div class="banner">
         <img id="banner-image" src="banner4.jpg" alt="Banner-image">
         <div class="banner-text">
             <h1>AbdulMatin Nuhu</h1>
-
-            <!--TYPEWRITER EFFECT START-->
             <p id="subtitle" class="typewriter"></p>
-            <!--TYPEWRITER EFFECT END-->
         </div>
         <div class="arrow" onclick="scrollToNextSection()"></div>
 
     </div>
-    <!--BANNER END-->
-    <section class="wrapper">
+    <!------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+    <div class="wrapper">
         <!--------------------ABOUT SECTION START------------------->
         <section id="about">
             <div class="imageDiv">
@@ -84,6 +77,7 @@
                         data-tooltip="Github">
                         <i class="fa-brands fa-github-alt"></i>
                     </a>
+
                     <a href="mailto:nuhu238@gmail.com" target="_blank" rel="noopener noreferrer" data-tooltip="Google">
                         <i class="fa-brands fa-google"></i>
                     </a>
@@ -93,133 +87,436 @@
                 </div>
             </div>
         </section>
-        <!--------------------ABOUT SECTION END------------------->
+        <!--------------------ABOUT SECTION START------------------->
 
-    </section>
 
-    <!--------------------PROJECTS SECTION START------------------->
-    <section id="pro">
-        <h1 class="project">Projects</h1>
-        <div class="scroll-wrapper">
-            <button class="scroll-arrow left-arrow" onclick="scrollToLeft()">
-                &#10094;
-            </button>
-            <div class="scroll-container">
-                <div class="box">
-                    <div class="card1">
-                        <div class="details">
-                            <p>ScrawlSense is an app that digitizes and analyzes handwritten text. Built with
-                                Flutter/Dart and Python, it lets users input handwriting via drawing or image
-                                uploads, converting it into digital text using advanced AI for seamless handwriting
-                                recognition and analysis.</p>
-                            <div class="language">
-                                <div class="python">
-                                    <p>Python</p>
+
+        <!--------------------PROJECTS SECTION START------------------->
+        <section id="pro">
+            <h1 class="project">Projects</h1>
+            <div class="scroll-wrapper">
+                <button class="scroll-arrow left-arrow" onclick="scrollToLeft()">
+                    &#10094;
+                </button>
+                <!-- Add a container for horizontal scrolling -->
+                <!-- <div class="scroll-container">
+                    <div class="box">
+                        <div class="card">
+                            <p>ScrawlSense</p>
+                        </div>
+                        <div class="card">
+                            <p>Alphrite</p>
+                        </div>
+                        <div class="card">
+                            <p>MediSense</p>
+                        </div>
+                        <div class="card">
+                            <p>Godot Game</p>
+                        </div>
+
+                    </div>
+                </div> -->
+                <div class="scroll-container">
+                    <div class="box">
+                        <div class="card1">
+                            <!-- <p>ScrawlSense</p> -->
+                            <div class="details">
+                                <p>ScrawlSense is an app that digitizes and analyzes handwritten text. Built with
+                                    Flutter/Dart and Python, it lets users input handwriting via drawing or image
+                                    uploads, converting it into digital text using advanced AI for seamless handwriting
+                                    recognition and analysis.</p>
+                                <div class="language">
+                                    <div class="python">
+                                        <p>Python</p>
+                                    </div>
+                                    <div class="flutter">
+                                        <P>Flutter</P>
+                                    </div>
+                                    <div class="flutter">
+                                        <P>Dart</P>
+                                    </div>
+                                    <div class="flutter">
+                                        <P>Machine Learning</P>
+                                    </div>
                                 </div>
-                                <div class="flutter">
-                                    <P>Flutter</P>
-                                </div>
-                                <div class="flutter">
-                                    <P>Dart</P>
-                                </div>
-                                <div class="flutter">
-                                    <P>Machine Learning</P>
+
+
+
+                                <div class="info">
+                                    <!-- For more information:
+
+                                    <a href="https://github.com/AlayandeWork/scrawlsense" target="_blank"
+                                        rel="noopener noreferrer" data-tooltip="Github">
+                                        <i class="fa-brands fa-github-alt"></i>
+                                    </a> -->
                                 </div>
                             </div>
+                        </div>
+                        <div class="card2">
+                            <!-- <p>MaRover</p> -->
+                            <div class="details">
+                                <p>MaRover is an app that explores the captivating landscapes of Mars by collecting
+                                    images from NASA's Mars Rover Photos API. Built with HTML, CSS, and JavaScript, it
+                                    allows users to view stunning visuals captured by the Perseverance and Curiosity
+                                    rovers. </p>
+                                <div class="language">
+                                    <div class="python">
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="flutter">
+                                        <P>JavaScript</P>
+                                    </div>
+                                    <div class="flutter">
+                                        <P>CSS</P>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    Check it out here:
+
+                                    <img id="marsImage" src="mars.png" alt="logo" class="marsicon1"
+                                        style="cursor: pointer;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card3">
+                            <p>MediSense</p>
+                            <div class="details">
+                                <p>MediSense is a real-time healthcare monitoring system leveraging machine learning,
+                                    global data sources, and technologies like Pandas, Flask, HTML, CSS, and SQL to
+                                    enhance patient well-being, empower proactive health management, and build safer,
+                                    healthier communities.</p>
+                                <div class="language">
+                                    <div class="python">
+                                        <p>HTML & CSS</p>
+                                    </div>
+                                    <div class="flutter">
+                                        <P>SQL</P>
+                                    </div>
+                                    <div class="flutter">
+                                        <P>Pandas</P>
+                                    </div>
+                                    <div class="flutter">
+                                        <P>Flask</P>
+                                    </div>
+                                    <div class="flutter">
+                                        <P>Python</P>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <!-- For more information:
+
+                                    <a href="https://github.com/AlayandeWork/MediSense" target="_blank"
+                                        rel="noopener noreferrer" data-tooltip="Github">
+                                        <i class="fa-brands fa-github-alt"></i>
+                                    </a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card4">
+                            <p>Shape-Pattern</p>
+                            <div class="details">
+                                <p>Shape-Pattern is a game created using Godot that challenges players to memorize and
+                                    match sequences of shapes, testing their memory and focus as the difficulty
+                                    progressively increases.</p>
+                                <div class="language">
+                                    <div class="python">
+                                        <p>Godot</p>
+                                    </div>
+                                    <div class="flutter">
+                                        <P>GDScript</P>
+                                    </div>
+                                    <div class="flutter">
+                                        <P>Aseprite</P>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <!-- For more infogrmsddfvsdfgatgon: -->
 
 
-
-                            <div class="info">
-                                <!--ADD MORE INFORMATION HERE-->
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card2">
-                        <div class="details">
-                            <p>MaRover is an app that explores the captivating landscapes of Mars by collecting
-                                images from NASA's Mars Rover Photos API. Built with HTML, CSS, and JavaScript, it
-                                allows users to view stunning visuals captured by the Perseverance and Curiosity
-                                rovers. </p>
-                            <div class="language">
-                                <div class="python">
-                                    <p>HTML</p>
-                                </div>
-                                <div class="flutter">
-                                    <P>JavaScript</P>
-                                </div>
-                                <div class="flutter">
-                                    <P>CSS</P>
+                </div>
+                <button class="scroll-arrow right-arrow" onclick="scrollToRight()">
+                    &#10095;
+                </button>
+            </div>
+        </section>
+
+
+        <!--------------------PROJECTS SECTION END------------------->
+
+        <!--------------------EXPERIENCE SECTION START------------------->
+        <section id="xp"></section>
+        <h1 class="project">Experience</h1>
+        <section class="newnew">
+            <div class="grid-container">
+                <!-- Box 1 -->
+                <div class="grid-item">
+                    <div class="flip-card">
+
+                        <div class="flip-card-inner">
+                            <!-- Front Side -->
+                            <div class="flip-card-front">
+                                <div class="test">
+                                    <img src="york.png" alt="logo" class="icon1">
+
+                                    <h3>The Regional Municipality of York</h3>
+                                    <p>Data & Analytics Technician</p>
+                                    <p>Jan 2025 to Current</p>
                                 </div>
                             </div>
-                            <div class="info">
-                                Check it out here:
-                                <img id="marsImage" src="mars.png" alt="logo" class="marsicon1"
-                                    style="cursor: pointer;">
+                            <!-- Back Side -->
+                            <div class="flip-card-back">
+                                <div class="testing">
+                                    <h4 class="rework-margin">
+                                        The Regional Municipality of York (York Region) is a local
+                                        government body that provides essential services such as public transit, water
+                                        management, waste collection, affordable housing, public health, and emergency
+                                        services while supporting sustainable growth and economic development across
+                                        nine municipalities in Ontario.
+                                    </h4>
+
+                                    <p>1. Use SAS, Power BI, and Power Apps to analyze data and develop tools that
+                                        support
+                                        data-driven decision-making for the Paramedic Services Data Analysis team.</p>
+                                    <p>2. Collaborate with cross-functional teams to gather requirements and ensure
+                                        solutions align with organizational needs.</p>
+                                    <p>3. Develop and maintain applications using Power Apps, Power Automate flows,
+                                        SharePoint databases, and Power BI KPIs to support data analysis and reporting.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Box 2 -->
+                <div class="grid-item">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="test">
+                                    <img src="rework.png" alt="logo" class="icon2">
+                                    <h3>Rework Technologies</h3>
+                                    <p>Data Scientist</p>
+                                    <p>Jan 2022 to Jan 2024</p>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="testing">
+                                    <h4 class="rework-margin">Rework technologies is a data analysis specializing in
+                                        client-driven analytic
+                                        solutions while concurrently offering boot camps to train individuals in data
+                                        analysis and related skills.</h4>
+
+                                    <p>1. Developed interactive data visualisation dashboards using python and data
+                                        visualisation libraries, facilitiating effective communication to stakeholders.
+                                    </p>
+
+                                    <p>2. Provided training and support to team members on data tools and methodologies,
+                                        fostering collaboration.
+                                    </p>
+                                    <p>3. Steamlined documentation processes, improving project efficiency, and
+                                        facilitating future maintenance efforts.</p>
+
+                                    <p>4. Developed program components within a Linux environment, contributing to data
+                                        processing and analysis tools.</p>
+
+                                    <p>5. Conducted in-depth exploratory analysis on program operations, identifying and
+                                        resolving functional issues to meet project requirements.</p>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <div class="card3">
-                        <div class="details">
-                            <p>MediSense is a real-time healthcare monitoring system leveraging machine learning,
-                                global data sources, and technologies like Pandas, Flask, HTML, CSS, and SQL to
-                                enhance patient well-being, empower proactive health management, and build safer,
-                                healthier communities.</p>
-                            <div class="language">
-                                <div class="python">
-                                    <p>HTML & CSS</p>
-                                </div>
-                                <div class="flutter">
-                                    <P>SQL</P>
-                                </div>
-                                <div class="flutter">
-                                    <P>Pandas</P>
-                                </div>
-                                <div class="flutter">
-                                    <P>Flask</P>
-                                </div>
-                                <div class="flutter">
-                                    <P>Python</P>
+                </div>
+                <!-- Box 3 -->
+                <div class="grid-item">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="test">
+                                    <img src="black.png" alt="logo" class="icon3">
+                                    <h3>Black Tiger Security Services, LLC</h3>
+                                    <p>Marketing / Data Analyst</p>
+                                    <p>Jan 2021 to Jan 2022</p>
                                 </div>
                             </div>
-                            <div class="info">
-                                <!--ADD MORE INFORMATION HERE-->
+                            <div class="flip-card-back">
+                                <div class="testing">
+                                    <h4 class="rework-margin">
+                                        Black Tiger Security Services offers comprehensive security solutions, including
+                                        training programs, security personnel, and surveillance devices, to safeguard
+                                        clients' assets and ensure their peace of mind.
+                                    </h4>
+                                    <p>1. Conducted market research to identify target audience and develop effective
+                                        marketing strategies.</p>
+                                    <p>2. Supported website development using HTML, CSS and JavaScript to improve user
+                                        experience</p>
+                                    <p>3. Troubleshoot program operations and data analysis processes to ensure
+                                        functional requirements were met and optimize performance.</p>
+                                    <p>4. Developed automated data cleaning processes to remove duplicates, handle
+                                        missing values, and standardize formats, improving analysis effiency and
+                                        accuracy.</p>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <div class="card4">
-                        <div class="details">
-                            <p>Shape-Pattern is a game created using Godot that challenges players to memorize and
-                                match sequences of shapes, testing their memory and focus as the difficulty
-                                progressively increases.</p>
-                            <div class="language">
-                                <div class="python">
-                                    <p>Godot</p>
-                                </div>
-                                <div class="flutter">
-                                    <P>GDScript</P>
-                                </div>
-                                <div class="flutter">
-                                    <P>Aseprite</P>
+                </div>
+                <!-- Box g4 -->
+                <div class="grid-item">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="test">
+                                    <img src="british.png" alt="logo" class="icon4">
+                                    <h3>British Red Cross</h3>
+                                    <p>IT Support Engineer</p>
+                                    <p>Jan 2020 to Jan 2021</p>
                                 </div>
                             </div>
-                            <div class="info">
-                                <!--ADD MORE INFORMATION HERE-->
+                            <div class="flip-card-back">
+                                <div class="testing">
+                                    <h4 class="rework-margin">British Red Cross is a humanitarian organization dedicated
+                                        to providing emergency assistance, disaster relief, and community support
+                                        services to those in need across the United Kingdom and around the world.</h4>
+                                    <p>1. Developed an advanced merchandise and performance tracking system using Excel
+                                        to enhance operational efficiency.</p>
+                                    <p>2. Utilized Microsoft Office tools to create and streamline weekly progress
+                                        reports, tracking key activities and milestones.</p>
+                                    <p>3. Performed meticulous entry and upkeep of information in computer systems and
+                                        databases to ensure data integrity and organisational standards.</p>
+                                    <p>4. Provided application support and training for team members, improving overall
+                                        system reliability and user experience.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Box g5 -->
+                <div class="grid-item">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="test">
+                                    <img src="ptdf.png" alt="logo" class="icon4">
+                                    <h3>Petroleum Technology Development Fund</h3>
+                                    <p>Project / Energy Engineer</p>
+                                    <p>May 2019 to May 2020</p>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="testing">
+                                    <h4 class="rework-margin">The Petroleum Technology Development Fund is an
+                                        organization committed to building and enhancing indigenous human and
+                                        institutional capacity for the petroleum industry through education,
+                                        training, and research, while fostering sustainable development and global
+                                        competitiveness.</h4>
+                                    <p>1. Drafted, processed, and registered official memos from various departments,
+                                        utilizing tools like Excel for data management and analysis.
+                                    </p>
+                                    <p>2. Coordinated the selection and registration processes for PTDF Scholarship
+                                        awardees.</p>
+                                    <p>3. Planned and documented itineraries for field visits to refineries, using
+                                        Python for data analysis and reporting to optimize schedules and logistics.</p>
+                                    <p>4. Conducted inspections and registration of over 20 oil and gas outlets,
+                                        ensuring compliance with regulatory standards, and created digital reports using
+                                        data analysis tools like Excel and Python.</p>
+                                    <p>5. Delivered presentations to educate stakeholders on project progress and
+                                        strategic plans, incorporating web-based tools for presentation creation and
+                                        visualization using HTML, CSS, and JavaScript.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Box g6 -->
+                <div class="grid-item">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="test">
+                                    <img src="dpr.png" alt="logo" class="icon5">
+                                    <h3>Department of Petroleum Resources</h3>
+                                    <p>Petroleum Engineer</p>
+                                    <p>Jan 2017 to Dec 2017</p>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="testing">
+                                    <h4 class="rework-margin">The Department of Petroleum Resources (DPR) is a
+                                        regulatory agency responsible for ensuring compliance with petroleum laws,
+                                        guidelines, and regulations. It oversees the exploration, production,
+                                        and distribution of petroleum resources while promoting operational efficiency,
+                                        safety, and environmental sustainability</h4>
+                                    <p>1. Collaborated with refinery staff to facilitate the removal and installation of
+                                        new Fluid Catalytic Cracking (F.C.C) units, ensuring operational efficiency and
+                                        minimal downtime during refinery operations.
+                                    </p>
+
+                                    <p>2. Conducted daily site visits to monitor refinery activities, utilizing Python
+                                        scripts for data analysis and visualization to streamline report generation, and
+                                        preparing detailed weekly and monthly operations reports.</p>
+
+                                    <p>3. Provided in-depth research assistance and technical support, leveraging Python
+                                        and Aspen HYSYS for process simulation, experiment design, and optimization
+                                        models to enhance refinery performance and operational efficiency.</p>
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <button class="scroll-arrow right-arrow" onclick="scrollToRight()">
-                &#10095;
-            </button>
-        </div>
-    </section>
-    <!--------------------PROJECTS SECTION END------------------->
+        </section>
 
+        <!--------------------EXPERIENCE SECTION END------------------->
+        <!-- <section id="resume-download">
+            <h1>Resume</h1>
+            <button class="button-design">Download Resume</button>
+        </section> -->
 
+    </div>
 
+    <!--------------------FOOTER SECTION START------------------->
+    <footer>
+        <section class="footerclass">
+            <!-- Top Section -->
+            <div class="topone">
+                <!-- <p>&copy; 2024</p> -->
+                <p>&copy; <span id="currentYear"></span> PortNuhu. All rights reserved.</p>
+                <div class="back-to-top">
+                    <span>Back to Top</span>
+                    <img class="arrowup" src="arrow-icon.png" alt="Arrow Icon" />
+                </div>
+            </div>
+
+            <!-- Middle Section -->
+            <div class="middleone">
+                <!-- <p>Have a project in midafadnd?</p> -->
+                <h1>GET IN TOUCH</h1>
+            </div>
+
+            <!-- Bottom Section -->
+            <div class="lastone">
+                <div class="linkclass">
+                    <button id="githublink" class="git"><a>Github</a></button>
+                    <button id="linkedinlink" class="git"><a>Linkedin</a></button>
+
+                </div>
+                <div class="nameclass">
+                    <p>By AbdulMatin Nuhu</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!--------------------FOOTER SECTION END------------------->
     <script src="java.js"></script>
-
 </body>
 
 </html>
