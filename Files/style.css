@@ -186,7 +186,7 @@ nav {
 img {
     height: auto;
     width: 430px;
-    
+
 }
 
 .aboutme {
@@ -228,7 +228,6 @@ img {
     display: flex;
     width: 400px;
     justify-content: space-between;
-    /* border: 2px solid red; */
 }
 
 .fa-linkedin,
@@ -248,9 +247,7 @@ img {
 .fa-itch-io:hover {
     color: white;
     transform: scale(1.1);
-    /* Slightly increase size */
     cursor: pointer;
-    /* Change cursor to pointer */
 }
 
 .end {
@@ -270,26 +267,19 @@ img {
     content: attr(data-tooltip);
     position: absolute;
     bottom: 120%;
-    /* Position above the icon */
     left: 50%;
     transform: translateX(-50%);
     background-color: #F5E8D3;
-    /* Custom background color */
     color: black;
-    /* Custom text color */
     padding: 2px 5px;
-    /* Minimal padding for tight fit */
     border: 4px solid #333;
-    /* Dark border around text */
     border-radius: 3px;
-    /* Slightly rounded corners */
     font-size: 12px;
     white-space: nowrap;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease;
     pointer-events: none;
-    /* Prevent interfering with cursor */
 }
 
 .socialplat a:hover::after {
@@ -309,16 +299,11 @@ img {
 
 /*--------------------PROJECTS SECTION START--------------------*/
 #pro {
-
     margin-top: 60px;
-    /* padding: 100px; */
-    /* border: 2px solid white; */
-    /* margin-bottom: 20px; */
 }
 
 .project {
     font-size: 3.2em;
-
     text-align: center;
     margin-bottom: 60px;
 }
@@ -327,37 +312,57 @@ img {
     text-align: center;
 }
 
-/* .box {
-    display: flex;
-    width: auto;
-    justify-content: space-between;
-    align-items: center;
-    min-height: auto;
+.scroll-container {
+    width: 100%;
+
+    overflow-x: hidden;
+
+    white-space: nowrap;
+
+    padding: 10px;
+
+    scroll-behavior: smooth;
+
 }
 
-.card {
-    height: 520px;
-    width: 320px;
-    padding: 30px;
-    background-image: url(./profile1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 70px;
-    color: white;
+.scroll-wrapper {
     position: relative;
-    overflow: hidden;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.scroll-arrow {
+    background-color: #2C3E50;
+
+    color: white;
+
+    border: none;
+    padding: 10px 20px;
+
+    font-size: 24px;
     cursor: pointer;
-} */
-/* Ensure .box supports horizontal scrolling */
-/* .box { */
-/* display: inline-flex; */
-/* Align cards ddhorizontally */
-/* gap: 20px; */
-/* Space between cards */
-/* } */
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+
+.left-arrow {
+    position: relative;
+
+}
+
+
+.right-arrow {
+    position: relative;
+}
 
 .scroll-container {
     width: 100%;
@@ -372,7 +377,6 @@ img {
     gap: 20px;
 }
 
-/* CARD 1 */
 .card1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
@@ -391,39 +395,28 @@ img {
     cursor: pointer;
     margin-bottom: 30px;
     transition: transform 0.3s ease;
-    /* For hover scale effect */
+
 }
 
 .card1 .details {
     position: absolute;
     bottom: -50%;
-    /* Hidden initially */
     left: 0;
     width: 100%;
     height: 50%;
-    /* Increased to 60% of the card's height */
     background-color: rgba(44, 62, 80, 0.9);
-    /* Semi-transparent color */
     color: white;
     font-size: 18px;
     padding: 20px;
     text-align: center;
     border-radius: 0 0 80px 80px;
-    /* Matches card's rounded corners */
     transition: bottom 0.8s ease;
-    /* Smooth transition for sliding */
     z-index: 0;
-    /* Default */
     overflow-wrap: break-word;
-    /* Ensures long words break to the next line */
     word-wrap: break-word;
-    /* Fallback for older browsers */
     word-break: break-word;
-    /* Break long words */
     white-space: normal;
-    /* Allow text to wrap onto the next line */
     overflow: hidden;
-    /* Ensure content doesn't overflow the container */
 }
 
 .card1 .details p {
@@ -433,19 +426,10 @@ img {
 
 .card1:hover .details {
     bottom: 0;
-    /* Slides up when hovered */
     z-index: 1;
-    /* Keep it visible while hovered */
 }
 
 /* CARD 1 END*/
-
-
-
-
-
-
-
 
 .card2 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
@@ -584,18 +568,6 @@ img {
     z-index: 1;
     /* Keep it visible while hovered */
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .card4 {
@@ -1074,62 +1046,6 @@ footer {
 
 
 
-.scroll-container {
-    width: 100%;
-
-    overflow-x: hidden;
-
-    white-space: nowrap;
-
-    padding: 10px;
-
-    scroll-behavior: smooth;
-
-    /* background-color: #f9f9f9; */
-
-}
-
-.scroll-wrapper {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-}
-
-.scroll-arrow {
-    background-color: #2C3E50;
-
-    color: white;
-
-    border: none;
-    padding: 10px 20px;
-
-    font-size: 24px;
-    cursor: pointer;
-    border-radius: 50%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-
-    transition: transform 0.2s ease, background-color 0.2s ease;
-}
-
-
-.left-arrow {
-    position: relative;
-
-}
-
-
-.right-arrow {
-    position: relative;
-}
-
-
-
 
 .tooltip {
     visibility: hidden;
@@ -1176,6 +1092,8 @@ li:hover .tooltip {
 
 /* MOBILE */
 @media (max-width: 767px) {
+
+    /* HEADER*/
     .nav-list li {
         margin-left: 0px;
     }
@@ -1202,7 +1120,12 @@ li:hover .tooltip {
     .wrapper {
         width: 90%;
     }
+    /* HEADER*/
 
+
+
+
+    /*ABOUT*/
     #about {
         display: flex;
         flex-direction: column;
@@ -1216,32 +1139,48 @@ li:hover .tooltip {
         font-size: 25px;
     }
 
-    .aboutme{
+    .aboutme {
         font-size: 1.6em;
     }
 
-    .socialplat{
-        width: 300px;
+    .socialplat {
+        width: 380px;
     }
 
-    .red{
+    .red {
         font-size: 1.0em;
     }
 
-    .description{
+    .description {
         width: 379px;
     }
 
-    .big{
+    .big {
         font-size: 1.4em;
     }
 
-    .imageDiv{
+    .imageDiv {
         border: 2px solid #F5E8D3;
     }
 
-    img{
+    img {
         width: 100%;
+    }
+    /*ABOUT*/
+
+
+    /*PROJECTS*/
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-arrow{
+        display: none;
+    }
+
+    .right-arrow{
+        display: none;
     }
 
 }
