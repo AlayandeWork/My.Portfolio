@@ -667,37 +667,6 @@ img {
     color: #2C3E50;
 }
 
-/* Optional: Add a hover scale effect to the card */
-/* .card:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-} */
-
-
-/* Ensure cards are properly sized */
-/* .card {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
-    flex: 0 0 auto;
-    
-    width: 420px;
-    
-    height: 620px;
-    
-    background-image: url(1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    
-    border-radius: 80px;
-    color: black;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-    cursor: pointer;
-    margin-bottom: 30px;
-} */
-
 /*--------------------PROJECTS SECTION END--------------------*/
 
 
@@ -1134,7 +1103,7 @@ li:hover .tooltip {
         flex-direction: column;
     }
     .desText{
-        font-size: 12px;
+        font-size: 0.8em;
     }
 
     .fa-linkedin,
@@ -1142,7 +1111,7 @@ li:hover .tooltip {
     .fa-google,
     .fa-twitter,
     .fa-itch-io {
-        font-size: 25px;
+        font-size: 1.4em;
     }
 
     .aboutme {
@@ -1176,6 +1145,11 @@ li:hover .tooltip {
 
 
     /*PROJECTS*/
+
+    .project{
+        font-size: 2.5em;
+    }
+
     .box{
         display: flex;
         flex-direction: column;
@@ -1188,5 +1162,58 @@ li:hover .tooltip {
     .right-arrow{
         display: none;
     }
+    
+    .card1{
+        width: 312px;
+        height: 500px;
+    }
+    .card2{
+        width: 312px;
+        height: 500px;
+    }
+    .card3{
+        width: 312px;
+        height: 500px;
+    }
+    .card4{
+        width: 312px;
+        height: 500px;
+    }
     /*PROJECTS*/
+
+    /*EXPERIENCE*/
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .testing{
+        line-height: 1.0em;
+    }
+    .testing p {
+        margin-bottom: 7px;
+        text-align: left;
+        font-size: 0.8em;
+    }
+    
+    .rework-margin {
+        margin-bottom: 2px;
+        font-size: 0.8em;
+        text-align: justify;
+        border-bottom: 5px solid #2C3E50;
+    }
+    /*EXPERIENCE*/
+
+    /*FOOTER*/
+    .middleone h1{
+        font-size: 1.9em;
+    }
+
+    .port{
+        font-size: 0.8em;
+    }
+
+    .nameclass p {
+        font-size: 0.8em;
+    }
+    /*FOOTER*/
 }
