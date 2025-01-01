@@ -1117,7 +1117,7 @@ li:hover .tooltip {
     }
 
     .wrapper {
-        width: 98%;
+        width: 90%;
     }
 
     .tooltip{
@@ -1133,6 +1133,9 @@ li:hover .tooltip {
         display: flex;
         flex-direction: column;
     }
+    .desText{
+        font-size: 12px;
+    }
 
     .fa-linkedin,
     .fa-github-alt,
@@ -1147,7 +1150,7 @@ li:hover .tooltip {
     }
 
     .socialplat {
-        width: 410px;
+        width: 300px;
     }
 
     .red {
@@ -1155,11 +1158,11 @@ li:hover .tooltip {
     }
 
     .description {
-        width: 420px;
+        width: 310px;
     }
 
     .big {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
     .imageDiv {
