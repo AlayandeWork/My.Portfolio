@@ -1155,7 +1155,6 @@ li:hover .tooltip {
 
     .box {
         display: flex;
-        border: 2px solid red;
         flex-direction: column;
     }
 
