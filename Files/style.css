@@ -1089,9 +1089,10 @@ li:hover .tooltip {
         width: 90%;
     }
 
-    .tooltip{
+    .tooltip {
         left: 50%;
     }
+
     /* HEADER*/
 
 
@@ -1102,7 +1103,8 @@ li:hover .tooltip {
         display: flex;
         flex-direction: column;
     }
-    .desText{
+
+    .desText {
         font-size: 0.8em;
     }
 
@@ -1127,7 +1129,7 @@ li:hover .tooltip {
     }
 
     .description {
-        width: 310px;
+        width: 100%;
     }
 
     .big {
@@ -1141,79 +1143,165 @@ li:hover .tooltip {
     img {
         width: 100%;
     }
+
     /*ABOUT*/
 
 
     /*PROJECTS*/
 
-    .project{
+    .project {
         font-size: 2.5em;
     }
 
-    .box{
+    .box {
         display: flex;
         flex-direction: column;
     }
 
-    .left-arrow{
+    .left-arrow {
         display: none;
     }
 
-    .right-arrow{
+    .right-arrow {
         display: none;
     }
-    
-    .card1{
+
+    .card1 {
         width: 312px;
         height: 500px;
     }
-    .card2{
+
+    .card2 {
         width: 312px;
         height: 500px;
     }
-    .card3{
+
+    .card3 {
         width: 312px;
         height: 500px;
     }
-    .card4{
+
+    .card4 {
         width: 312px;
         height: 500px;
     }
+
     /*PROJECTS*/
 
     /*EXPERIENCE*/
-    .grid-container{
+    .grid-container {
         display: flex;
         flex-direction: column;
     }
-    .testing{
+
+    .testing {
         line-height: 1.0em;
     }
+
     .testing p {
         margin-bottom: 7px;
         text-align: left;
         font-size: 0.8em;
     }
-    
+
     .rework-margin {
         margin-bottom: 2px;
         font-size: 0.8em;
         text-align: justify;
         border-bottom: 5px solid #2C3E50;
     }
+
     /*EXPERIENCE*/
 
     /*FOOTER*/
-    .middleone h1{
+    .middleone h1 {
         font-size: 1.9em;
     }
 
-    .port{
+    .port {
         font-size: 0.8em;
     }
 
     .nameclass p {
         font-size: 0.8em;
     }
+
     /*FOOTER*/
+}
+
+/*TABLETS*/
+@media (max-width: 1199px) and (min-width: 768px) {
+
+    /*ABOUT*/
+    #about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desText {
+        font-size: 0.8em;
+    }
+
+    .fa-linkedin,
+    .fa-github-alt,
+    .fa-google,
+    .fa-twitter,
+    .fa-itch-io {
+        font-size: 1.4em;
+    }
+
+    .aboutme {
+        font-size: 1.6em;
+    }
+
+    .socialplat {
+        width: 100%;
+    }
+
+    .red {
+        font-size: 1.0em;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .big {
+        font-size: 1.2em;
+    }
+
+    .imageDiv {
+        border: 2px solid #F5E8D3;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    /*ABOUT*/
+
+    /*EXPERIENCE*/
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testing {
+        line-height: 1.5em;
+    }
+
+    .testing p {
+        margin-bottom: 7px;
+        text-align: left;
+        font-size: 0.8em;
+    }
+
+    .rework-margin {
+        margin-bottom: 20px;
+        font-size: 0.8em;
+        text-align: justify;
+        border-bottom: 5px solid #2C3E50;
+    }
+
+    /*EXPERIENCE*/
 }
