@@ -62,7 +62,12 @@ document.querySelectorAll('.flip-card').forEach(card => {
         card.classList.toggle('flipped');
     });
 });
-
+function scrollToNextSection() {
+    const nextSection = document.querySelector('#about'); // Change '#about' to the ID of your next section
+    if (nextSection) {
+        nextSection.scrollIntoView({ behavior: 'smooth' });
+    }
+}
 // Scroll horizontally in the scroll container
 function scrollToRight() {
     const container = document.querySelector('.scroll-container');
