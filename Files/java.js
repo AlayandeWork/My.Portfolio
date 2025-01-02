@@ -37,6 +37,9 @@ function changeText() {
     typeWriterEffect(texts[textIndex]);
 }
 
+// Calling typewriter function
+typeWriterEffect(texts[textIndex]);
+
 // Smooth scroll to top
 document.querySelector('.back-to-top').addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
