@@ -91,16 +91,10 @@ function toggleDetails(card) {
     }
 }
 
-// Function to remove all event listeners
-function removeEventListeners() {
-    document.querySelectorAll('.card1').forEach(card => {
-        card.replaceWith(card.cloneNode(true)); // Removes all attached event listeners
-    });
-}
-
 // Function to add hover listeners for desktop
 function addHoverListeners() {
-    document.querySelectorAll('.card1').forEach(card => {
+    // Apply hover events to all card classes: .card1, .card2, .card3, .card4
+    document.querySelectorAll('.card1, .card2, .card3, .card4').forEach(card => {
         card.addEventListener('mouseenter', () => {
             const details = card.querySelector('.details');
             details.style.bottom = '0';
@@ -116,28 +110,40 @@ function addHoverListeners() {
 
 // Function to add click listeners for mobile/tablet
 function addClickListeners() {
-    document.querySelectorAll('.card1').forEach(card => {
+    // Apply click events to all card classes: .card1, .card2, .card3, .card4
+    document.querySelectorAll('.card1, .card2, .card3, .card4').forEach(card => {
         card.addEventListener('click', () => toggleDetails(card));
     });
 }
 
-// Check screen size and update event listeners
-function updateEventListeners() {
-    const isMobile = window.matchMedia("(max-width: 767px)").matches;
-    const isTablet = window.matchMedia("(max-width: 1199px) and (min-width: 768px)").matches;
-    const isDesktop = window.matchMedia("(max-width: 1800px) and (min-width: 1200px)").matches;
+// Function to remove all event listeners (used when switching between modes)
+function removeEventListeners() {
+    document.querySelectorAll('.card1, .card2, .card3, .card4').forEach(card => {
+        const clonedCard = card.cloneNode(true); // Clone the card to remove all event listeners
+        card.parentNode.replaceChild(clonedCard, card); // Replace the card with the clone
+    });
+}
 
-    if (isMobile || isTablet) {
-        removeEventListeners(); // Remove any existing listeners
-        addClickListeners();    // Add click listeners for mobile/tablet
-    } else if (isDesktop) {
-        removeEventListeners(); // Remove any existing listeners
-        addHoverListeners();    // Add hover listeners for desktop
+// Function to check the screen size and apply event listeners accordingly
+function updateEventListeners() {
+    const isMobileOrTablet = window.matchMedia("(max-width: 1199px)").matches; // For mobile/tablet
+    const isDesktop = window.matchMedia("(min-width: 1200px)").matches; // For desktop
+
+    // If it's mobile/tablet, apply click listeners
+    if (isMobileOrTablet) {
+        removeEventListeners(); // Remove hover listeners if any
+        addClickListeners();    // Apply click listeners
+    }
+    // If it's desktop, apply hover listeners
+    else if (isDesktop) {
+        removeEventListeners(); // Remove click listeners if any
+        addHoverListeners();    // Apply hover listeners
     }
 }
 
-// Initial setup
+// Initial event listener setup
 updateEventListeners();
 
-// Update listeners on window resize
+// Update event listeners when window is resized
 window.addEventListener('resize', updateEventListeners);
+
