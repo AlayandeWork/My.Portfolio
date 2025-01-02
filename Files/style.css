@@ -1215,7 +1215,7 @@ li:hover .tooltip {
 
     /*FOOTER*/
     .middleone h1 {
-        font-size: 1.9em;
+        font-size: 1.2em;
     }
 
     .port {
@@ -1226,11 +1226,24 @@ li:hover .tooltip {
         font-size: 0.8em;
     }
 
+    .git {
+        background: #fff;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        padding: 4px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .linkclass a{
+        font-size: 0.8em;
+    }
+
     /*FOOTER*/
 }
 
 /*TABLETS 1*/
-@media (max-width: 1199px) and (min-width: 768px){
+@media (max-width: 1199px) and (min-width: 768px) {
 
     /*ABOUT*/
     #about {
@@ -1302,11 +1315,16 @@ li:hover .tooltip {
         text-align: justify;
         border-bottom: 5px solid #2C3E50;
     }
-
     /*EXPERIENCE*/
+
+    /*FOOTER*/
+    .middleone h1 {
+        font-size: 1.5em;
+    }
+    /*FOOTER*/
 }
 
-@media (max-width: 1199px) and (min-width: 768px) and (orientation: landscape){
+@media (max-width: 1199px) and (min-width: 768px) and (orientation: landscape) {
 
     /*ABOUT*/
     #about {
