@@ -455,6 +455,26 @@
                     </div>
                 </div>
             </div>
+            <script>
+                // Function to toggle details visibility
+                function toggleDetails(card) {
+                    const details = card.querySelector('.details');
+                    if (details.style.bottom === '0px') {
+                        details.style.bottom = '-50%';
+                        details.style.zIndex = '0';
+                    } else {
+                        details.style.bottom = '0';
+                        details.style.zIndex = '1';
+                    }
+                }
+
+                // Check for touch devices and add click event listeners
+                if ('ontouchstart' in window || navigator.maxTouchPoints) {
+                    document.querySelectorAll('.card1').forEach(card => {
+                        card.addEventListener('click', () => toggleDetails(card));
+                    });
+                }
+            </script>
         </section>
 
         <!--------------------EXPERIENCE SECTION END------------------->
