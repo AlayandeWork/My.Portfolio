@@ -84,7 +84,7 @@ function scrollToLeft() {
     });
 }
 
-// Function to toggle details visibility on mobile or tablet
+// Function to toggle details visibility
 function toggleDetails(card) {
     const details = card.querySelector('.details');
     if (details.style.bottom === '0px') {
@@ -98,7 +98,6 @@ function toggleDetails(card) {
 
 // Function to add hover listeners for desktop
 function addHoverListeners() {
-    // Apply hover events to all card classes: .card1, .card2, .card3, .card4
     document.querySelectorAll('.card1, .card2, .card3, .card4').forEach(card => {
         card.addEventListener('mouseenter', () => {
             const details = card.querySelector('.details');
@@ -115,7 +114,6 @@ function addHoverListeners() {
 
 // Function to add click listeners for mobile/tablet
 function addClickListeners() {
-    // Apply click events to all card classes: .card1, .card2, .card3, .card4
     document.querySelectorAll('.card1, .card2, .card3, .card4').forEach(card => {
         card.addEventListener('click', () => toggleDetails(card));
     });
@@ -124,9 +122,31 @@ function addClickListeners() {
 // Function to remove all event listeners (used when switching between modes)
 function removeEventListeners() {
     document.querySelectorAll('.card1, .card2, .card3, .card4').forEach(card => {
-        const clonedCard = card.cloneNode(true); // Clone the card to remove all event listeners
-        card.parentNode.replaceChild(clonedCard, card); // Replace the card with the clone
+        // Remove hover events
+        card.removeEventListener('mouseenter', hoverEnter);
+        card.removeEventListener('mouseleave', hoverLeave);
+
+        // Remove click events
+        card.removeEventListener('click', clickEvent);
     });
+}
+
+// Hover event handlers for removing and adding the hover effect
+function hoverEnter(event) {
+    const details = event.currentTarget.querySelector('.details');
+    details.style.bottom = '0';
+    details.style.zIndex = '1';
+}
+
+function hoverLeave(event) {
+    const details = event.currentTarget.querySelector('.details');
+    details.style.bottom = '-50%';
+    details.style.zIndex = '0';
+}
+
+// Click event handler for toggling details visibility
+function clickEvent(event) {
+    toggleDetails(event.currentTarget);
 }
 
 // Function to check the screen size and apply event listeners accordingly
@@ -151,4 +171,5 @@ updateEventListeners();
 
 // Update event listeners when window is resized
 window.addEventListener('resize', updateEventListeners);
+
 
