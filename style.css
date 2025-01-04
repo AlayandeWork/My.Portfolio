@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(background.jpg);
+    background-image: url(./Images/background.jpg);
     background-position: center;
     background-size: contain;
 
@@ -385,7 +385,7 @@ img {
     flex: 0 0 auto;
     width: 420px;
     height: 620px;
-    background-image: url(Scrawlsense.jpeg);
+    background-image: url(./Images/Scrawlsense.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -439,7 +439,7 @@ img {
     flex: 0 0 auto;
     width: 420px;
     height: 620px;
-    background-image: url(marss.jpg);
+    background-image: url(./Images/marss.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -510,7 +510,7 @@ img {
     flex: 0 0 auto;
     width: 420px;
     height: 620px;
-    background-image: url(medisense.jpeg);
+    background-image: url(./Images/medisense.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -578,7 +578,7 @@ img {
     flex: 0 0 auto;
     width: 420px;
     height: 620px;
-    background-image: url(shape.jpeg);
+    background-image: url(./Images/shape.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
