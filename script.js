@@ -80,7 +80,7 @@ function addClickListeners() {
     });
 }
 
-// Function to remove all event listeners (used when switching between modes)
+// Function to remove all event listengers (used when switching between modes)
 function removeEventListeners() {
     document.querySelectorAll('.card1, .card2, .card3, .card4').forEach(card => {
         // Remove hover events
