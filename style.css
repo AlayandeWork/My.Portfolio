@@ -330,7 +330,8 @@ img {
     gap: 10px;
 
 }
-.tit{
+
+.tit {
     color: white;
     margin-top: 50px;
     margin-right: 150px;
@@ -1093,6 +1094,8 @@ li:hover .tooltip {
     }
 
     .tooltip {
+        visibility: visible;
+        opacity: 50;
         left: 50%;
     }
 
@@ -1148,7 +1151,7 @@ li:hover .tooltip {
     }
 
     /*ABOUT*/
-    
+
 
     /*PROJECTS*/
 
@@ -1189,7 +1192,7 @@ li:hover .tooltip {
         height: 500px;
     }
 
-    .tit{
+    .tit {
         /* border: 2px solid red; */
         color: white;
         margin-top: 50px;
@@ -1197,6 +1200,7 @@ li:hover .tooltip {
         margin-left: 30px;
         /* letter-spacing: 0.3em; */
     }
+
     /*PROJECTS*/
 
     /*EXPERIENCE*/
@@ -1246,7 +1250,7 @@ li:hover .tooltip {
         transition: all 0.3s ease-in-out;
     }
 
-    .linkclass a{
+    .linkclass a {
         font-size: 0.8em;
     }
 
@@ -1255,6 +1259,8 @@ li:hover .tooltip {
 
 /*TABLETS 1*/
 @media (max-width: 1199px) and (min-width: 768px) {
+
+
 
     /*ABOUT*/
     #about {
@@ -1305,7 +1311,7 @@ li:hover .tooltip {
     /*ABOUT*/
 
     /*PROJECT*/
-    .tit{
+    .tit {
         /* border: 2px solid red; */
         color: white;
         margin-top: 50px;
@@ -1313,6 +1319,7 @@ li:hover .tooltip {
         /* margin-left: 30px; */
         /* letter-spacing: 0.3em; */
     }
+
     /*PROJECT*/
 
     /*EXPERIENCE*/
@@ -1337,12 +1344,14 @@ li:hover .tooltip {
         text-align: justify;
         border-bottom: 5px solid #2C3E50;
     }
+
     /*EXPERIENCE*/
 
     /*FOOTER*/
     .middleone h1 {
         font-size: 1.5em;
     }
+
     /*FOOTER*/
 }
 
@@ -1397,7 +1406,7 @@ li:hover .tooltip {
     /*ABOUT*/
 
     /*PROJECT*/
-    .tit{
+    .tit {
         /* border: 2px solid red; */
         color: white;
         margin-top: 50px;
@@ -1405,6 +1414,7 @@ li:hover .tooltip {
         /* margin-left: 30px; */
         /* letter-spaciing: 0.3em; */
     }
+
     /*PROJECT*/
 
     /*EXPERIENCE*/
@@ -1432,4 +1442,26 @@ li:hover .tooltip {
     }
 
     /*EXPERIENCE*/
+}
+
+
+/*DESKTOP*/
+@media (max-width: 1800px) and (min-width: 1200px) {
+    .tooltip {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        top: 100%;
+        /* Position it directly below the link */
+        left: 92.4%;
+        transform: translateX(-50%);
+        background-color: #333;
+        color: #fff;
+        padding: 8px 12px;
+        border-radius: 5px;
+        font-size: 22px;
+        white-space: nowrap;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        margin-top: 5px;
+    }
 }
