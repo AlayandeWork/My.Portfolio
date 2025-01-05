@@ -1,0 +1,39 @@
+const texts = [
+    "Data Scientist",
+    "Game Designer",
+    "UX/UI Designer",
+    "Data Analyst Technician",
+    "Petroleum & Gas Engineer"
+];
+const currentYear = new Date().getFullYear();
+const subtitle = document.getElementById('subtitle');
+let textIndex = 0;
+
+
+document.getElementById("currentYear").textContent = currentYear;
+
+
+function typeWriterEffect(text) {
+    let i = 0;
+    subtitle.textContent = '';
+    subtitle.style.width = '0';
+
+    const typingInterval = setInterval(() => {
+        subtitle.textContent += text.charAt(i);
+        subtitle.style.width = 'auto';
+        i++;
+
+        if (i >= text.length) {
+            clearInterval(typingInterval);
+            setTimeout(changeText, 3000);
+        }
+    }, 100);
+}
+
+
+function changeText() {
+    textIndex = (textIndex + 1) % texts.length;
+    typeWriterEffect(texts[textIndex]);
+}
+
+changeText()

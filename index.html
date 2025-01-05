@@ -5,54 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./script2.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>AbdulMatin's Portfolio</title>
 
 </head>
-<script>
-    // Define constants for texts and current year
-    const texts = [
-        "Data Scientist",
-        "Game Designer",
-        "UX/UI Designer",
-        "Data Analyst Technician",
-        "Petroleum & Gas Engineer"
-    ];
-    const currentYear = new Date().getFullYear();
-    const subtitle = document.getElementById('subtitle');
-    let textIndex = 0;
-
-    // Set the current year in the footer
-    document.getElementById("currentYear").textContent = currentYear;
-
-    // Typing effect for the subtitle text
-    function typeWriterEffect(text) {
-        let i = 0;
-        subtitle.textContent = '';
-        subtitle.style.width = '0';
-
-        const typingInterval = setInterval(() => {
-            subtitle.textContent += text.charAt(i);
-            subtitle.style.width = 'auto';
-            i++;
-
-            if (i >= text.length) {
-                clearInterval(typingInterval);
-                setTimeout(changeText, 3000); // Change text after typing effect finishes
-            }
-        }, 100);
-    }
-
-    // Change the text for the typing effect
-    function changeText() {
-        textIndex = (textIndex + 1) % texts.length;
-        typeWriterEffect(texts[textIndex]);
-    }
-
-    changeText()
-</script>
+<!-- <script>
+    
+    
+</script> -->
 
 <body>
     <!------------------------------------------------------------------------------------------------------------------------------->
