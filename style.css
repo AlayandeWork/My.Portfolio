@@ -166,7 +166,7 @@ nav {
 
 
 
-/*--------------------ABOUT SECTION START--------------------*/
+/*-------------------------------------------------------------------ABOUT SECTION START-----------------------------------------------------------*/
 #about {
     border-radius: 20px;
     display: flex;
@@ -178,25 +178,18 @@ nav {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
+.imageDiv {
+    border: 5px solid #F5E8D3;
+    border-radius: 10px;
+}
+
 img {
-    height: auto;
-    width: 430px;
+    height: 100%;
+    width: 100%;
 
 }
 
-.aboutme {
-    margin-bottom: 40px;
-    font-size: 3.2em;
-    color: #F5E8D3;
-}
-
-.red {
-    margin-bottom: 40px;
-    font-size: 1.1em;
-    color: white;
-}
-
-.description {
+.descriptionBox {
     width: 100%;
     flex-direction: column;
     justify-content: center;
@@ -204,19 +197,25 @@ img {
     padding: 20px;
 }
 
-.big {
-    font-size: 20px;
+.aboutmeText {
+    margin-bottom: 40px;
+    font-size: 3.2em;
+    color: #F5E8D3;
 }
 
-.desText {
+.nameTitle {
+    margin-bottom: 40px;
+    font-size: 1.1em;
+    color: white;
+}
+
+.descriptionText {
     text-align: justify;
     margin-bottom: 30px;
 }
 
-.imageDiv {
-    border: 5px solid #F5E8D3;
-    border-radius: 10px;
-    padding: 15px;
+.lettalk {
+    font-size: 20px;
 }
 
 .socialplat {
@@ -272,10 +271,9 @@ img {
     border-radius: 3px;
     font-size: 12px;
     white-space: nowrap;
-    opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease;
-    pointer-events: none;
+    /* pointer-events: none; */
 }
 
 .socialplat a:hover::after {
@@ -284,39 +282,20 @@ img {
 }
 
 
-/*--------------------ABOUT SECTION END--------------------*/
+/*-------------------------------------------------------------------ABOUT SECTION START-----------------------------------------------------------*/
 
 
 
 
 
 
-/*--------------------PROJECTS SECTION START--------------------*/
-#pro {
-    margin-top: 60px;
-}
+/*-------------------------------------------------------------------PROJECT SECTION START-----------------------------------------------------------*/
 
 .project {
     font-size: 3.2em;
     text-align: center;
+    margin-top: 100px;
     margin-bottom: 60px;
-}
-
-#pro h4 {
-    text-align: center;
-}
-
-.scroll-container {
-    width: 100%;
-
-    overflow-x: hidden;
-
-    white-space: nowrap;
-
-    padding: 10px;
-
-    scroll-behavior: smooth;
-
 }
 
 .scroll-wrapper {
@@ -327,61 +306,35 @@ img {
 
 }
 
-.tit {
-    color: white;
-    margin-top: 50px;
-    margin-right: 150px;
-    letter-spacing: 0.3em;
-}
-
 .scroll-arrow {
     background-color: #2C3E50;
-
     color: white;
-
     border: none;
     padding: 10px 20px;
-
     font-size: 24px;
     cursor: pointer;
     border-radius: 50%;
-
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-
-    transition: transform 0.2s ease, background-color 0.2s ease;
-}
-
-
-.left-arrow {
-    position: relative;
-
-}
-
-.right-arrow {
-    position: relative;
 }
 
 .scroll-container {
-    width: 100%;
     overflow-x: hidden;
-    white-space: nowrap;
     padding: 10px;
-    scroll-behavior: smooth;
 }
 
 .box {
     display: inline-flex;
     gap: 20px;
 }
-
+/*---------------------------FIRST CARD START---------------------------------*/
 .card1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
     width: 420px;
-    height: 620px;
+    height: 700px;
     background-image: url(./Images/Scrawlsense.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -391,11 +344,7 @@ img {
     color: black;
     position: relative;
     overflow: hidden;
-    text-align: center;
-    cursor: pointer;
-    margin-bottom: 30px;
     transition: transform 0.3s ease;
-
 }
 
 .card1 .details {
@@ -415,7 +364,6 @@ img {
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-word;
-    white-space: normal;
     overflow: hidden;
 }
 
@@ -429,13 +377,20 @@ img {
     z-index: 1;
 }
 
-/* CARD 1 END*/
+/*---------------------------FIRST CARD END---------------------------------*/
 
+
+
+
+
+
+
+
+/*---------------------------SECOND CARD START------------------------------*/
 .card2 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
     width: 420px;
-    height: 620px;
     background-image: url(./Images/marss.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -445,11 +400,7 @@ img {
     color: black;
     position: relative;
     overflow: hidden;
-    text-align: center;
-    cursor: pointer;
-    margin-bottom: 30px;
     transition: transform 0.3s ease;
-    /* For hover scale effect */
 }
 
 
@@ -457,33 +408,21 @@ img {
 .card2 .details {
     position: absolute;
     bottom: -50%;
-    /* Hidden initially */
     left: 0;
     width: 100%;
     height: 50%;
-    /* Increased to 60% of the card's height */
     background-color: rgba(44, 62, 80, 0.9);
-    /* Semi-transparent color */
     color: white;
     font-size: 18px;
     padding: 20px;
     text-align: center;
     border-radius: 0 0 80px 80px;
-    /* Matches card's rounded corners */
     transition: bottom 0.8s ease;
-    /* Smooth transition for sliding */
     z-index: 0;
-    /* Default */
     overflow-wrap: break-word;
-    /* Ensures long words break to the next line */
     word-wrap: break-word;
-    /* Fallback for older browsers */
     word-break: break-word;
-    /* Break long words */
-    white-space: normal;
-    /* Allow text to wrap onto the next line */
     overflow: hidden;
-    /* Ensure content doesn't overflow the container */
 }
 
 .card2 .details p {
@@ -493,20 +432,18 @@ img {
 
 .card2:hover .details {
     bottom: 0;
-    /* Slides up when hovered */
     z-index: 1;
-    /* Keep it visible while hovered */
 }
+/*---------------------------SECOND CARD END-------------------------------*/
 
 
 
 
-
+/*---------------------------THIRD CARD START-------------------------------*/
 .card3 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
     width: 420px;
-    height: 620px;
     background-image: url(./Images/medisense.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -516,45 +453,27 @@ img {
     color: black;
     position: relative;
     overflow: hidden;
-    text-align: center;
-    cursor: pointer;
-    margin-bottom: 30px;
     transition: transform 0.3s ease;
-    /* For hover scale effect */
 }
-
-
 
 .card3 .details {
     position: absolute;
     bottom: -50%;
-    /* Hidden initially */
     left: 0;
     width: 100%;
     height: 50%;
-    /* Increased to 60% of the card's height */
     background-color: rgba(44, 62, 80, 0.9);
-    /* Semi-transparent color */
     color: white;
     font-size: 18px;
     padding: 20px;
     text-align: center;
     border-radius: 0 0 80px 80px;
-    /* Matches card's rounded corners */
     transition: bottom 0.8s ease;
-    /* Smooth transition for sliding */
     z-index: 0;
-    /* Default */
     overflow-wrap: break-word;
-    /* Ensures long words break to the next line */
     word-wrap: break-word;
-    /* Fallback for older browsers */
     word-break: break-word;
-    /* Break long words */
-    white-space: normal;
-    /* Allow text to wrap onto the next line */
     overflow: hidden;
-    /* Ensure content doesn't overflow the container */
 }
 
 .card3 .details p {
@@ -564,17 +483,17 @@ img {
 
 .card3:hover .details {
     bottom: 0;
-    /* Slides up when hovered */
     z-index: 1;
-    /* Keep it visible while hovered */
 }
+/*---------------------------THIRD CARD END--------------------------------*/
 
 
+
+/*---------------------------FOURTH CARD START-----------------------------*/
 .card4 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
     width: 420px;
-    height: 620px;
     background-image: url(./Images/shape.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -584,9 +503,6 @@ img {
     color: black;
     position: relative;
     overflow: hidden;
-    text-align: center;
-    cursor: pointer;
-    margin-bottom: 30px;
     transition: transform 0.3s ease;
 }
 
@@ -595,33 +511,21 @@ img {
 .card4 .details {
     position: absolute;
     bottom: -50%;
-    /* Hidden initially */
     left: 0;
     width: 100%;
     height: 50%;
-    /* Increased to 60% of the card's height */
     background-color: rgba(44, 62, 80, 0.9);
-    /* Semi-transparent color */
     color: white;
     font-size: 18px;
     padding: 20px;
     text-align: center;
     border-radius: 0 0 80px 80px;
-    /* Matches card's rounded corners */
     transition: bottom 0.8s ease;
-    /* Smooth transition for sliding */
     z-index: 0;
-    /* Default */
     overflow-wrap: break-word;
-    /* Ensures long words break to the next line */
     word-wrap: break-word;
-    /* Fallback for older browsers */
     word-break: break-word;
-    /* Break long words */
-    white-space: normal;
-    /* Allow text to wrap onto the next line */
     overflow: hidden;
-    /* Ensure content doesn't overflow the container */
 }
 
 .card4 .details p {
@@ -631,9 +535,14 @@ img {
 
 .card4:hover .details {
     bottom: 0;
-    /* Slides up when hovered */
     z-index: 1;
-    /* Keep it visible while hovered */
+}
+/*---------------------------FOURTH CARD END------------------------------*/
+
+.cardTitle {
+    color: white;
+    letter-spacing: 0.3em;
+    margin: 50px 50px;
 }
 
 .info {
@@ -644,30 +553,20 @@ img {
     align-items: start;
 }
 
-.language {
+.usedPackages {
     display: flex;
     gap: 10px;
-
     margin-top: 15px;
 }
 
-.python {
+.package {
     padding: 5px;
-    /* border: 4px solid #F5E8D3; */
     background-color: #F5E8D3;
     border-radius: 5px;
     color: #2C3E50;
 }
 
-.flutter {
-    padding: 5px;
-    /* border: 4px solid #F5E8D3; */
-    background-color: #F5E8D3;
-    border-radius: 5px;
-    color: #2C3E50;
-}
-
-/*--------------------PROJECTS SECTION END--------------------*/
+/*-------------------------------------------------------------------PROJECT SECTION END-----------------------------------------------------------*/
 
 
 /*--------------------XP SECTION START--------------------*/
