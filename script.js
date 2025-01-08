@@ -1,3 +1,44 @@
+const texts = [
+    "Data Scientist",
+    "Game Designer",
+    "UX/UI Designer",
+    "Data Analyst Technician",
+    "Petroleum & Gas Engineer"
+];
+const currentYear = new Date().getFullYear();
+const subtitle = document.getElementById('subtitle');
+let textIndex = 0;
+
+
+document.getElementById("currentYear").textContent = currentYear;
+
+
+function typeWriterEffect(text) {
+    let i = 0;
+    subtitle.textContent = '';
+    subtitle.style.width = '0';
+
+    const typingInterval = setInterval(() => {
+        subtitle.textContent += text.charAt(i);
+        subtitle.style.width = 'auto';
+        i++;
+
+        if (i >= text.length) {
+            clearInterval(typingInterval);
+            setTimeout(changeText, 3000);
+        }
+    }, 100);
+}
+
+
+function changeText() {
+    textIndex = (textIndex + 1) % texts.length;
+    typeWriterEffect(texts[textIndex]);
+}
+
+changeText()
+
+
 // Smooth scroll to top
 document.querySelector('.back-to-top').addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -44,91 +85,3 @@ function scrollToLeft() {
         behavior: 'smooth'
     });
 }
-
-// Function to toggle details visibility
-function toggleDetails(card) {
-    const details = card.querySelector('.details');
-    if (details.style.bottom === '0px') {
-        details.style.bottom = '-50%';
-        details.style.zIndex = '0';
-    } else {
-        details.style.bottom = '0';
-        details.style.zIndex = '1';
-    }
-}
-
-// Function to add hover listeners for desktop
-function addHoverListeners() {
-    document.querySelectorAll('.card1, .card2, .card3, .card4').forEach(card => {
-        card.addEventListener('mouseenter', () => {
-            const details = card.querySelector('.details');
-            details.style.bottom = '0';
-            details.style.zIndex = '1';
-        });
-        card.addEventListener('mouseleave', () => {
-            const details = card.querySelector('.details');
-            details.style.bottom = '-50%';
-            details.style.zIndex = '0';
-        });
-    });
-}
-
-// Function to add click listeners for mobile/tablet
-function addClickListeners() {
-    document.querySelectorAll('.card1, .card2, .card3, .card4').forEach(card => {
-        card.addEventListener('click', () => toggleDetails(card));
-    });
-}
-
-// Function to remove all event listengers (used when switching between modes)
-function removeEventListeners() {
-    document.querySelectorAll('.card1, .card2, .card3, .card4').forEach(card => {
-        // Remove hover events
-        card.removeEventListener('mouseenter', hoverEnter);
-        card.removeEventListener('mouseleave', hoverLeave);
-
-        // Remove click events
-        card.removeEventListener('click', clickEvent);
-    });
-}
-
-// Hover event handlers for removing and adding the hover effect
-function hoverEnter(event) {
-    const details = event.currentTarget.querySelector('.details');
-    details.style.bottom = '0';
-    details.style.zIndex = '1';
-}
-
-function hoverLeave(event) {
-    const details = event.currentTarget.querySelector('.details');
-    details.style.bottom = '-50%';
-    details.style.zIndex = '0';
-}
-
-// Click event handler for toggling details visibility
-function clickEvent(event) {
-    toggleDetails(event.currentTarget);
-}
-
-// Function to check the screen size and apply event listeners accordingly
-function updateEventListeners() {
-    const isMobileOrTablet = window.matchMedia("(max-width: 1199px)").matches; // For mobile/tablet
-    const isDesktop = window.matchMedia("(min-width: 1200px)").matches; // For desktop
-
-    // If it's mobile/tablet, apply click listeners
-    if (isMobileOrTablet) {
-        removeEventListeners(); // Remove hover listeners if any
-        addClickListeners();    // Apply click listeners
-    }
-    // If it's desktop, apply hover listeners
-    else if (isDesktop) {
-        removeEventListeners(); // Remove click listeners if any
-        addHoverListeners();    // Apply hover listeners
-    }
-}
-
-// Initial event listener setup
-updateEventListeners();
-
-// Update event listeners when window is resized
-window.addEventListener('resize', updateEventListeners);
