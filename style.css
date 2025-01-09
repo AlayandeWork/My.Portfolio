@@ -372,7 +372,7 @@ img {
     font-size: 16px;
 }
 
-.card1:hover .details {
+.card1.show-details .details {
     bottom: 0;
     z-index: 1;
 }
@@ -430,7 +430,7 @@ img {
     font-size: 16px;
 }
 
-.card2:hover .details {
+.card2.show-details .details {
     bottom: 0;
     z-index: 1;
 }
@@ -486,7 +486,7 @@ img {
     font-size: 16px;
 }
 
-.card3:hover .details {
+.card3.show-details .details {
     bottom: 0;
     z-index: 1;
 }
@@ -543,7 +543,7 @@ img {
     font-size: 16px;
 }
 
-.card4:hover .details {
+.card4.show-details .details {
     bottom: 0;
     z-index: 1;
 }

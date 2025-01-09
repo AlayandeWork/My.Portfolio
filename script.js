@@ -85,3 +85,7 @@ function scrollToLeft() {
         behavior: 'smooth'
     });
 }
+
+function toggleDetails(card) {
+    card.classList.toggle('show-details');
+}
