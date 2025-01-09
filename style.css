@@ -589,16 +589,13 @@ img {
 
 
 
-/*--------------------XP SECTION START--------------------*/
+/*-------------------------------------------------------------------EXPERIENCE SECTION START-------------------------------------------------------*/
 .newnew {
     font-family: Arial, sans-serif;
-    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    /* border: 2px solid red; */
-    /* background-color: #f5f5f5; */
 }
 
 .marsicon1 {
@@ -608,21 +605,18 @@ img {
 .icon1 {
     width: 60%;
     height: auto;
-    /* border: 2px solid white; */
     margin-bottom: 10px;
 }
 
 .icon2 {
     width: 60%;
     height: auto;
-    /* border: 2px solid red; */
     margin-bottom: 10px;
 }
 
 .icon3 {
     width: 40%;
     height: auto;
-    /* border: 2px solid red; */
     margin-bottom: 10px;
 }
 
@@ -638,14 +632,11 @@ img {
     margin-bottom: 10px;
 }
 
-/* Grid Container */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* 2x2 Grid */
     grid-gap: 30px;
     width: 100%;
-    /* max-width: 1200px; */
     height: 100%;
 }
 
@@ -750,35 +741,7 @@ img {
     transform: rotateY(180deg);
 }
 
-/* #xp {
-    padding: 50px;
-}
-
-#xp h1 {
-    text-align: center;
-}
-
-.cont {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-
-.area {
-    justify-content: center;
-    height: auto;
-    width: auto;
-    background-color: #2C3E50;
-    border-radius: 20px;
-    color: white;
-    margin: 15px;
-    border: 5px solid #283044;
-    height: 365px;
-    position: relative;
-    text-align: center;
-} */
-
-/*--------------------XP SECTION END--------------------*/
+/*-------------------------------------------------------------------EXPERIENCE SECTION END-------------------------------------------------------*/
 
 
 
