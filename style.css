@@ -273,7 +273,6 @@ img {
     white-space: nowrap;
     visibility: hidden;
     transition: opacity 0.3s ease;
-    /* pointer-events: none; */
 }
 
 .socialplat a:hover::after {
@@ -717,15 +716,9 @@ img {
 /*-------------------------------------------------------------------FOOTER SECTION START-------------------------------------------------------*/
 
 footer {
-    font-family: Arial, sans-serif;
     color: #333;
     padding: 20px;
-
     width: 100%;
-}
-
-.arrowup {
-    width: 20px;
 }
 
 .footerclass {
@@ -736,7 +729,9 @@ footer {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.topone {
+
+/*---------------------------TOP SECTION START------------------------------*/
+.topSection {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -746,25 +741,43 @@ footer {
     color: #888;
 }
 
-.middleone {
+.back-to-top {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.back-to-top span {
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.arrowup {
+    width: 20px;
+}
+/*---------------------------TOP SECTION END---------------------------------*/
+
+
+
+
+
+/*---------------------------MIDDLE SECTION START------------------------------*/
+.middleSection {
     margin-bottom: 30px;
 }
 
-.middleone p {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 10px;
-}
-
-.middleone h1 {
+.middleSection h1 {
     font-size: 5em;
     font-weight: 700;
     color: #2C3E50;
-    margin: 0;
     position: relative;
 }
+/*---------------------------MIDDLE SECTION END------------------------------*/
 
-.lastone {
+
+/*---------------------------BOTTOM SECTION START------------------------------*/
+.bottomSection {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -780,7 +793,6 @@ footer {
 .linkclass a {
     text-decoration: none;
     color: inherit;
-
 }
 
 .linkclass a:hover {
@@ -806,75 +818,8 @@ footer {
     text-align: right;
     color: #888;
 }
-
-.back-to-top {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    gap: 10px;
-}
-
-.back-to-top span {
-    margin-left: 5px;
-    font-size: 12px;
-}
-
-.socialplat2 {
-    /* border: 2px solid red; */
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    width: auto;
-}
-
+/*---------------------------BOTTOM SECTION END------------------------------*/
 /*-------------------------------------------------------------------FOOTER SECTION END-------------------------------------------------------*/
 
 
 
-
-.tooltip {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    top: 100%;
-    /* Position it directly below the link */
-    left: 92.4%;
-    transform: translateX(-50%);
-    background-color: #333;
-    color: #fff;
-    padding: 8px 12px;
-    border-radius: 5px;
-    font-size: 22px;
-    white-space: nowrap;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-    margin-top: 5px;
-    /* Add some space between the link and tooltip */
-}
-
-li:hover .tooltip {
-    visibility: visible;
-    opacity: 1;
-}
-
-.tooltip::after {
-    content: '';
-    position: absolute;
-    top: -6px;
-    /* Arrow sits at the top of the tooltip */
-    left: 50%;
-    transform: translateX(-50%);
-    border-width: 6px;
-    border-style: solid;
-    border-color: transparent transparent #333 transparent;
-}
-
-
-
-
-
-
-/*RESPONSIVENESS START*/
-
-
-
-/*RESPONSIVENESS END*/
