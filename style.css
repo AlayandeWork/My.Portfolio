@@ -15,6 +15,7 @@ body {
 .wrapper {
     width: 80%;
     margin: 0 auto;
+    height: auto;
     margin-top: 4em;
     margin-bottom: 4em;
 }
@@ -823,6 +824,56 @@ footer {
 /*-----------------------------------------------------------RESPONSIVENESS SECTION START-----------------------------------------------------*/
 
 /*---------------------------MOBILE SECTION START------------------------------*/
+@media (max-width: 480px){
+
+    /*---------------------HEADER START------------------------*/
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        font-size: 1.4em;
+        margin-bottom: 0.7em;
+    }
+
+    nav{
+        display: flex;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style-type: none;
+    }
+
+    .nav-list a{
+        font-size: 1em;
+    }
+
+    .banner-text{
+        margin-top: 13em;
+    }
+
+    .banner-text h1{
+        font-size: 1.4em;
+    }
+
+    .banner-text p {
+        font-size: 1em;
+        line-height: 1.2;
+    }
+
+    .arrow{
+        width: 1em;
+        height: 1em;
+    }
+    /*---------------------HEADER END------------------------*/
+
+    /*---------------------ABOUT START------------------------*/
+    /*---------------------ABOUT END-------------------------*/
+}
 /*---------------------------MOBILE SECTION END------------------------------*/
 
 
