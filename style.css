@@ -15,7 +15,6 @@ body {
 .wrapper {
     width: 80%;
     margin: 0 auto;
-    height: auto;
     margin-top: 4em;
     margin-bottom: 4em;
 }
@@ -866,7 +865,7 @@ footer {
         position: absolute;
         object-fit: cover;
     }
-    
+
     .banner-text{
         margin-top: 13em;
     }
