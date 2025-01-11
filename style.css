@@ -9,7 +9,7 @@
 body {
     background-image: url(./Images/paper_back.jpg);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 .wrapper {
