@@ -9,7 +9,7 @@
 body {
     background-image: url(./Images/paper_back.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 
 .wrapper {
@@ -826,7 +826,7 @@ footer {
 @media (max-width: 480px){
 
     /*---------------------HEADER START------------------------*/
-    header{
+    /* header{
         display: flex;
         flex-direction: column;
     }
@@ -881,7 +881,7 @@ footer {
     .arrow{
         width: 1em;
         height: 1em;
-    }
+    } */
     /*---------------------HEADER END------------------------*/
 
     /*---------------------ABOUT START------------------------*/
