@@ -832,7 +832,7 @@ footer {
 @media (max-width: 480px){
 
     /*---------------------HEADER START------------------------*/
-    /* header{
+    header{
         display: flex;
         flex-direction: column;
     }
@@ -887,7 +887,7 @@ footer {
     .arrow{
         width: 1em;
         height: 1em;
-    } */
+    }
     /*---------------------HEADER END------------------------*/
 
     /*---------------------ABOUT START------------------------*/
