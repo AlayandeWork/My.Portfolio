@@ -499,7 +499,7 @@ img {
 .card4 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
-    width: 420px;
+    width: 26em;
     background-image: url(./Images/shape.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -522,8 +522,8 @@ img {
     height: 50%;
     background-color: rgba(44, 62, 80, 0.9);
     color: white;
-    font-size: 18px;
-    padding: 20px;
+    font-size: 1em;
+    padding: 0.7em;
     text-align: center;
     border-radius: 0 0 80px 80px;
     transition: bottom 0.8s ease;
@@ -536,7 +536,6 @@ img {
 
 .card4 .details p {
     text-align: justify;
-    font-size: 16px;
 }
 
 .card4.show-details .details {
@@ -548,12 +547,12 @@ img {
 .cardTitle {
     color: white;
     letter-spacing: 0.3em;
-    margin: 50px 50px;
+    margin: 5em 5em;
 }
 
 .info {
-    margin-top: 30px;
-    gap: 10px;
+    margin-top: 3em;
+    gap: 1em;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -561,12 +560,12 @@ img {
 
 .usedPackages {
     display: flex;
-    gap: 10px;
-    margin-top: 15px;
+    gap: 1em;
+    margin-top: 1em;
 }
 
 .package {
-    padding: 5px;
+    padding: 0.4em;
     background-color: #F5E8D3;
     border-radius: 5px;
     color: #2C3E50;
@@ -591,14 +590,14 @@ img {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 30px;
+    grid-gap: 3em;
     width: 100%;
     height: 100%;
 }
 
 .flip-card {
     width: 100%;
-    height: 450px;
+    height: 50vh;
     cursor: pointer;
 }
 
@@ -622,7 +621,7 @@ img {
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    padding: 20px;
+    padding: 2em;
 }
 
 
@@ -647,12 +646,12 @@ img {
 }
 
 .innerDetails p {
-    margin-bottom: 9px;
+    margin-bottom: 1em;
     text-align: left;
 }
 
 .marginHead {
-    margin-bottom: 20px;
+    margin-bottom: 1em;
     text-align: justify;
     border-bottom: 5px solid #2C3E50;
 }
@@ -665,31 +664,31 @@ img {
 .icon1 {
     width: 60%;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
 }
 
 .icon2 {
     width: 60%;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
 }
 
 .icon3 {
     width: 40%;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
 }
 
 .icon4 {
     width: 20%;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
 }
 
 .icon5 {
     width: 40%;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
 }
 /*---------------------------ICONS END------------------------------*/
 
@@ -710,14 +709,14 @@ img {
 
 footer {
     color: #333;
-    padding: 20px;
+    padding: 1em;
     width: 100%;
 }
 
 .footerclass {
     width: 100%;
     text-align: center;
-    padding: 20px 0;
+    padding: 1em 0;
     background-color: #ecf3f5;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -728,9 +727,9 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
-    padding: 0 20px;
-    font-size: 14px;
+    margin-bottom: 1em;
+    padding: 0 1em;
+    font-size: 1em;
     color: #888;
 }
 
@@ -738,16 +737,15 @@ footer {
     display: flex;
     align-items: center;
     cursor: pointer;
-    gap: 10px;
 }
 
 .back-to-top span {
-    margin-right: 5px;
-    font-size: 12px;
+    margin-right: 1em;
+    font-size: 1em;
 }
 
 .arrowup {
-    width: 20px;
+    width: 1em;
 }
 /*---------------------------TOP SECTION END---------------------------------*/
 
@@ -757,11 +755,11 @@ footer {
 
 /*---------------------------MIDDLE SECTION START------------------------------*/
 .middleSection {
-    margin-bottom: 30px;
+    margin-bottom: 2em;
 }
 
 .middleSection h1 {
-    font-size: 5em;
+    font-size: 3em;
     font-weight: 700;
     color: #2C3E50;
     position: relative;
@@ -774,13 +772,13 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
-    font-size: 14px;
+    padding: 0 1em;
+    font-size: 1em;
 }
 
 .linkclass {
     display: flex;
-    gap: 20px;
+    gap: 1em;
 }
 
 .linkclass a {
@@ -796,7 +794,7 @@ footer {
     background: #fff;
     border: 1px solid #ccc;
     border-radius: 25px;
-    padding: 10px 20px;
+    padding: 1em 2em;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
