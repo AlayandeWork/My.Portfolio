@@ -15,8 +15,8 @@ body {
 .wrapper {
     width: 80%;
     margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 4em;
+    margin-bottom: 4em;
 }
 /*-------------------------------------------------------------------GLOBAL CALLS END----------------------------------------------------------------*/
 
@@ -41,11 +41,11 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.3);
-    padding: 20px;
+    padding: 2em;
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 2em;
     font-weight: bold;
     color: white;
     cursor: pointer;
@@ -58,13 +58,13 @@ nav {
 .nav-list {
     display: flex;
     list-style-type: none;
-    gap: 15px;
+    gap: 2em;
 }
 
 .nav-list a {
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.2em;
 }
 
 .nav-list a:hover {
@@ -93,16 +93,16 @@ nav {
 }
 
 .banner-text h1 {
-    font-size: 70px;
-    margin-bottom: 10px;
+    font-size: 5em;
+    margin-bottom: 0.2em;
     line-height: 1.2;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .banner-text p {
-    font-size: 24px;
+    font-size: 1.7em;
     line-height: 1.2;
-    height: 30px;
+    height: 1.3em;
 }
 
 .typewriter {
@@ -132,11 +132,11 @@ nav {
 
 .arrow {
     position: absolute;
-    bottom: 20px;
+    bottom: 2em;
     left: 50%;
     transform: translateX(-50%) rotate(315deg);
-    width: 20px;
-    height: 20px;
+    width: 2em;
+    height: 2em;
     background-color: black;
     border-left: 4px solid white;
     border-bottom: 4px solid white;
@@ -173,8 +173,8 @@ nav {
     width: 100%;
     background: #2C3E50;
     color: white;
-    padding: 10px;
-    gap: 10px;
+    padding: 1em;
+    gap: 1em;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
@@ -194,32 +194,32 @@ img {
     flex-direction: column;
     justify-content: center;
     display: flex;
-    padding: 20px;
+    padding: 2em;
 }
 
 .aboutmeText {
-    margin-bottom: 40px;
+    margin-bottom: 0.8em;
     font-size: 3.2em;
     color: #F5E8D3;
 }
 
 .nameTitle {
-    margin-bottom: 40px;
+    margin-bottom: 2em;
     font-size: 1.1em;
     color: white;
 }
 
 .descriptionText {
     text-align: justify;
-    margin-bottom: 30px;
+    margin-bottom: 3em;
 }
 
 .lettalk {
-    font-size: 20px;
+    font-size: 1.4em;
 }
 
 .socialplat {
-    margin-top: 30px;
+    margin-top: 2em;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -230,7 +230,7 @@ img {
 .fa-google,
 .fa-twitter,
 .fa-itch-io {
-    font-size: 35px;
+    font-size: 2.5em;
     color: #F5E8D3;
     transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -245,17 +245,13 @@ img {
     cursor: pointer;
 }
 
-.end {
-    margin-bottom: 10px;
-}
-
 .socialplat a {
     position: relative;
     text-decoration: none;
 }
 
 .data-tooltip {
-    size: 50px;
+    size: 3em;
 }
 
 .socialplat a::after {
@@ -266,10 +262,10 @@ img {
     transform: translateX(-50%);
     background-color: #F5E8D3;
     color: black;
-    padding: 2px 5px;
+    padding: 0.5em;
     border: 4px solid #333;
     border-radius: 3px;
-    font-size: 12px;
+    font-size: 0.7em;
     white-space: nowrap;
     visibility: hidden;
     transition: opacity 0.3s ease;
@@ -293,15 +289,15 @@ img {
 .project {
     font-size: 3.2em;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 60px;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .scroll-wrapper {
     position: relative;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 2em;
 
 }
 
@@ -309,8 +305,8 @@ img {
     background-color: #2C3E50;
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 24px;
+    padding: 0.5em 1em;
+    font-size: 2em;
     cursor: pointer;
     border-radius: 50%;
     display: flex;
@@ -321,19 +317,19 @@ img {
 
 .scroll-container {
     overflow-x: hidden;
-    padding: 10px;
+    padding: 1em;
 }
 
 .box {
     display: inline-flex;
-    gap: 20px;
+    gap: 1em;
 }
 /*---------------------------FIRST CARD START---------------------------------*/
 .card1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
-    width: 420px;
-    height: 700px;
+    width: 26em;
+    height: 80vh;
     background-image: url(./Images/Scrawlsense.jpeg);
     background-repeat: no-repeat;
     background-position: center;
