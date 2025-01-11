@@ -350,8 +350,8 @@ img {
     height: 50%;
     background-color: rgba(44, 62, 80, 0.9);
     color: white;
-    font-size: 18px;
-    padding: 20px;
+    font-size: 1em;
+    padding: 0.7em;
     text-align: center;
     border-radius: 0 0 80px 80px;
     transition: bottom 0.8s ease;
@@ -364,7 +364,6 @@ img {
 
 .card1 .details p {
     text-align: justify;
-    font-size: 16px;
 }
 
 .card1.show-details .details {
@@ -385,7 +384,7 @@ img {
 .card2 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
-    width: 420px;
+    width: 26em;
     background-image: url(./Images/marss.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -408,8 +407,8 @@ img {
     height: 50%;
     background-color: rgba(44, 62, 80, 0.9);
     color: white;
-    font-size: 18px;
-    padding: 20px;
+    font-size: 1em;
+    padding: 0.7em;
     text-align: center;
     border-radius: 0 0 80px 80px;
     transition: bottom 0.8s ease;
@@ -422,7 +421,6 @@ img {
 
 .card2 .details p {
     text-align: justify;
-    font-size: 16px;
 }
 
 .card2.show-details .details {
@@ -447,7 +445,7 @@ img {
 .card3 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
-    width: 420px;
+    width: 26em;
     background-image: url(./Images/medisense.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -468,8 +466,8 @@ img {
     height: 50%;
     background-color: rgba(44, 62, 80, 0.9);
     color: white;
-    font-size: 18px;
-    padding: 20px;
+    font-size: 1em;
+    padding: 0.7em;
     text-align: center;
     border-radius: 0 0 80px 80px;
     transition: bottom 0.8s ease;
@@ -482,7 +480,6 @@ img {
 
 .card3 .details p {
     text-align: justify;
-    font-size: 16px;
 }
 
 .card3.show-details .details {
