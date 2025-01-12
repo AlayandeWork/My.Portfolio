@@ -1169,6 +1169,26 @@ footer {
     }
 
     /*---------------------EXPERIENCE END------------------------*/
+
+
+    /*---------------------FOOTER START------------------------*/
+    .topSection{
+        font-size: 0.675em;
+    }
+
+    .middleSection h1{
+        font-size: 1em;
+    }
+
+    .bottomSection{
+        font-size: 0.675em;
+    }
+
+    .git{
+        font-size: 0.875em;
+    }
+    /*----------------------FOOTER END-------------------------*/
+
 }
 
 /*---------------------------MOBILE SECTION END------------------------------*/
