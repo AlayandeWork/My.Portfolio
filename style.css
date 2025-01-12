@@ -19,6 +19,7 @@ body {
     margin-top: 4em;
     margin-bottom: 4em;
 }
+
 /*-------------------------------------------------------------------GLOBAL CALLS END----------------------------------------------------------------*/
 
 
@@ -304,7 +305,6 @@ img {
     display: flex;
     align-items: center;
     gap: 2em;
-
 }
 
 .scroll-arrow {
@@ -330,6 +330,7 @@ img {
     display: inline-flex;
     gap: 1em;
 }
+
 /*---------------------------FIRST CARD START---------------------------------*/
 .card1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
@@ -437,6 +438,7 @@ img {
 .marsicon1 {
     width: 10%;
 }
+
 /*---------------------------SECOND CARD END-------------------------------*/
 
 
@@ -492,6 +494,7 @@ img {
     bottom: 0;
     z-index: 1;
 }
+
 /*---------------------------THIRD CARD END--------------------------------*/
 
 
@@ -548,6 +551,7 @@ img {
     bottom: 0;
     z-index: 1;
 }
+
 /*---------------------------FOURTH CARD END------------------------------*/
 
 .cardTitle {
@@ -696,6 +700,7 @@ img {
     height: auto;
     margin-bottom: 1em;
 }
+
 /*---------------------------ICONS END------------------------------*/
 
 /*-------------------------------------------------------------------EXPERIENCE SECTION END-------------------------------------------------------*/
@@ -753,6 +758,7 @@ footer {
 .arrowup {
     width: 1em;
 }
+
 /*---------------------------TOP SECTION END---------------------------------*/
 
 
@@ -770,6 +776,7 @@ footer {
     color: #2C3E50;
     position: relative;
 }
+
 /*---------------------------MIDDLE SECTION END------------------------------*/
 
 
@@ -815,6 +822,7 @@ footer {
     text-align: right;
     color: #888;
 }
+
 /*---------------------------BOTTOM SECTION END------------------------------*/
 /*------------------------------------------------------------------FOOTER SECTION END-------------------------------------------------------*/
 
@@ -829,20 +837,20 @@ footer {
 /*-----------------------------------------------------------RESPONSIVENESS SECTION START-----------------------------------------------------*/
 
 /*---------------------------MOBILE SECTION START------------------------------*/
-@media (max-width: 480px){
+@media (max-width: 480px) {
 
     /*---------------------HEADER START------------------------*/
-    header{
+    header {
         display: flex;
         flex-direction: column;
     }
 
-    .logo{
+    .logo {
         font-size: 1.4em;
         margin-bottom: 0.7em;
     }
 
-    nav{
+    nav {
         display: flex;
     }
 
@@ -853,7 +861,7 @@ footer {
         list-style-type: none;
     }
 
-    .nav-list a{
+    .nav-list a {
         font-size: 1em;
     }
 
@@ -864,18 +872,18 @@ footer {
         justify-content: center;
         align-items: center;
     }
-    
+
     .banner img {
         width: 100%;
         position: absolute;
         object-fit: cover;
     }
 
-    .banner-text{
+    .banner-text {
         margin-top: 13em;
     }
 
-    .banner-text h1{
+    .banner-text h1 {
         font-size: 1.8em;
     }
 
@@ -884,15 +892,249 @@ footer {
         line-height: 1.2;
     }
 
-    .arrow{
+    .arrow {
         width: 1em;
         height: 1em;
     }
+
     /*---------------------HEADER END------------------------*/
 
+
+
+
+
+
+
+
+
+
     /*---------------------ABOUT START------------------------*/
+    #about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .descriptionBox {
+        width: 100%;
+        padding: 0;
+    }
+
+    .aboutmeText {
+        font-size: 1.2em;
+    }
+
+    .nameTitle {
+        font-size: 1em;
+    }
+
+    .descriptionText {
+        font-size: 0.9em;
+        text-align: justify;
+    }
+
+    .lettalk {
+        font-size: 1em;
+    }
+
+    .fa-linkedin,
+    .fa-github-alt,
+    .fa-google,
+    .fa-twitter,
+    .fa-itch-io {
+        font-size: 1.5em;
+        color: #F5E8D3;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+
     /*---------------------ABOUT END-------------------------*/
+
+
+
+
+
+
+
+
+
+
+    /*---------------------PROJECT START------------------------*/
+    .project {
+        font-size: 1.6em;
+        margin-top: 1.2em;
+        margin-bottom: 1em;
+    }
+
+    .scroll-wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .scroll-arrow{
+        display: none;
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*------FIRST CARD START-------*/
+
+    .card1 {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+        width: 23em;
+        height: 60vh;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 80px;
+        color: black;
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+    
+    .card1 .details {
+        position: absolute;
+        bottom: -50%;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background-color: rgba(44, 62, 80, 0.9);
+        color: white;
+        font-size: 0.7em;
+        padding: 0.7em;
+        text-align: center;
+        border-radius: 0 0 80px 80px;
+        transition: bottom 0.8s ease;
+        z-index: 0;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        overflow: hidden;
+    }
+    /*------FIRST CARD END---------*/
+
+
+
+    /*------SECOND CARD START---------*/
+    .card2 {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+        width: 23em;
+        height: 60vh;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 80px;
+        color: black;
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+    
+    .card2 .details {
+        position: absolute;
+        bottom: -50%;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background-color: rgba(44, 62, 80, 0.9);
+        color: white;
+        font-size: 0.7em;
+        padding: 0.7em;
+        text-align: center;
+        border-radius: 0 0 80px 80px;
+        transition: bottom 0.8s ease;
+        z-index: 0;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        overflow: hidden;
+    }
+    /*------SECOND CARD END---------*/
+
+
+
+
+    /*------THIRD CARD START---------*/
+    .card3 {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+        width: 23em;
+        height: 60vh;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 80px;
+        color: black;
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+    
+    .card3 .details {
+        position: absolute;
+        bottom: -50%;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background-color: rgba(44, 62, 80, 0.9);
+        color: white;
+        font-size: 0.7em;
+        padding: 0.7em;
+        text-align: center;
+        border-radius: 0 0 80px 80px;
+        transition: bottom 0.8s ease;
+        z-index: 0;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        overflow: hidden;
+    }
+    /*------THIRD CARD END---------*/
+
+
+
+
+    /*------FOURTH CARD START---------*/
+    .card4 {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+        width: 23em;
+        height: 60vh;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 80px;
+        color: black;
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+    
+    .card4 .details {
+        position: absolute;
+        bottom: -50%;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background-color: rgba(44, 62, 80, 0.9);
+        color: white;
+        font-size: 0.7em;
+        padding: 0.7em;
+        text-align: center;
+        border-radius: 0 0 80px 80px;
+        transition: bottom 0.8s ease;
+        z-index: 0;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        overflow: hidden;
+    }
+    /*------FOURTH CARD END---------*/
+
+    .cardTitle {
+        color: white;
+        letter-spacing: 0.3em;
+        font-size: 0.7em;
+    }
+
+
+    /*---------------------PROJECT END------------------------*/
 }
+
 /*---------------------------MOBILE SECTION END------------------------------*/
 
 
