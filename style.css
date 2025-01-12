@@ -193,7 +193,6 @@ nav {
 img {
     height: 100%;
     width: 100%;
-
 }
 
 .descriptionBox {
@@ -968,6 +967,8 @@ footer {
         position: relative;
         display: flex;
         flex-direction: column;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
     }
 
     .scroll-arrow {
@@ -1195,4 +1196,74 @@ footer {
 
 
 /*---------------------------DESKTOP SECTION START------------------------------*/
+
+/*----------------------HEADER START-------------------------*/
+@media (min-width: 1025px) {
+    .wrapper{
+        width:90%;
+    }
+
+    header{
+        border: 2px solid red;
+    }
+
+    .logo{
+        font-size: 1em;
+    }
+
+    .nav-list{
+        font-size: 0.8em;
+    }
+  }
+/*----------------------HEADER END-------------------------*/
+
+
+
+/*----------------------ABOUT START-------------------------*/
+#about{
+    gap: 0em;
+    padding: 0.6em;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.aboutmeText{
+    font-size: 0.8em;
+}
+
+.nameTitle {
+    font-size: 0.7em;
+}
+
+.descriptionText {
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+.lettalk {
+    font-size: 0.8em;
+}
+
+.fa-linkedin,
+    .fa-github-alt,
+    .fa-google,
+    .fa-twitter,
+    .fa-itch-io {
+        font-size: 1.2em;
+        color: #F5E8D3;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+/*----------------------ABOUT END-------------------------*/
+
+
+
+
+
+/*----------------------PROJECT START-------------------------*/
+
+/*----------------------PROJECT END-------------------------*/
+  
 /*---------------------------DEESKTOP SECTION END------------------------------*/
