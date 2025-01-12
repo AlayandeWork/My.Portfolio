@@ -970,11 +970,11 @@ footer {
         flex-direction: column;
     }
 
-    .scroll-arrow{
+    .scroll-arrow {
         display: none;
     }
 
-    .box{
+    .box {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -993,7 +993,7 @@ footer {
         overflow: hidden;
         transition: transform 0.3s ease;
     }
-    
+
     .card1 .details {
         position: absolute;
         bottom: -50%;
@@ -1013,6 +1013,7 @@ footer {
         word-break: break-word;
         overflow: hidden;
     }
+
     /*------FIRST CARD END---------*/
 
 
@@ -1029,7 +1030,7 @@ footer {
         overflow: hidden;
         transition: transform 0.3s ease;
     }
-    
+
     .card2 .details {
         position: absolute;
         bottom: -50%;
@@ -1049,6 +1050,7 @@ footer {
         word-break: break-word;
         overflow: hidden;
     }
+
     /*------SECOND CARD END---------*/
 
 
@@ -1066,7 +1068,7 @@ footer {
         overflow: hidden;
         transition: transform 0.3s ease;
     }
-    
+
     .card3 .details {
         position: absolute;
         bottom: -50%;
@@ -1086,6 +1088,7 @@ footer {
         word-break: break-word;
         overflow: hidden;
     }
+
     /*------THIRD CARD END---------*/
 
 
@@ -1103,7 +1106,7 @@ footer {
         overflow: hidden;
         transition: transform 0.3s ease;
     }
-    
+
     .card4 .details {
         position: absolute;
         bottom: -50%;
@@ -1123,6 +1126,7 @@ footer {
         word-break: break-word;
         overflow: hidden;
     }
+
     /*------FOURTH CARD END---------*/
 
     .cardTitle {
@@ -1141,24 +1145,30 @@ footer {
 
 
     /*---------------------EXPERIENCE START------------------------*/
-    .grid-container{
+    .grid-container {
         display: flex;
         flex-direction: column;
         border: 2px solid red;
         height: 100%;
     }
 
-    .flip-card{
+    .flip-card {
         height: 60vh;
     }
 
-    .innerDetails p{
-        font-size: 0.765em;
+    .flip-card-front,
+    .flip-card-back {
+        padding: 0.4em;
+    }
+
+    .innerDetails p {
+        font-size: 0.665em;
     }
 
     .marginHead {
-        font-size: 0.765em;
+        font-size: 0.665em;
     }
+
     /*---------------------EXPERIENCE END------------------------*/
 }
 
