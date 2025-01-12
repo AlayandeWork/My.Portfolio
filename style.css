@@ -1133,6 +1133,33 @@ footer {
 
 
     /*---------------------PROJECT END------------------------*/
+
+
+
+
+
+
+
+    /*---------------------EXPERIENCE START------------------------*/
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid red;
+        height: 100%;
+    }
+
+    .flip-card{
+        height: 60vh;
+    }
+
+    .innerDetails p{
+        font-size: 0.765em;
+    }
+
+    .marginHead {
+        font-size: 0.765em;
+    }
+    /*---------------------EXPERIENCE END------------------------*/
 }
 
 /*---------------------------MOBILE SECTION END------------------------------*/
