@@ -73,15 +73,17 @@ function scrollToNextSection() {
 // Scroll horizontally in the scroll container
 function scrollToRight() {
     const container = document.querySelector('.scroll-container');
+    const cardWidth = parseFloat(getComputedStyle(container).fontSize) * 26;
     container.scrollBy({
-        left: 600, // Adjust the value as needed
+        left: cardWidth, // Adjust the value as needed
         behavior: 'smooth'
     });
 }
 function scrollToLeft() {
     const container = document.querySelector('.scroll-container');
+    const cardWidth = parseFloat(getComputedStyle(container).fontSize) * 26;
     container.scrollBy({
-        left: -600,
+        left: -cardWidth,
         behavior: 'smooth'
     });
 }
