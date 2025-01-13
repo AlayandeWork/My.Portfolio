@@ -1178,21 +1178,22 @@ footer {
 
 
     /*---------------------FOOTER START------------------------*/
-    .topSection{
+    .topSection {
         font-size: 0.675em;
     }
 
-    .middleSection h1{
+    .middleSection h1 {
         font-size: 1em;
     }
 
-    .bottomSection{
+    .bottomSection {
         font-size: 0.675em;
     }
 
-    .git{
+    .git {
         font-size: 0.875em;
     }
+
     /*----------------------FOOTER END-------------------------*/
 
 }
@@ -1214,55 +1215,51 @@ footer {
 
 /*----------------------HEADER START-------------------------*/
 @media (min-width: 1025px) {
-    .wrapper{
-        width:90%;
+    .wrapper {
+        width: 90%;
     }
 
-    header{
+    header {
         border: 2px solid red;
     }
 
-    .logo{
+    .logo {
         font-size: 1em;
     }
 
-    .nav-list{
+    .nav-list {
         font-size: 0.8em;
     }
-  }
 /*----------------------HEADER END-------------------------*/
+    /*----------------------ABOUT START-------------------------*/
+    #about {
+        gap: 0em;
+        padding: 0.6em;
+    }
 
+    img {
+        height: 100%;
+        width: 100%;
+    }
 
+    .aboutmeText {
+        font-size: 0.8em;
+    }
 
-/*----------------------ABOUT START-------------------------*/
-#about{
-    gap: 0em;
-    padding: 0.6em;
-}
+    .nameTitle {
+        font-size: 0.7em;
+    }
 
-img {
-    height: 100%;
-    width: 100%;
-}
+    .descriptionText {
+        font-size: 0.9em;
+        text-align: justify;
+    }
 
-.aboutmeText{
-    font-size: 0.8em;
-}
+    .lettalk {
+        font-size: 0.8em;
+    }
 
-.nameTitle {
-    font-size: 0.7em;
-}
-
-.descriptionText {
-    font-size: 0.9em;
-    text-align: justify;
-}
-
-.lettalk {
-    font-size: 0.8em;
-}
-
-.fa-linkedin,
+    .fa-linkedin,
     .fa-github-alt,
     .fa-google,
     .fa-twitter,
@@ -1271,63 +1268,71 @@ img {
         color: #F5E8D3;
         transition: transform 0.3s ease, color 0.3s ease;
     }
-/*----------------------ABOUT END-------------------------*/
+
+    /*----------------------ABOUT END-------------------------*/
 
 
 
 
 
-/*----------------------PROJECT START-------------------------*/
-.project{
-    font-size: 2em;
+    /*----------------------PROJECT START-------------------------*/
+    .project {
+        font-size: 2em;
+    }
+
+    .scroll-arrow {
+        padding: 0.2em 0.6em;
+        font-size: 1.8em;
+    }
+
+    /*------CARD ONE START---------*/
+    .card1 {
+        height: 80vh;
+    }
+
+    /*------CARD ONE END---------*/
+
+
+    /*------CARD TWO START---------*/
+
+    /*------CARD TWO END---------*/
+
+
+    /*------CARD THREE START---------*/
+
+    /*------CARD THREE END---------*/
+
+
+    /*------CARD FOUR START---------*/
+
+    /*------CARD FOUR END---------*/
+
+
+    /*-------CARD DETAILS START--------*/
+    .card1 .details,
+    .card2 .details,
+    .card3 .details,
+    .card4 .details {
+        font-size: 0.8em;
+    }
+
+    /*-------CARD DETAILS END--------*/
+    /*----------------------PROJECT END-------------------------*/
+
+
+
+
+
+
+
+
+
+    /*----------------------EXPERIENCE START-------------------------*/
+    /*----------------------EXPERIENCE END-------------------------*/
 }
 
-.scroll-arrow{
-    padding: 0.2em 0.6em;
-    font-size: 1.8em;
-}
-
-/*------CARD ONE START---------*/
-.card1{
-    height: 80vh;
-}
-/*------CARD ONE END---------*/
-
-
-/*------CARD TWO START---------*/
-
-/*------CARD TWO END---------*/
-
-
-/*------CARD THREE START---------*/
-
-/*------CARD THREE END---------*/
-
-
-/*------CARD FOUR START---------*/
-
-/*------CARD FOUR END---------*/
-
-
-/*-------CARD DETAILS START--------*/
-.card1 .details,
-.card2 .details,
-.card3 .details,
-.card4 .details{
-    font-size: 0.8em;
-}
-/*-------CARD DETAILS END--------*/
-/*----------------------PROJECT END-------------------------*/
 
 
 
 
-
-
-
-
-
-/*----------------------PROJECT START-------------------------*/
-/*----------------------PROJECT END-------------------------*/
-  
 /*---------------------------DEESKTOP SECTION END------------------------------*/
