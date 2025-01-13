@@ -841,7 +841,7 @@ footer {
 /*-----------------------------------------------------------RESPONSIVENESS SECTION START-----------------------------------------------------*/
 
 /*---------------------------MOBILE SECTION START------------------------------*/
-@media (max-width: 480px) {
+@media (max-width: 767px) {
 
     /*---------------------HEADER START------------------------*/
     header {
@@ -1214,7 +1214,7 @@ footer {
 /*---------------------------DESKTOP SECTION START------------------------------*/
 
 /*----------------------HEADER START-------------------------*/
-@media (min-width: 1025px) {
+@media (max-width: 1800px) and (min-width: 1200px) {
     .wrapper {
         width: 90%;
     }
