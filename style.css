@@ -301,6 +301,8 @@ img {
 
 .scroll-wrapper {
     position: relative;
+    width: 100%;
+    overflow: hidden;
     display: flex;
     align-items: center;
     gap: 2em;
@@ -321,12 +323,15 @@ img {
 }
 
 .scroll-container {
-    overflow-x: hidden;
+    display: flex;
+    overflow-x: auto;
     padding: 1em;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 
 .box {
-    display: inline-flex;
+    display: flex;
     gap: 1em;
 }
 
