@@ -1281,6 +1281,42 @@ img {
 .project{
     font-size: 2em;
 }
+
+.scroll-arrow{
+    padding: 0.2em 0.6em;
+    font-size: 1.8em;
+}
+
+/*------CARD ONE START---------*/
+.card1{
+    height: 80vh;
+}
+/*------CARD ONE END---------*/
+
+
+/*------CARD TWO START---------*/
+.card2{}
+/*------CARD TWO END---------*/
+
+
+/*------CARD THREE START---------*/
+.card3{}
+/*------CARD THREE END---------*/
+
+
+/*------CARD FOUR START---------*/
+.card4{}
+/*------CARD FOUR END---------*/
+
+
+/*-------CARD DETAILS START--------*/
+.card1 .details,
+.card2 .details,
+.card3 .details,
+.card4 .details{
+    font-size: 0.8em;
+}
+/*-------CARD DETAILS END--------*/
 /*----------------------PROJECT END-------------------------*/
   
 /*---------------------------DEESKTOP SECTION END------------------------------*/
