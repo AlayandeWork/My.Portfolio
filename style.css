@@ -322,7 +322,10 @@ img {
 
 .scroll-container {
     overflow-x: hidden;
+    width: 100%;
+    white-space: nowrap;
     padding: 1em;
+    scroll-behavior: smooth ;
 }
 
 .box {
