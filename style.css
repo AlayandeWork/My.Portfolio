@@ -843,6 +843,10 @@ footer {
 /*---------------------------MOBILE SECTION START------------------------------*/
 @media (max-width: 767px) {
 
+    .wrapper {
+        width: 90%;
+    }
+    
     /*---------------------HEADER START------------------------*/
     header {
         display: flex;
