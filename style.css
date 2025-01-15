@@ -1370,9 +1370,6 @@ footer {
 
 
     /*---------------ABOUT START-------------------*/
-    #about{
-        height:fit-content;
-    }
     .imageDiv{
         height: 70%;
         width: 80%;
