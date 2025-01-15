@@ -1344,3 +1344,38 @@ footer {
 
 
 /*---------------------------DEESKTOP SECTION END------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------TABLET SECTION START-----------------------------*/
+@media (max-width: 1199px) and (min-width: 768px){
+    /*--------------HEADER START----------------------*/
+    header{
+        border: 2px solid blue;
+    }
+
+    .wrapper{
+        width: 90%;
+        border: 2px solid red;
+    }
+    /*--------------HEADER END----------------------*/
+
+
+    /*---------------ABOUT START-------------------*/
+    #about{
+        height:fit-content;
+    }
+    .imageDiv{
+        height: 70%;
+        width: 80%;
+    }
+    /*---------------ABOUT END---------------------*/
+}
