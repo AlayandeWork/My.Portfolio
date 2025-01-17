@@ -1357,7 +1357,7 @@ footer {
 
 /*---------------------------TABLET SECTION START-----------------------------*/
 @media (max-width: 1199px) and (min-width: 768px){
-    /*--------------HEADER START----------------------*/
+    /*--------------HEADER START-------------------*/
     header{
         border: 2px solid blue;
     }
