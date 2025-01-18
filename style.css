@@ -1358,13 +1358,20 @@ footer {
 /*---------------------------TABLET SECTION START-----------------------------*/
 @media (max-width: 1199px) and (min-width: 768px){
     /*--------------HEADER START-------------------*/
-    header{
-        border: 2px solid blue;
+    .banner-text h1{
+        font-size: 3em;
     }
+
+
+    .banner-text p {
+        font-size: 1.2em;
+        line-height: 1.2;
+        height: 1.3em;
+    }
+
 
     .wrapper{
         width: 90%;
-        border: 2px solid red;
     }
     /*--------------HEADER END---------------------*/
 
@@ -1412,4 +1419,20 @@ footer {
 
 
     /*---------------PROJECT END--------------------*/
+
+
+
+
+
+     /*----------------------EXPERIENCE START-------------------------*/
+     .flip-card{
+        height: 80vh;
+        width: 100%;
+    }
+
+    .innerDetails{
+        font-size: 0.8em;
+    }
+
+    /*----------------------EXPERIENCE END-------------------------*/
 }
