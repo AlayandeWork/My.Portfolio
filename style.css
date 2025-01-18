@@ -1370,9 +1370,46 @@ footer {
 
 
     /*---------------ABOUT START-------------------*/
-    .imageDiv{
-        height: 70%;
-        width: 80%;
-    }
+    
     /*---------------ABOUT END--------------------*/
+
+
+
+
+    /*---------------PROJECT START-------------------*/
+    
+
+    /*------CARD ONE START---------*/
+    .card1 {
+        height: 120vh;
+    }
+
+    /*------CARD ONE END---------*/
+
+
+    /*------CARD TWO START---------*/
+
+    /*------CARD TWO END---------*/
+
+
+    /*------CARD THREE START---------*/
+
+    /*------CARD THREE END---------*/
+
+
+    /*------CARD FOUR START---------*/
+
+    /*------CARD FOUR END---------*/
+
+
+    /*-------CARD DETAILS START--------*/
+    .card1 .details,
+    .card2 .details,
+    .card3 .details,
+    .card4 .details {
+        font-size: 0.8em;
+    }
+
+
+    /*---------------PROJECT END--------------------*/
 }
