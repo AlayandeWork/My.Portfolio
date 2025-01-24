@@ -314,8 +314,8 @@ img {
     background-color: #2C3E50;
     color: white;
     border: none;
-    padding: 0.5em 1em;
-    font-size: 2em;
+    padding: 0.5em 0.9em;
+    font-size: 1.4em;
     cursor: pointer;
     border-radius: 50%;
     display: flex;
