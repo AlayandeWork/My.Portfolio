@@ -188,6 +188,8 @@ nav {
 .imageDiv {
     border: 5px solid #F5E8D3;
     border-radius: 10px;
+    height:  auto;
+    width: 100%;
 }
 
 img {
