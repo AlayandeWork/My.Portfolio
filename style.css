@@ -10,12 +10,13 @@ body {
     background-image: url(./Images/paper_back.jpg);
     background-position: center;
     background-size: contain;
+    height: 100%;
 }
 
 .wrapper {
     width: 80%;
     max-width: 1200px;
-    height: auto;
+    min-height: 100vh ;
     margin: 0 auto;
     margin-top: 4em;
     margin-bottom: 4em;
