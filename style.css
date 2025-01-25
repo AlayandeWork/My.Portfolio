@@ -951,14 +951,4 @@ footer {
         font-size: 0.6em; /* Smaller tooltips */
     }
     
-
-
-    .box {
-        display: flex;
-        flex-direction: column; 
-        align-items: center; /* Center-align cards */
-        gap: 1em; /* Space between stacked cards */
-        padding: 1em; /* Reduce padding for smaller screens */
-    }
-    
 }
