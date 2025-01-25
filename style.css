@@ -4,26 +4,26 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    outline: 1px solid red;
+    
 }
 
-body {
+/* body {
     background-image: url(./Images/paper_back.jpg);
     background-position: center;
     background-size: contain;
     height: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
-}
+} */
 
-.wrapper {
+/* .wrapper {
     width: 80%;
     max-width: 1200px;
     min-height: 100vh ;
     margin: 0 auto;
     margin-top: 4em;
     margin-bottom: 4em;
-}
+} */
 
 /*-------------------------------------------------------------------GLOBAL CALLS END----------------------------------------------------------------*/
 
