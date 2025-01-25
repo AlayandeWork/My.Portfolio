@@ -188,8 +188,8 @@ nav {
 .imageDiv {
     border: 5px solid #F5E8D3;
     border-radius: 10px;
-    height:  auto;
-    width: 100%;
+    /* height:  auto;
+    width: 100%; */
 }
 
 img {
@@ -302,6 +302,7 @@ img {
 }
 
 .scroll-wrapper {
+    /* border: 2px solid red; */
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -325,7 +326,8 @@ img {
 }
 
 .scroll-container {
-    display: flex;
+    /* display: flex;
+    flex-direction: row; */
     overflow-x: auto;
     padding: 1em;
     scroll-behavior: smooth;
@@ -398,6 +400,7 @@ img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
     width: 26em;
+    height: 80vh;
     background-image: url(./Images/marss.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -460,6 +463,7 @@ img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
     width: 26em;
+    height: 80vh;
     background-image: url(./Images/medisense.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -515,6 +519,7 @@ img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
     width: 26em;
+    height: 80vh;
     background-image: url(./Images/shape.jpeg);
     background-repeat: no-repeat;
     background-position: center;
