@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: 1px solid red;
 }
 
 body {
@@ -11,6 +12,8 @@ body {
     background-position: center;
     background-size: contain;
     height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .wrapper {
