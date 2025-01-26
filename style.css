@@ -4,26 +4,21 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
 
 body {
     background-image: url(./Images/paper_back.jpg);
     background-position: center;
     background-size: contain;
-    height: 100vh;
-    /* overflow-x: hidden;
-    overflow-y: hidden; */
 }
 
-/* .wrapper {
+.wrapper {
     width: 80%;
-    max-width: 1200px;
-    min-height: 100vh ;
+    
+    /* height: 100vh; */
     margin: 0 auto;
-    margin-top: 4em;
-    margin-bottom: 4em;
-} */
+   
+}
 
 /*-------------------------------------------------------------------GLOBAL CALLS END----------------------------------------------------------------*/
 
@@ -614,62 +609,83 @@ img {
 /*-------------------------------------------------------------------EXPERIENCE SECTION START-------------------------------------------------------*/
 
 
+
+
+/*-------------------------------------------------------------------EXPERIENCE SECTION END-------------------------------------------------------*/
+
+
+/* Styling for the grid container */
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 3em;
-    width: 100%;
-    height: 100%;
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to a new row */
+    gap: 2em; /* Space between items */
+    justify-content: space-between; /* Ensure items are evenly spaced */
+    padding: 20px;
 }
 
+/* Styling for the flip card */
 .flip-card {
-    width: 100%;
+    flex: 1 1 calc(50% - 20px); /* Each card takes 50% width minus the gap */
+    max-width: calc(50% - 20px); /* Ensures it doesn’t stretch beyond 50% */
+    box-sizing: border-box; /* Include padding and border in width */
     height: 50vh;
+    perspective: 1000px; /* Enables 3D flip effect */
     cursor: pointer;
 }
 
+/* Flip card inner container */
 .flip-card-inner {
+    position: relative;
     width: 100%;
     height: 100%;
-    transition: transform 0.6s;
+    text-align: center;
     transform-style: preserve-3d;
+    transition: transform 0.6s;
 }
 
+/* Front and back of the flip card */
 .flip-card-front,
 .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Front styling */
+.flip-card-front {
+    background-color: #2C3E50;
+    color: #F5E8D3;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    padding: 2em;
 }
 
-
-.flip-card-front {
-    background-color: #2C3E50;
-    color: #F5E8D3;
-}
-
+/* Back styling */
 .flip-card-back {
     background-color: #F5E8D3;
     color: black;
     transform: rotateY(180deg);
+    overflow-y: auto; /* Scroll if content exceeds height */
 }
 
+/* Inner content styling */
 .innerDetails {
-    height: 100%;
-    display: flex;
     text-align: left;
-    flex-direction: column;
     border-radius: 8px;
-    align-items: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .flip-card {
+        flex: 1 1 100%; /* Each item takes full width on smaller screens */
+        max-width: 100%;
+    }
 }
 
 .innerDetails p {
@@ -685,7 +701,9 @@ img {
 
 .flip-card.flipped .flip-card-inner {
     transform: rotateY(180deg);
-}
+} 
+
+
 
 /*---------------------------ICONS START------------------------------*/
 .icon1 {
@@ -720,11 +738,6 @@ img {
 
 /*---------------------------ICONS END------------------------------*/
 
-/*-------------------------------------------------------------------EXPERIENCE SECTION END-------------------------------------------------------*/
-
-
-
-
 
 
 
@@ -735,7 +748,7 @@ img {
 
 /*-------------------------------------------------------------------FOOTER SECTION START-------------------------------------------------------*/
 
-/* footer {
+footer {
     color: #333;
     padding: 1em;
     width: 100%;
@@ -747,11 +760,11 @@ img {
     padding: 1em 0;
     background-color: #ecf3f5;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-} */
+}
 
 
 /*---------------------------TOP SECTION START------------------------------*/
-/* .topSection {
+.topSection {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -774,7 +787,7 @@ img {
 
 .arrowup {
     width: 1em;
-} */
+}
 
 /*---------------------------TOP SECTION END---------------------------------*/
 
@@ -783,7 +796,7 @@ img {
 
 
 /*---------------------------MIDDLE SECTION START------------------------------*/
-/* .middleSection {
+.middleSection {
     margin-bottom: 2em;
 }
 
@@ -792,13 +805,13 @@ img {
     font-weight: 700;
     color: #2C3E50;
     position: relative;
-} */
+}
 
 /*---------------------------MIDDLE SECTION END------------------------------*/
 
 
 /*---------------------------BOTTOM SECTION START------------------------------*/
-/* .bottomSection {
+.bottomSection {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -838,7 +851,7 @@ img {
 .nameclass {
     text-align: right;
     color: #888;
-} */
+}
 
 /*---------------------------BOTTOM SECTION END------------------------------*/
 /*-----------------------------------------------------FOOTER SECTION END-------------------------------------------------------*/
