@@ -613,27 +613,25 @@ img {
 
 /*-------------------------------------------------------------------EXPERIENCE SECTION END-------------------------------------------------------*/
 
-
-/* Styling for the grid container */
 .grid-container {
     display: flex;
-    flex-wrap: wrap; /* Allows wrapping to a new row */
-    gap: 2em; /* Space between items */
-    justify-content: space-between; /* Ensure items are evenly spaced */
+    flex-wrap: wrap; 
+    gap: 2em; 
+    justify-content: space-between;
     padding: 20px;
 }
 
-/* Styling for the flip card */
+
 .flip-card {
-    flex: 1 1 calc(50% - 20px); /* Each card takes 50% width minus the gap */
-    max-width: calc(50% - 20px); /* Ensures it doesn’t stretch beyond 50% */
-    box-sizing: border-box; /* Include padding and border in width */
+    flex: 1 1 calc(50% - 20px); 
+    max-width: calc(50% - 20px); 
+    box-sizing: border-box; 
     height: 50vh;
-    perspective: 1000px; /* Enables 3D flip effect */
+    perspective: 1000px; 
     cursor: pointer;
 }
 
-/* Flip card inner container */
+
 .flip-card-inner {
     position: relative;
     width: 100%;
@@ -643,7 +641,7 @@ img {
     transition: transform 0.6s;
 }
 
-/* Front and back of the flip card */
+
 .flip-card-front,
 .flip-card-back {
     position: absolute;
@@ -656,7 +654,7 @@ img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* Front styling */
+
 .flip-card-front {
     background-color: #2C3E50;
     color: #F5E8D3;
@@ -666,24 +664,24 @@ img {
     align-items: center;
 }
 
-/* Back styling */
+
 .flip-card-back {
     background-color: #F5E8D3;
     color: black;
     transform: rotateY(180deg);
-    overflow-y: auto; /* Scroll if content exceeds height */
+    overflow-y: auto; 
 }
 
-/* Inner content styling */
+
 .innerDetails {
     text-align: left;
     border-radius: 8px;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
     .flip-card {
-        flex: 1 1 100%; /* Each item takes full width on smaller screens */
+        flex: 1 1 100%; 
         max-width: 100%;
     }
 }
