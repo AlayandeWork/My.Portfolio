@@ -1044,4 +1044,33 @@ footer {
         max-width: 100%;
     }
 
+    .marginHead{
+        font-size: 0.7em;
+    }
+
+    .innerDetails p{
+        font-size: 0.8em;
+    }
+
+
+    .topSection{
+        font-size: 0.8em;
+    }
+
+    .middleSection{
+        font-size: 0.5em;
+    }
+
+    .bottomSection{
+        font-size: 0.8em;
+    }
+
+    .linkclass a{
+        font-size: 0.8em;
+    }
+
+    .git{
+        padding: 0.8em;
+    }
+
 }
