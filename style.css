@@ -673,14 +673,6 @@ img {
     border-radius: 8px;
 }
 
-
-@media (max-width: 768px) {
-    .flip-card {
-        flex: 1 1 100%;
-        max-width: 100%;
-    }
-}
-
 .innerDetails p {
     margin-bottom: 1em;
     text-align: left;
@@ -1046,4 +1038,10 @@ footer {
     .marsicon1 {
         width: 10%;
     }
+
+    .flip-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
 }
