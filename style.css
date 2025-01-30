@@ -1303,5 +1303,58 @@ footer {
         width: 8%;
         /* Slightly smaller width */
     }
+
+
+
+
+    .flip-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+        /* Full width for cards on landscape phones */
+    }
+    .icon1, .icon2, .icon3, .icon4, .icon5{
+        width: 10%;
+    }
+    /* Margin header text adjustments */
+    .marginHead {
+        font-size: 0.6em;
+        /* Smaller font size */
+    }
+
+    /* Inner details paragraph adjustments */
+    .innerDetails p {
+        font-size: 0.6em;
+        /* Slightly smaller font size */
+    }
+
+    /* Top section text adjustments */
+    .topSection {
+        font-size: 0.7em;
+        /* Reduced font size */
+    }
+
+    /* Middle section text adjustments */
+    .middleSection {
+        font-size: 0.4em;
+        /* Further reduced font size */
+    }
+
+    /* Bottom section text adjustments */
+    .bottomSection {
+        font-size: 0.7em;
+        /* Adjusted font size for consistency */
+    }
+
+    /* Link class adjustments */
+    .linkclass a {
+        font-size: 0.7em;
+        /* Slightly reduced font size */
+    }
+
+    /* Git button padding adjustment */
+    .git {
+        padding: 0.6em;
+        /* Reduced padding for smaller buttons */
+    }
   }
   
