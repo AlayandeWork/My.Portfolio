@@ -1312,8 +1312,20 @@ footer {
         max-width: 100%;
         /* Full width for cards on landscape phones */
     }
-    .icon1, .icon2, .icon3, .icon4, .icon5{
+    .icon1{
+        width: 40%;
+    }
+    .icon2{
+        width: 40%;
+    }
+    .icon3{
+        width: 20%;
+    }
+    .icon4{
         width: 10%;
+    }
+    .icon5{
+        width: 20%;
     }
     /* Margin header text adjustments */
     .marginHead {
