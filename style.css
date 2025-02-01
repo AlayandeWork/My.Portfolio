@@ -1369,4 +1369,15 @@ footer {
         /* Reduced padding for smaller buttons */
     }
   }
+
+
+
+
+
+
+  
+  /* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Styles for tablets */
+  }
   
