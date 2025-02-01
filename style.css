@@ -658,7 +658,7 @@ img {
     justify-content: center;
     align-items: center;
     pointer-events: none;
-    
+
 }
 
 
@@ -1047,32 +1047,32 @@ footer {
         max-width: 100%;
     }
 
-    .marginHead{
+    .marginHead {
         font-size: 0.7em;
     }
 
-    .innerDetails p{
+    .innerDetails p {
         font-size: 0.7em;
     }
 
 
-    .topSection{
+    .topSection {
         font-size: 0.8em;
     }
 
-    .middleSection{
+    .middleSection {
         font-size: 0.5em;
     }
 
-    .bottomSection{
+    .bottomSection {
         font-size: 0.8em;
     }
 
-    .linkclass a{
+    .linkclass a {
         font-size: 0.8em;
     }
 
-    .git{
+    .git {
         padding: 0.8em;
     }
 
@@ -1312,21 +1312,27 @@ footer {
         max-width: 100%;
         /* Full width for cards on landscape phones */
     }
-    .icon1{
+
+    .icon1 {
         width: 40%;
     }
-    .icon2{
+
+    .icon2 {
         width: 40%;
     }
-    .icon3{
+
+    .icon3 {
         width: 20%;
     }
-    .icon4{
+
+    .icon4 {
         width: 10%;
     }
-    .icon5{
+
+    .icon5 {
         width: 20%;
     }
+
     /* Margin header text adjustments */
     .marginHead {
         font-size: 0.6em;
@@ -1368,16 +1374,88 @@ footer {
         padding: 0.6em;
         /* Reduced padding for smaller buttons */
     }
-  }
+}
 
 
 
 
 
 
-  
-  /* Medium devices (tablets) */
+
 @media (min-width: 768px) and (max-width: 991px) {
-    /* Styles for tablets */
-  }
-  
+    header {
+        border: 2px solid blue;
+        /* Keep the border for debug purposes */
+        flex-direction: row;
+        padding: 1.5em;
+        text-align: left;
+        gap: 1.5em;
+    }
+
+    /* Logo adjustments */
+    .logo {
+        font-size: 1.5em;
+        /* Ensure it stands out more on tablets */
+    }
+
+    /* Navigation container */
+    nav {
+        margin-top: 1em;
+    }
+
+    /* Navigation list adjustments */
+    .nav-list {
+        flex-direction: row;
+        gap: 1em;
+        justify-content: flex-start;
+    }
+
+    /* Navigation links */
+    .nav-list a {
+        font-size: 1em;
+        padding: 0.6em 1em;
+    }
+
+    .banner-text h1 {
+        margin-top: 3em;
+        font-size: 2.9em;
+        /* Slightly smaller title for tablet screens */
+        margin-bottom: 0.3em;
+    }
+
+    /* Banner subtitle adjustments */
+    .banner-text p {
+        font-size: 1.2em;
+        /* Keep it legible without overpowering the design */
+    }
+
+    /* Arrow size and positioning */
+    .arrow {
+        width: 1.5em;
+        height: 1.5em;
+        bottom: 1em;
+    }
+
+    /* Banner image adjustments */
+    .banner img {
+        object-fit:cover;
+        width: 100%;
+        /* height: 50vh; */
+        /* Balance visual focus on tablet-sized screens */
+    }
+
+    /* Banner padding for better fit */
+    .banner {
+        padding: 0 1em;
+    }
+
+    /* Smooth transitions */
+    header,
+    .logo,
+    .nav-list a,
+    .banner-text h1,
+    .banner-text p,
+    .arrow {
+        transition: all 0.3s ease-in-out;
+    }
+}
