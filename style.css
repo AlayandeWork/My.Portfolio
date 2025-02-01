@@ -1438,7 +1438,7 @@ footer {
 
     /* Banner image adjustments */
     .banner img {
-        object-fit:cover;
+        object-fit: cover;
         width: 100%;
         /* height: 50vh; */
         /* Balance visual focus on tablet-sized screens */
@@ -1457,5 +1457,131 @@ footer {
     .banner-text p,
     .arrow {
         transition: all 0.3s ease-in-out;
+    }
+
+
+
+    #about {
+        flex-direction: column;
+        padding: 1em;
+        gap: 1.2em;
+        /* Balanced spacing for better alignment */
+    }
+
+    /* Full-width image container */
+    .imageDiv {
+        width: 90%;
+        /* Maintain better control of image width on tablets */
+        margin: 0 auto;
+    }
+
+    /* Padding for the description box */
+    .descriptionBox {
+        padding: 1em;
+        /* Balanced padding for improved content structure */
+    }
+
+    /* Text sizing for better fit */
+    .aboutmeText {
+        font-size: 1.8em;
+        /* Better readability while keeping compact */
+    }
+
+    .nameTitle {
+        font-size: 1em;
+        /* Improved legibility for name title */
+    }
+
+    .descriptionText {
+        font-size: 0.9em;
+        /* Balanced fit without appearing cramped */
+    }
+
+    /* Social platform icon layout */
+    .socialplat {
+        justify-content: space-evenly;
+        gap: 1em;
+        /* Improved icon spacing for better touch experience */
+    }
+
+    /* Icon size adjustments */
+    .socialplat a {
+        font-size: 0.8em;
+        /* Maintain visibility and usability */
+    }
+
+    /* Tooltip size adjustments */
+    .socialplat a::after {
+        font-size: 0.6em;
+    }
+
+    .flip-card {
+        flex: 1 1 100%;
+        max-width: 90%;
+        margin: 0 auto;
+        /* Center and slightly reduce card width */
+    }
+
+    /* Icon size adjustments */
+    .icon1 {
+        width: 35%;
+        /* Adjusted size for better layout on tablets */
+    }
+
+    .icon2 {
+        width: 35%;
+    }
+
+    .icon3 {
+        width: 18%;
+    }
+
+    .icon4 {
+        width: 12%;
+    }
+
+    .icon5 {
+        width: 18%;
+    }
+
+    /* Margin header text adjustments */
+    .marginHead {
+        font-size: 1em;
+        /* Slightly larger font for better readability */
+    }
+
+    /* Inner details paragraph adjustments */
+    .innerDetails p {
+        font-size: 1em;
+        /* Balanced font size for better readability */
+    }
+
+    .topSection {
+        font-size: 0.8em;
+        /* Slightly increased for better readability */
+    }
+
+    /* Middle section text adjustments */
+    .middleSection {
+        font-size: 0.5em;
+        /* Balanced size for clarity */
+    }
+
+    /* Bottom section text adjustments */
+    .bottomSection {
+        font-size: 0.8em;
+        /* Consistent sizing with the top section */
+    }
+
+    /* Link class adjustments */
+    .linkclass a {
+        font-size: 0.8em;
+        /* Enhanced size for better tapability */
+    }
+
+    /* Git button padding adjustment */
+    .git {
+        padding: 0.7em;
+        /* Slight increase for better button visibility */
     }
 }
