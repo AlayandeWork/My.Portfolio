@@ -2,7 +2,7 @@ const texts = [
     "Data Scientist",
     "Game Designer",
     "UX/UI Designer",
-    "Data & Analyst Technician",
+    "Data & Analytics Technician",
     "Petroleum & Gas Engineer"
 ];
 const currentYear = new Date().getFullYear();
