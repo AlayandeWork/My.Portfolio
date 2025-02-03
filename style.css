@@ -1660,7 +1660,7 @@ footer {
     .imageDiv {
         border: 5px solid #F5E8D3;
         border-radius: 10px;
-        
+
     }
 
     .wrapper {
@@ -1743,7 +1743,7 @@ footer {
         margin-bottom: 1em;
         text-align: left;
     }
-    
+
     .marginHead {
         font-size: 0.8em;
         margin-bottom: 1em;
@@ -1770,5 +1770,123 @@ footer {
 
     .git {
         padding: 1em;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 1200px) {
+
+    /* Header adjustments for large desktops */
+    header {
+        flex-direction: row;
+        padding: 2em;
+        text-align: left;
+        gap: 3em;
+    }
+
+    /* Logo adjustments */
+    .logo {
+        font-size: 2em;
+    }
+
+    /* Navigation list */
+    .nav-list {
+        flex-direction: row;
+        gap: 1.5em;
+    }
+
+    .nav-list a {
+        font-size: 1.2em;
+        padding: 0.8em;
+    }
+
+    /* Banner text */
+    .banner-text h1 {
+        font-size: 4em;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+
+    .banner-text p {
+        font-size: 1.6em;
+    }
+
+    /* Arrow adjustments */
+    .arrow {
+        width: 2.5em;
+        height: 2.5em;
+    }
+
+    /* Banner image */
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* About section */
+    #about {
+        flex-direction: row;
+        padding: 3em;
+        gap: 4em;
+    }
+
+    .descriptionBox {
+        padding: 2em;
+    }
+
+    .aboutmeText {
+        font-size: 3em;
+    }
+
+    .descriptionText {
+        font-size: 1.2em;
+    }
+
+    .socialplat {
+        justify-content: space-around;
+        gap: 1.5em;
+    }
+
+    /* Project section */
+    .project {
+        font-size: 3em;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 48%;
+        height: 60vh;
+    }
+
+    /* Flip card */
+    .flip-card {
+        max-width: 45%;
+    }
+
+    .topSection {
+        font-size: 1em;
+    }
+
+    .middleSection {
+        font-size: 0.8em;
+    }
+
+    .bottomSection {
+        font-size: 1em;
+    }
+
+    /* Link class adjustments */
+    .linkclass a {
+        font-size: 1em;
+    }
+
+    .git {
+        padding: 1.2em;
     }
 }
