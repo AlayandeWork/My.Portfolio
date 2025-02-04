@@ -1069,7 +1069,6 @@ footer {
 @media (min-width: 576px) and (max-width: 767px) {
 
     header {
-        border: 2px solid red;
         flex-direction: column;
         padding: 1em;
         text-align: center;
