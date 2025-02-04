@@ -855,11 +855,15 @@ footer {
 
 
 
+
+
+
 /*-----------RESPONSIVE DESIGN START--------------*/
 
-/* Extra small devices (phones) */
+
+
+/* Smallest Phone Start*/
 @media (max-width: 575px) {
-    /* Styles for phones */
 
     header {
         flex-direction: column;
@@ -869,53 +873,40 @@ footer {
 
     .logo {
         font-size: 1.5em;
-        /* Reduce font size for smaller screens */
         margin-bottom: 0.5em;
-    }
-
-    nav {
-        margin-top: 0.5em;
     }
 
     .nav-list {
         flex-direction: column;
         gap: 1em;
-        /* Reduce gap and make links stack vertically */
     }
 
     .nav-list a {
-        font-size: 1em;
-        /* Smaller font size for navigation links */
+        font-size: 0.9em;
     }
 
     .banner-text h1 {
         margin-top: 4em;
-        font-size: 3em;
-        /* Scale down the banner title */
+        font-size: 1.7em;
         margin-bottom: 0.5em;
     }
 
     .banner-text p {
-        font-size: 1.2em;
-        /* Smaller subtitle for better fit */
-    }
-
-    .arrow {
-        width: 1.5em;
-        /* Scale down the arrow size */
-        height: 1.5em;
-        bottom: 1em;
-        /* Adjust position for smaller screens */
+        font-size: 1em;
     }
 
     .banner img {
         object-fit: cover;
-        /* height: auto; Allow the image to adapt naturally */
     }
 
     .banner {
-        padding: 0 1em;
-        /* Add padding for better spacing on small screens */
+        height: 96vh;
+    }
+
+    .arrow {
+        width: 1.5em;
+        height: 1.5em;
+        bottom: 1em;
     }
 
     header,
@@ -927,27 +918,21 @@ footer {
         transition: all 0.3s ease-in-out;
     }
 
-
     #about {
         flex-direction: column;
         padding: 1em;
-        gap: 2em;
-        /* Increase spacing */
     }
 
     .imageDiv {
         width: 100%;
-        /* Full width for image */
     }
 
     .descriptionBox {
         padding: 1em;
-        /* Adjust padding */
     }
 
     .aboutmeText {
         font-size: 2em;
-        /* Smaller title */
     }
 
     .nameTitle {
@@ -955,27 +940,25 @@ footer {
     }
 
     .descriptionText {
-        font-size: 0.9em;
-        /* Better fit */
+        font-size: 0.7em;
+    }
+
+    .lettalk{
+        font-size: 0.8em;
     }
 
     .socialplat {
         justify-content: space-between;
-        /* Center icons */
         gap: 1em;
     }
 
     .socialplat a {
-        font-size: 0.7em;
-        /* Slightly smaller icons */
+        font-size: 0.5em;
     }
 
     .socialplat a::after {
         font-size: 0.6em;
-        /* Smaller tooltips */
     }
-
-
 
     .project {
         font-size: 2em;
@@ -1076,78 +1059,57 @@ footer {
     }
 
 }
+/* Smallest Phone End*/
 
 
 
-/* Small devices (landscape phones) */
+
+
+/* Small Phone Start */
 @media (min-width: 576px) and (max-width: 767px) {
-    /* Styles for landscape phones */
 
     header {
-        /* border: 2px solid red; */
+        border: 2px solid red;
         flex-direction: column;
         padding: 1em;
         text-align: center;
         gap: 1em;
     }
 
-    /* Logo adjustments */
     .logo {
         font-size: 1.2em;
-        /* margin-bottom: 0.3em; */
     }
 
-    /* Navigation container */
-    /* nav {
-        margin-top: 0.8em;
-    } */
-
-    /* Navigation list adjustments */
     .nav-list {
         flex-direction: column;
         gap: 0.2em;
     }
 
-    /* Navigation links */
     .nav-list a {
         font-size: 0.9em;
         padding: 0.4em;
     }
 
     .banner-text h1 {
-        margin-top: 4em;
         font-size: 2.4em;
-        /* Scale down the banner title */
         margin-bottom: 0.4em;
     }
 
-    /* Banner subtitle adjustments */
     .banner-text p {
         font-size: 1em;
-        /* Smaller subtitle for better fit */
     }
 
-    /* Arrow size and positioning */
     .arrow {
         width: 1.2em;
         height: 1.2em;
         bottom: 0.8em;
     }
 
-    /* Banner image adjustments */
     .banner img {
         object-fit: cover;
         width: 100%;
-        /* height: auto; */
-        /* Keep aspect ratio while fitting smaller screens */
     }
 
-    /* Banner padding for better fit */
-    .banner {
-        padding: 0 0.8em;
-    }
-
-    /* Smooth transitions */
     header,
     .logo,
     .nav-list a,
@@ -1157,120 +1119,85 @@ footer {
         transition: all 0.3s ease-in-out;
     }
 
-
     #about {
         flex-direction: column;
         padding: 0.8em;
         gap: 1.5em;
-        /* Slightly reduced spacing */
     }
 
-    /* Full-width image container */
     .imageDiv {
         width: 100%;
     }
 
-    /* Padding for the description box */
     .descriptionBox {
         padding: 0.8em;
-        /* Slightly reduced padding */
     }
 
-    /* Text sizing for better fit */
     .aboutmeText {
         font-size: 1.6em;
-        /* Smaller title */
     }
 
     .nameTitle {
         font-size: 0.9em;
-        /* Slightly reduced name title */
     }
 
     .descriptionText {
         font-size: 0.8em;
-        /* Better fit for smaller screens */
     }
 
-    /* Social platform icon layout */
     .socialplat {
         justify-content: space-evenly;
-        /* Center icons */
         gap: 0.8em;
-        /* Adjusted spacing between icons */
     }
 
-    /* Icon size adjustments */
     .socialplat a {
         font-size: 0.6em;
-        /* Slightly smaller icons */
     }
 
-    /* Tooltip size adjustments */
     .socialplat a::after {
         font-size: 0.5em;
-        /* Reduced tooltip size */
     }
-
-
-
 
     .project {
         font-size: 1.6em;
         margin-top: 0.8em;
         margin-bottom: 0.8em;
-        /* Reduced margins and font size */
     }
 
-    /* Scroll container adjustments */
     .scroll-wrapper {
         justify-content: center;
-        /* border: 2px solid blue; */
         gap: 0.8em;
-        /* Narrower gap between scroll elements */
     }
 
-    /* Scroll arrows remain hidden */
     .scroll-arrow {
         display: none;
     }
 
-    /* Container padding adjustment */
     .scroll-container {
         padding: 0.4em;
-        /* Slightly reduced padding */
+        height: auto;
     }
 
-
-
-    /* Box layout refinement */
     .box {
-        /* border: 2px solid red; */
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    /* Card size and layout adjustments */
     .card1,
     .card2,
     .card3,
     .card4 {
         width: 100%;
-        height: 80vh;
-        /* Reduced card height */
+        height: 100vh;
         border-radius: 20px;
-        /* Adjusted border radius */
     }
 
-    /* Card title adjustments */
     .cardTitle {
         margin: 1.5em 0.8em;
         font-size: 1em;
-        /* Smaller font and reduced margins */
     }
 
-    /* Card details adjustments */
     .card1 .details,
     .card2 .details,
     .card3 .details,
@@ -1280,36 +1207,26 @@ footer {
         height: auto;
         border-radius: 0 0 20px 20px;
         height: 100%;
-        bottom: -100%;/
+        bottom: -100%;
     }
 
-    /* Package display adjustments */
     .usedPackages {
         flex-wrap: wrap;
         gap: 0.4em;
-        /* Slightly reduced gap */
     }
 
-    /* Package element adjustments */
     .package {
         font-size: 0.6em;
         padding: 0.2em;
-        /* Smaller font size and padding */
     }
 
-    /* Mars icon size adjustment */
     .marsicon1 {
         width: 8%;
-        /* Slightly smaller width */
     }
-
-
-
 
     .flip-card {
         flex: 1 1 100%;
         max-width: 100%;
-        /* Full width for cards on landscape phones */
     }
 
     .icon1 {
@@ -1332,49 +1249,35 @@ footer {
         width: 20%;
     }
 
-    /* Margin header text adjustments */
     .marginHead {
         font-size: 0.6em;
-        /* Smaller fosize */
     }
 
-    /* Inner details paragraph adjustments */
     .innerDetails p {
         font-size: 0.6em;
-        /* Slightly smaller font size */
     }
 
-    /* Top section text adjustments */
     .topSection {
         font-size: 0.7em;
-        /* Reduced font size */
     }
 
-    /* Middle section text adjustments */
     .middleSection {
         font-size: 0.4em;
-        /* Further reduced font size */
     }
 
-    /* Bottom section text adjustments */
     .bottomSection {
         font-size: 0.7em;
-        /* Adjusted font size for consistency */
     }
 
-    /* Link class adjustments */
     .linkclass a {
         font-size: 0.7em;
-        /* Slightly reduced font size */
     }
 
-    /* Git button padding adjustment */
     .git {
         padding: 0.6em;
-        /* Reduced padding for smaller buttons */
     }
 }
-
+/* Small Phone End */
 
 
 
@@ -1781,6 +1684,899 @@ footer {
 @media (min-width: 1200px) {
 
     /* Header adjustments for large desktops */
+    header {
+        flex-direction: row;
+        padding: 2em;
+        text-align: left;
+        gap: 3em;
+    }
+
+    /* Logo adjustments */
+    .logo {
+        font-size: 2em;
+    }
+
+    /* Navigation list */
+    .nav-list {
+        flex-direction: row;
+        gap: 1.5em;
+    }
+
+    .nav-list a {
+        font-size: 1.2em;
+        padding: 0.8em;
+    }
+
+    /* Banner text */
+    .banner-text h1 {
+        font-size: 4em;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+
+    .banner-text p {
+        font-size: 1.6em;
+    }
+
+    /* Arrow adjustments */
+    .arrow {
+        width: 2.5em;
+        height: 2.5em;
+    }
+
+    /* Banner image */
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* About section */
+    #about {
+        flex-direction: row;
+        padding: 3em;
+        gap: 4em;
+    }
+
+    .descriptionBox {
+        padding: 2em;
+    }
+
+    .aboutmeText {
+        font-size: 3em;
+    }
+
+    .descriptionText {
+        font-size: 1.2em;
+    }
+
+    .socialplat {
+        justify-content: space-around;
+        gap: 1.5em;
+    }
+
+    /* Project section */
+    .project {
+        font-size: 3em;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 48%;
+        height: 60vh;
+    }
+
+    /* Flip card */
+    .flip-card {
+        max-width: 45%;
+    }
+
+    .topSection {
+        font-size: 1em;
+    }
+
+    .middleSection {
+        font-size: 0.8em;
+    }
+
+    .bottomSection {
+        font-size: 1em;
+    }
+
+    /* Link class adjustments */
+    .linkclass a {
+        font-size: 1em;
+    }
+
+    .git {
+        padding: 1.2em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LANDSCAPE */
+/* Extra small devices (phones) - Landscape mode */
+@media (max-width: 575px) and (orientation: landscape) {
+    /* Styles for phones in landscape orientation */
+
+    header {
+        /* border: 2px solid red; */
+        flex-direction: column;
+        padding: 1em;
+        text-align: center;
+        gap: 1em;
+    }
+
+    .logo {
+        font-size: 1.2em;
+        margin: 0;
+    }
+
+    nav {
+        margin: 0;
+    }
+
+    .nav-list {
+        flex-direction: row;
+        gap: 2em;
+        justify-content: flex-end;
+    }
+
+    .nav-list a {
+        font-size: 0.9em;
+    }
+
+    .banner-text h1 {
+        font-size: 2em;
+        margin: 0.5em 0;
+    }
+
+    .banner-text p {
+        font-size: 1em;
+    }
+
+    .arrow {
+        width: 1.2em;
+        height: 1.2em;
+        bottom: 0.5em;
+    }
+
+    .banner {
+        padding: 0 2em;
+        /* display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center; */
+    }
+
+    .banner img {
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    #about {
+        flex-direction: column;
+        padding: 0.8em;
+    }
+
+    .imageDiv {
+        width: 100%;
+    }
+
+    .descriptionBox {
+        padding: 1em;
+        /* width: 50%; */
+    }
+
+    .aboutmeText {
+        font-size: 1.8em;
+    }
+
+    .nameTitle {
+        font-size: 0.9em;
+    }
+
+    .descriptionText {
+        font-size: 0.9em;
+    }
+
+    .socialplat {
+        justify-content: space-evenly;
+        gap: 1em;
+    }
+
+    .socialplat a {
+        font-size: 0.8em;
+    }
+
+
+
+    .project {
+        font-size: 1.5em;
+        /* margin: 1em 0; */
+    }
+
+    .scroll-wrapper {
+        justify-content: center;
+    }
+
+    .scroll-container {
+        padding: 0.5em;
+
+        /* display: flex; */
+        overflow-x: scroll;
+    }
+
+    .box {
+
+        /* border: 2px solid black; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 100%;
+        height: 80vh;
+        border-radius: 30px;
+    }
+
+    .cardTitle {
+        margin: 1em;
+        font-size: 1.1em;
+    }
+
+    .details {
+        font-size: 0.7em;
+        padding: 1em;
+        height: auto;
+        /* border-radius: 0 0 20px 20px; */
+    }
+
+    .usedPackages {
+        flex-wrap: nowrap;
+        gap: 0.5em;
+    }
+
+    .package {
+        font-size: 0.7em;
+        padding: 0.3em;
+    }
+
+    .marsicon1 {
+        width: 8%;
+    }
+
+
+
+
+    .flip-card {
+        flex: 1 1 100%;
+        height: 80vh;
+        max-width: 100%;
+    }
+
+    .marginHead {
+        font-size: 0.7em;
+    }
+
+    .innerDetails p {
+        font-size: 0.7em;
+    }
+
+    .topSection {
+        font-size: 0.8em;
+    }
+
+    .middleSection {
+        font-size: 0.6em;
+    }
+
+    .bottomSection {
+        font-size: 0.8em;
+    }
+
+    .linkclass a {
+        font-size: 0.8em;
+    }
+
+    .git {
+        padding: 0.6em;
+    }
+}
+
+/* Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767px) and (orientation: landscape) {
+    /* Styles for landscape phones */
+
+    header {
+        /* border: 2px solid red; */
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+        gap: 1em;
+        text-align: left;
+    }
+
+    /* Logo adjustments */
+    .logo {
+        font-size: 1.2em;
+    }
+
+    /* Navigation container */
+    .nav-list {
+        flex-direction: row;
+        gap: 0.5em;
+    }
+
+    /* Navigation links */
+    .nav-list a {
+        font-size: 0.9em;
+        padding: 0.4em;
+    }
+
+    .banner-text h1 {
+        font-size: 2.4em;
+        margin-bottom: 0.4em;
+    }
+
+    /* Banner subtitle adjustments */
+    .banner-text p {
+        font-size: 1em;
+    }
+
+    /* Arrow size and positioning */
+    .arrow {
+        width: 1.2em;
+        height: 1.2em;
+        bottom: 0.8em;
+    }
+
+    /* Banner image adjustments */
+    .banner img {
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .banner {
+        padding: 0 0.8em;
+    }
+
+    #about {
+        flex-direction: column;
+        padding: 0.8em;
+    }
+
+    .imageDiv {
+        width: 100%;
+    }
+
+    .descriptionBox {
+        padding: 1em;
+        /* width: 50%; */
+    }
+
+    .aboutmeText {
+        font-size: 1.8em;
+    }
+
+    .nameTitle {
+        font-size: 0.9em;
+    }
+
+    .descriptionText {
+        font-size: 0.9em;
+    }
+
+    .socialplat {
+        justify-content: space-evenly;
+        gap: 1em;
+    }
+
+    .socialplat a {
+        font-size: 0.8em;
+    }
+
+
+
+    .project {
+        font-size: 1.5em;
+        /* margin: 1em 0; */
+    }
+
+    .scroll-wrapper {
+        justify-content: center;
+    }
+
+    .scroll-container {
+        padding: 0.5em;
+
+        /* display: flex; */
+        overflow-x: scroll;
+    }
+
+    .box {
+
+        /* border: 2px solid black; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 100%;
+        height: 80vh;
+        border-radius: 30px;
+    }
+
+    .cardTitle {
+        margin: 1em;
+        font-size: 1.1em;
+    }
+
+    .details {
+        font-size: 0.7em;
+        padding: 1em;
+        height: auto;
+        /* border-radius: 0 0 20px 20px; */
+    }
+
+    .usedPackages {
+        flex-wrap: nowrap;
+        gap: 0.5em;
+    }
+
+    .package {
+        font-size: 0.7em;
+        padding: 0.3em;
+    }
+
+    .marsicon1 {
+        width: 8%;
+    }
+
+
+
+
+    .flip-card {
+        flex: 1 1 100%;
+        height: 80vh;
+        max-width: 100%;
+    }
+
+    .marginHead {
+        font-size: 0.7em;
+    }
+
+    .innerDetails p {
+        font-size: 0.7em;
+    }
+
+    .topSection {
+        font-size: 0.8em;
+    }
+
+    .middleSection {
+        font-size: 0.6em;
+    }
+
+    .bottomSection {
+        font-size: 0.8em;
+    }
+
+    .linkclass a {
+        font-size: 0.8em;
+    }
+
+    .git {
+        padding: 0.6em;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+    header {
+        /* border: 2px solid yellow; */
+        flex-direction: row;
+        padding: 1.5em;
+        text-align: left;
+        gap: 1.5em;
+    }
+
+    /* Logo adjustments */
+    .logo {
+        font-size: 1.5em;
+    }
+
+    nav {
+        margin-top: 1em;
+    }
+
+    /* Navigation list adjustments */
+    .nav-list {
+        flex-direction: row;
+        gap: 1em;
+        justify-content: flex-start;
+    }
+
+    /* Navigation links */
+    .nav-list a {
+        font-size: 1em;
+        padding: 0.6em 1em;
+    }
+
+    .banner-text h1 {
+        margin-top: 3em;
+        font-size: 2.9em;
+        margin-bottom: 0.3em;
+    }
+
+    .banner-text p {
+        font-size: 1.2em;
+    }
+
+    .arrow {
+        width: 1.5em;
+        height: 1.5em;
+        bottom: 1em;
+    }
+
+    .banner img {
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .banner {
+        padding: 0 1em;
+    }
+
+    header,
+    .logo,
+    .nav-list a,
+    .banner-text h1,
+    .banner-text p,
+    .arrow {
+        transition: all 0.3s ease-in-out;
+    }
+
+    #about {
+        width: 100%;
+        /* border: 2px solid red; */
+        flex-direction: column;
+        padding: 0.8em;
+    }
+
+    .imageDiv {
+        width: 100%;
+    }
+
+    .descriptionBox {
+        padding: 1em;
+        /* width: 50%; */
+    }
+
+    .aboutmeText {
+        font-size: 1.8em;
+    }
+
+    .nameTitle {
+        font-size: 0.9em;
+    }
+
+    .descriptionText {
+        font-size: 0.9em;
+    }
+
+    .socialplat {
+        justify-content: space-evenly;
+        gap: 1em;
+    }
+
+    .socialplat a {
+        font-size: 0.8em;
+    }
+
+
+
+    .project {
+        font-size: 1.5em;
+        /* margin: 1em 0; */
+    }
+
+    .scroll-wrapper {
+        justify-content: center;
+    }
+
+    .scroll-container {
+        padding: 0.5em;
+
+        /* display: flex; */
+        overflow-x: scroll;
+    }
+
+    .scroll-arrow {
+        display: none;
+    }
+
+    .box {
+
+        /* border: 2px solid black; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 20em;
+        height: 100vh;
+        border-radius: 30px;
+    }
+
+    .cardTitle {
+        margin: 1em;
+        font-size: 1.1em;
+    }
+
+    .details {
+        font-size: 0.7em;
+        padding: 1em;
+        /* height: auto; */
+        border-radius: 0 0 20px 20px;
+        /* height: 100%; */
+        /* bottom: -100%; */
+    }
+
+    .usedPackages {
+        flex-wrap: nowrap;
+        gap: 0.5em;
+    }
+
+    .package {
+        font-size: 0.7em;
+        padding: 0.3em;
+    }
+
+    .marsicon1 {
+        width: 8%;
+    }
+
+
+
+
+    .flip-card {
+        flex: 1 1 100%;
+        height: 80vh;
+        max-width: 100%;
+    }
+
+    .marginHead {
+        font-size: 0.7em;
+    }
+
+    .innerDetails p {
+        font-size: 0.7em;
+    }
+
+    .topSection {
+        font-size: 0.8em;
+    }
+
+    .middleSection {
+        font-size: 0.6em;
+    }
+
+    .bottomSection {
+        font-size: 0.8em;
+    }
+
+    .linkclass a {
+        font-size: 0.8em;
+    }
+
+    .git {
+        padding: 0.6em;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) and (orientation: landscape) {
+
+    /* Header adjustments for landscape desktops */
+    header {
+        flex-direction: row;
+        padding: 1.5em;
+        text-align: left;
+        gap: 2em;
+    }
+
+    /* Logo adjustments */
+    .logo {
+        font-size: 1.8em;
+        margin-bottom: 0;
+    }
+
+    /* Navigation list adjustments */
+    .nav-list {
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    .nav-list a {
+        font-size: 1em;
+        padding: 0.5em;
+    }
+
+    /* Banner text adjustments */
+    .banner-text h1 {
+        font-size: 3em;
+        margin-top: 2em;
+        margin-bottom: 0.8em;
+    }
+
+    .banner-text p {
+        font-size: 1.4em;
+    }
+
+    /* Banner image adjustments */
+    .banner img {
+        width: 100%;
+    }
+
+    .arrow {
+        width: 2em;
+        height: 2em;
+    }
+
+    /* About section adjustments */
+    #about {
+        flex-direction: row;
+    }
+
+    .descriptionBox {
+        font-size: 0.9em;
+    }
+
+    .aboutmeText {
+        font-size: 2.4em;
+    }
+
+    .imageDiv {
+        border: 5px solid #F5E8D3;
+        border-radius: 10px;
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .descriptionText {
+        font-size: 1em;
+    }
+
+    .socialplat {
+        justify-content: space-between;
+    }
+
+    .fa-linkedin,
+    .fa-github-alt,
+    .fa-google,
+    .fa-twitter,
+    .fa-itch-io {
+        font-size: 2em;
+        color: #F5E8D3;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    /* Project section adjustments */
+    .project {
+        font-size: 2.4em;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 50%;
+        height: 80vh;
+    }
+
+    .card1 .details,
+    .card2 .details,
+    .card3 .details,
+    .card4 .details {
+        position: absolute;
+        bottom: -50%;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background-color: rgba(44, 62, 80, 0.9);
+        color: white;
+        font-size: 0.8em;
+        padding: 0.7em;
+        text-align: center;
+        border-radius: 0 0 80px 80px;
+        transition: bottom 0.8s ease;
+        z-index: 0;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        overflow: hidden;
+    }
+
+    /* Flip card adjustments */
+    .flip-card {
+        max-width: 48%;
+    }
+
+    .innerDetails p {
+        font-size: 0.8em;
+        margin-bottom: 1em;
+        text-align: left;
+    }
+
+    .marginHead {
+        font-size: 0.8em;
+        margin-bottom: 1em;
+        text-align: justify;
+        border-bottom: 5px solid #2C3E50;
+    }
+
+    .topSection {
+        font-size: 0.9em;
+    }
+
+    .middleSection {
+        font-size: 0.7em;
+    }
+
+    .bottomSection {
+        font-size: 0.9em;
+    }
+
+    /* Link class adjustments */
+    .linkclass a {
+        font-size: 0.9em;
+    }
+
+    .git {
+        padding: 1em;
+    }
+}
+
+
+
+@media (min-width: 1200px) and (orientation: landscape) {
+
+    /* Header adjustments for landscape large desktops */
     header {
         flex-direction: row;
         padding: 2em;
