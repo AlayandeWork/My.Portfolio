@@ -863,9 +863,10 @@ footer {
 
 
 /* Smallest Phone Start*/
-@media (max-width: 575px) {
+@media (max-width: 480px) {
 
     header {
+        border: 2px solid red;
         flex-direction: column;
         padding: 1em;
         text-align: center;
@@ -943,7 +944,7 @@ footer {
         font-size: 0.7em;
     }
 
-    .lettalk{
+    .lettalk {
         font-size: 0.8em;
     }
 
@@ -1059,6 +1060,18 @@ footer {
     }
 
 }
+
+
+
+/* Smallest Phone Landscape Start*/
+@media (max-width: 480px) and (orientation: landscape) {
+    header {
+        background-color: lightblue;
+    }
+}
+
+/* Smallest Phone Landscape End*/
+
 /* Smallest Phone End*/
 
 
@@ -1276,6 +1289,7 @@ footer {
         padding: 0.6em;
     }
 }
+
 /* Small Phone End */
 
 
