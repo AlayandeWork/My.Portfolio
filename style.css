@@ -866,7 +866,6 @@ footer {
 @media (max-width: 480px) {
 
     header {
-        border: 2px solid red;
         flex-direction: column;
         padding: 1em;
         text-align: center;
@@ -1066,7 +1065,6 @@ footer {
 /* Smallest Phone Landscape Start*/
 @media (max-width: 480px) and (orientation: landscape) {
     header {
-        border: 2px solid red;
         flex-direction: row;
         text-align: center;
     }
