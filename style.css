@@ -869,6 +869,7 @@ footer {
 @media (max-width: 480px) {
 
     header {
+        border: 2px solid red;
         flex-direction: column;
         padding: 1em;
         text-align: center;
@@ -1046,7 +1047,7 @@ footer {
 
 
     .topSection {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     .middleSection {
