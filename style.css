@@ -1914,7 +1914,7 @@ footer {
 
 
 
-
+/*Extra Large Device Start*/
 @media (min-width: 992px) and (max-width: 1199px) {
 
     /* Header adjustments for desktops */
@@ -2096,3 +2096,4 @@ footer {
         padding: 1em;
     }
 }
+/* Extra Large Device End*/
