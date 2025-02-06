@@ -1706,7 +1706,7 @@ footer {
 
 
 
-
+/* Large Device Start*/
 @media (min-width: 768px) and (max-width: 991px) {
     header {
         /* border: 2px solid blue; */
@@ -1910,6 +1910,7 @@ footer {
         /* Slight increase for better button visibility */
     }
 }
+/* Large Device End*/
 
 
 
