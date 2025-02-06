@@ -1483,11 +1483,9 @@ footer {
     }
 }
 
-/* Medium Phone End */
-
-@media (max-width: 767px) and (orientation: landscape){
+/* Medium Phone Landscape Start*/
+@media (max-width: 768px) and (orientation: landscape){
     header {
-        border: 2px solid red;
         flex-direction: row;
         text-align: center;
     }
@@ -1694,6 +1692,9 @@ footer {
         padding: 0.8em;
     }
 }
+/* Medium Phone Landscape End*/
+
+/* Medium Phone End */
 
 
 
