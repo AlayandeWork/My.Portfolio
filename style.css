@@ -863,3 +863,9 @@ footer {
 
 /*-----------RESPONSIVE DESIGN START--------------*/
 
+@media screen and (max-width: 780px) {
+    header{
+        border: 2px solid red;
+    }
+    
+}
