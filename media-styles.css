@@ -129,6 +129,14 @@
         border-radius: 20px;
     }
 
+    .card1 .details,
+    .card2 .details,
+    .card3 .details,
+    .card4 .details  {
+        border-radius: 0px;
+        height: 100%;
+        bottom: -100%;
+    }
     
 
 }
