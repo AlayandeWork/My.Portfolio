@@ -88,6 +88,8 @@
     }
 
     .scroll-wrapper {
+        width: 100%;
+        height: 100%;
         justify-content: center;
         gap: 0.8em;
     }
@@ -98,10 +100,11 @@
 
     .scroll-container {
         padding: 0.4em;
-        height: auto;
+        height: 170vh;
     }
 
     .box {
+        height: 100%;
         flex-direction: column;
         align-items: center;
         justify-content: center;
