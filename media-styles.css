@@ -142,9 +142,120 @@
 }
 
 
-@media (max-width: 1199px) and (min-width: 768px){
+@media (max-width: 1369px) and (min-width: 768px){
 
     header{
         border: 2px solid red;
     }
+
+    #about {
+        display: flex;
+        /* flex-direction: column; */
+        width: 100%;
+    }
+
+    .about2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .descriptionBox {
+        padding: 1em;
+    }
+
+    .aboutmeText {
+        font-size: 1em;
+    }
+
+    .descriptionText {
+        font-size: 0.8em;
+    }
+
+    .lettalk {
+        font-size: 1em;
+    }
+
+
+    .nameTitle{
+        font-size: 1em;
+    }
+
+
+    .fa-linkedin,
+    .fa-github-alt,
+    .fa-google,
+    .fa-twitter,
+    .fa-itch-io {
+        font-size: 1.5em;
+        color: #F5E8D3;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+
+    .project {
+        font-size: 3.2em;
+        text-align: center;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    
+    .scroll-wrapper {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        gap: 2em;
+    }
+    
+    .scroll-arrow {
+        background-color: #2C3E50;
+        color: white;
+        border: none;
+        padding: 0.5em 0.9em;
+        font-size: 1.4em;
+        cursor: pointer;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    .scroll-container {
+        overflow-x: auto;
+        padding: 1em;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        /* border: 2px solid blue; */
+        height: 60vh;
+        width: 100%;
+    }
+    
+    .box {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        gap: 1em;
+        /* border: 2px solid yellow; */
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 25em;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .card1 .details,
+    .card2 .details,
+    .card3 .details,
+    .card4 .details  {
+        border-radius: 0px;
+        height: 100%;
+        bottom: -100%;
+    }
+
 }
