@@ -331,7 +331,7 @@ img {
     scroll-behavior: smooth;
     scrollbar-width: none;
     /* border: 2px solid blue; */
-    height: 77vh;
+    height: 70vh;
     width: 100%;
 }
 
@@ -348,7 +348,7 @@ img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
     width: 26em;
-    height: 50vh;
+    height: auto;
     background-image: url(./Images/Scrawlsense.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -404,7 +404,7 @@ img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
     width: 26em;
-    height: 50vh;
+    height: auto;
     background-image: url(./Images/marss.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -467,7 +467,7 @@ img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
     width: 26em;
-    height: 50vh;
+    height: auto;
     background-image: url(./Images/medisense.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -523,7 +523,7 @@ img {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
     flex: 0 0 auto;
     width: 26em;
-    height: 50vh;
+    height: auto;
     background-image: url(./Images/shape.jpeg);
     background-repeat: no-repeat;
     background-position: center;
