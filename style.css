@@ -619,10 +619,11 @@ img {
 
 /*-------------------------------------------------------------------EXPERIENCE SECTION END-------------------------------------------------------*/
 
-.grid-container {
+/* .grid-container {
     border: 2px solid red;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    display: flex;
+    flex-wrap: wrap;
+    
     gap: 2em;
     justify-content: space-between;
     padding: 20px;
@@ -636,12 +637,13 @@ img {
     height: 50vh;
     perspective: 1000px;
     cursor: pointer;
-}
+} */
 
-/* .grid-container {
-    border: 2px solid red;
+.grid-container {
+    /* border: 2px solid red; */
     display: grid;
-    width: 50%;
+    justify-content: center;
+    align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 2em;
     padding: 20px;
@@ -650,9 +652,9 @@ img {
 .flip-card {
     width: 100%;
     height: 50vh;
-    perspective: 1000px;
+    /* perspective: 1000px; */
     cursor: pointer;
-} */
+}
 
 
 .flip-card-inner {
