@@ -108,6 +108,7 @@
     .card2,
     .card3,
     .card4 {
+        
         width: 77%;
         height: 50vh;
         border-radius: 20px;
@@ -117,9 +118,22 @@
     .card2 .details,
     .card3 .details,
     .card4 .details  {
+        font-size: 0.7em;
         border-radius: 0px;
         height: 100%;
         bottom: -100%;
+    }
+
+    .package{
+        font-size: 0.8em;
+    }
+
+    .cardTitle {
+        display: flex;
+        justify-content: center;
+        color: white;
+        letter-spacing: 0.3em;
+        margin: 0em;
     }
 
 }
