@@ -136,4 +136,20 @@
         margin: 0em;
     }
 
+    .topSection{
+        font-size: 0.7em;
+    }
+
+    .middleSection h1{
+        font-size: 1.5em;
+    }
+
+    .bottomSection {
+        font-size: 0.7em;
+    }
+
+    .git{
+        font-size: 0.8em;
+    }
+
 }
