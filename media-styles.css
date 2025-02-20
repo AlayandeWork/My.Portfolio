@@ -1,4 +1,5 @@
 /* Mobile Phones */
+/*Portrait Mode */
 @media screen and (max-width: 480px){
     header {
         border: 2px solid red;
