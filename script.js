@@ -75,7 +75,7 @@ function scrollToRight() {
     const container = document.querySelector('.scroll-container');
     const cardWidth = parseFloat(getComputedStyle(container).fontSize) * 26;
     container.scrollBy({
-        left: cardWidth, // Adjust the value as needed
+        left: 440, // Adjust the value as needed
         behavior: 'smooth'
     });
 }
@@ -83,7 +83,7 @@ function scrollToLeft() {
     const container = document.querySelector('.scroll-container');
     const cardWidth = parseFloat(getComputedStyle(container).fontSize) * 26;
     container.scrollBy({
-        left: -cardWidth,
+        left: -440,
         behavior: 'smooth'
     });
 }
