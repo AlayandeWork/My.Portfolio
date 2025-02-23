@@ -446,8 +446,73 @@
 
 }
 
-/* @media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
     header{
         border: 2px solid blue;
     }
-  } */
+
+    .project {
+        font-size: 2em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    
+    .scroll-wrapper {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        gap: 2em;
+    }
+    
+    .scroll-arrow {
+        background-color: #2C3E50;
+        color: white;
+        border: none;
+        padding: 0.5em 0.9em;
+        font-size: 1.4em;
+        cursor: pointer;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    .scroll-container {
+        overflow-x: auto;
+        padding: 1em;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .box {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        gap: 1em;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        width: 60%;
+        height: 80vh;
+        border-radius: 40px;
+    }
+
+    .card1 .details,
+    .card2 .details,
+    .card3 .details,
+    .card4 .details {
+        font-size: 0.7em;
+        border-radius: 0px;
+        height: 90%;
+        bottom: -100%;
+    }
+
+  }
