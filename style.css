@@ -619,26 +619,6 @@ img {
 
 /*-------------------------------------------------------------------EXPERIENCE SECTION END-------------------------------------------------------*/
 
-/* .grid-container {
-    border: 2px solid red;
-    display: flex;
-    flex-wrap: wrap;
-    
-    gap: 2em;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-
-.flip-card {
-    flex: 1 1 calc(50% - 20px);
-    max-width: calc(50% - 20px);
-    box-sizing: border-box;
-    height: 50vh;
-    perspective: 1000px;
-    cursor: pointer;
-} */
-
 .grid-container {
     /* border: 2px solid red; */
     display: grid;
