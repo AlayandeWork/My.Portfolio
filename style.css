@@ -306,7 +306,6 @@ img {
 }
 
 .scroll-wrapper {
-    border: 2px solid red;
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -316,7 +315,6 @@ img {
 }
 
 .scroll-arrow {
-    border: 2px solid blue;
     background-color: #2C3E50;
     color: white;
     border: none;
@@ -331,7 +329,6 @@ img {
 }
 
 .scroll-container {
-    border: 2px solid blue;
     overflow-x: auto;
     padding: 1em;
     scroll-behavior: smooth;
@@ -341,7 +338,6 @@ img {
 }
 
 .box {
-    border: 2px solid purple;
     height: 100%;
     width: 100%;
     display: flex;
