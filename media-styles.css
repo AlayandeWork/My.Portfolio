@@ -96,6 +96,7 @@
     }
 
     .box {
+        border: 2px solid red;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -108,8 +109,7 @@
     .card2,
     .card3,
     .card4 {
-
-        width: 77%;
+        width: 88%;
         height: 50vh;
         border-radius: 20px;
     }
