@@ -45,6 +45,9 @@ document.querySelector('.back-to-top').addEventListener('click', () => {
 });
 
 // Redirect to external links
+document.getElementById('godotImage').addEventListener('click', function () {
+    window.location.href = 'https://nuhu238.itch.io/shape-pattern';
+});
 document.getElementById('marsImage').addEventListener('click', function () {
     window.location.href = 'https://space-fje5.onrender.com';
 });
