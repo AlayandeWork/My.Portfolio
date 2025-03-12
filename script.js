@@ -1,9 +1,7 @@
 const texts = [
-    "Data Scientist"
-    // "Game Designer",
-    // "UX/UI Designer",
-    // "Data & Analytics Technician",
-    // "Petroleum & Gas Engineer"
+    "Data Scientist",
+    "Project Engineer",
+    "IT Support Technician"
 ];
 const currentYear = new Date().getFullYear();
 const subtitle = document.getElementById('subtitle');
