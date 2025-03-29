@@ -1,5 +1,5 @@
 /*Mobile Portrait*/
-@media (orientation: portrait) and (max-width: 767px) {
+/* @media (orientation: portrait) and (max-width: 767px) {
     header{
         position: absolute;
         display: flex;
@@ -28,7 +28,7 @@
 
     .banner-text{
         position: absolute;
-        /* top: 23em;    */
+        top: 23em;   
     }
 
     .banner-text h1{
@@ -38,4 +38,4 @@
     .banner-text p {
         font-size: 1.4em;
     }
-}
+} */
