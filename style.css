@@ -498,7 +498,6 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 80px;
     color: black;
     position: relative;
@@ -554,7 +553,6 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 80px;
     color: black;
     position: relative;
