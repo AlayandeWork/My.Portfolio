@@ -382,7 +382,7 @@ img {
     transition: transform 0.3s ease;
 }
 
-.card1 .details {
+/* .card1 .details {
     position: absolute;
     bottom: -50%;
     left: 0;
@@ -409,7 +409,7 @@ img {
 .card1.show-details .details {
     bottom: 0;
     z-index: 1;
-}
+} */
 
 /*-------------------------FIRST CARD END-----------------------------*/
 
@@ -440,7 +440,7 @@ img {
 
 
 
-.card2 .details {
+/* .card2 .details {
     position: absolute;
     bottom: -50%;
     left: 0;
@@ -471,7 +471,7 @@ img {
 
 .marsicon1 {
     width: 10%;
-}
+} */
 
 /*---------------------------SECOND CARD END-------------------------------*/
 
@@ -500,7 +500,7 @@ img {
     transition: transform 0.3s ease;
 }
 
-.card3 .details {
+/* .card3 .details {
     position: absolute;
     bottom: -50%;
     left: 0;
@@ -527,7 +527,7 @@ img {
 .card3.show-details .details {
     bottom: 0;
     z-index: 1;
-}
+} */
 
 /*-----------------------THIRD CARD END------------------------------*/
 
@@ -557,7 +557,7 @@ img {
 
 
 
-.card4 .details {
+/* .card4 .details {
     position: absolute;
     bottom: -50%;
     left: 0;
@@ -575,23 +575,35 @@ img {
     word-wrap: break-word;
     word-break: break-word;
     overflow: hidden;
-}
+} */
 
-.card4 .details p {
+/* .card4 .details p {
     text-align: justify;
 }
 
 .card4.show-details .details {
     bottom: 0;
     z-index: 1;
-}
+} */
 
 /*---------------------------FOURTH CARD END----------------------------*/
 .cardTitle{
     color: white;
     position: absolute;
-    top: 20px;
-    left: 130px;
+    top: 40px;
+    left: 40px;
+    font-size: 1.5em;
+}
+
+.pp{
+    position: absolute;
+    color: white;
+    top: 90px;
+    width: 30em;
+    left: 40px;
+    text-align: justify;
+    font-size: 0.7em;
+    
 }
 
 
@@ -608,6 +620,16 @@ img {
     display: flex;
     gap: 1em;
     margin-top: 1em;
+}
+
+.firstusedPackages{
+    display: flex;
+    position: absolute;
+    top: 600px;
+    /* border: 2px solid red; */
+    gap: 0.5em;
+    left: 40px ;
+    font-size: 0.8em;
 }
 
 .package {
