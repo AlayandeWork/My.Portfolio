@@ -214,8 +214,6 @@ img {
 .descriptionBox {
     flex: 1 1 500px; 
     text-align: left;
-    /* gap: 7em; */
-    /* padding: 2em; */
 }
 
 .aboutmeText {
