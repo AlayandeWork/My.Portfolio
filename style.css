@@ -33,7 +33,7 @@ body {
     color: #F5E8D3;;
     /* opacity: 0.6; */
     transition: opacity 0.3s;
-    transform: rotate(45deg); /* Rotating to make the arrow face the corner */
+    transform: rotate(45deg); /* Rotating to mthe arrow face the corner */
   }
 
 /* .abs{
