@@ -19,15 +19,32 @@ body {
     margin-top: 4em;
     margin-bottom: 4em;
 }
+  
+  
+
 
 /*-----------------------------------------------------------------GLOBAL CALLS END----------------------------------------------------------------*/
 
 
+.card-icon {
+    /* position: absolute; */
+    top: 1rem;
+    right: 1rem;
+    color: #F5E8D3;;
+    /* opacity: 0.6; */
+    transition: opacity 0.3s;
+    transform: rotate(45deg); /* Rotating to make the arrow face the corner */
+  }
 
+/* .abs{
+    position: absolute;
+} */
 
+.abs2{
+    position: absolute;
+}
 
-
-
+  
 
 
 
@@ -187,12 +204,12 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     background: #2C3E50;
     color: white;
     padding: 2.5em;
     gap: 1em;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -201,7 +218,7 @@ nav {
     display: flex;
     border: 5px solid #F5E8D3;
     border-radius: 10px;
-    flex: 1 1 300px; 
+    flex: 1 1 300px;
     max-width: 400px;
 }
 
@@ -212,7 +229,7 @@ img {
 
 
 .descriptionBox {
-    flex: 1 1 500px; 
+    flex: 1 1 500px;
     text-align: left;
 }
 
@@ -587,7 +604,7 @@ img {
 } */
 
 /*---------------------------FOURTH CARD END----------------------------*/
-.cardTitle{
+.cardTitle {
     color: white;
     position: absolute;
     top: 40px;
@@ -595,7 +612,7 @@ img {
     font-size: 1.5em;
 }
 
-.pp{
+.pp {
     position: absolute;
     color: white;
     top: 90px;
@@ -603,7 +620,7 @@ img {
     left: 40px;
     text-align: justify;
     font-size: 0.7em;
-    
+
 }
 
 
@@ -622,13 +639,13 @@ img {
     margin-top: 1em;
 }
 
-.firstusedPackages{
+.firstusedPackages {
     display: flex;
     position: absolute;
     top: 45em;
     /* border: 2px solid red; */
     gap: 0.5em;
-    left: 40px ;
+    left: 40px;
     font-size: 0.8em;
 }
 
@@ -664,7 +681,7 @@ img {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2em;
     padding: 20px;
 }
@@ -893,20 +910,3 @@ footer {
 
 /*---------------------------BOTTOM SECTION END------------------------------*/
 /*--------------------------------------------------FOOTER SECTION END-------------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
