@@ -26,25 +26,17 @@ body {
 /*-----------------------------------------------------------GLOBAL CALLS END----------------------------------------------------------------*/
 
 
-.card-icon {
-    /* position: absolute; */
-    top: 1rem;
-    right: 1rem;
-    color: #F5E8D3;;
-    /* opacity: 0.6; */
-    transition: opacity 0.3s;
-    transform: rotate(45deg); /* Rotating to mthe arrow face the corner */
+.card-hint {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    font-size: 0.75rem;
+    color: #ffffffcc;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    pointer-events: none; /* Makes sure it doesn’t block clicks */
   }
-
-/* .abs{
-    position: absolute;
-} */
-
-.abs2{
-    position: absolute;
-}
-
-  
 
 
 
