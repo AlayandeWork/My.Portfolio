@@ -52,7 +52,7 @@
         padding: 2em;
 
     }
-    
+
     .logo{
         font-size: 3em;
     }
@@ -97,3 +97,22 @@
 
 
 
+/* Mobile portrait (up to 767px) */
+@media (max-width: 767px) {
+    /* Styles for mobile portrait */
+}
+
+/* Mobile landscape (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Styles for mobile landscape */
+}
+
+/* Tablet portrait (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    /* Styles for tablet portrait */
+}
+
+/* Tablet landscape (1024px and above) */
+@media (min-width: 1024px) and (orientation: landscape) {
+    /* Styles for tablet landscape */
+}
