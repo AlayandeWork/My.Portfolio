@@ -90,7 +90,7 @@ nav {
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
 }
 
 .banner::before {

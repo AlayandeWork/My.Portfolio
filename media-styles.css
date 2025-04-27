@@ -1,5 +1,6 @@
-/*Mobile Portrait*/
-@media (orientation: portrait) and (max-width: 767px) {
+/* PORTRAIT */
+/*  MOBILE  */
+@media (max-width: 768px){
     header{
         position: absolute;
         display: flex;
@@ -38,4 +39,61 @@
     .banner-text p {
         font-size: 1.4em;
     }
+
 }
+
+
+/*   TABLET   */
+@media (max-width: 1199px) and (min-width: 768px) and (orientation: portrait){
+    header{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+
+    }
+    
+    .logo{
+        font-size: 3em;
+    }
+
+    .wrapper{
+        border: 2px solid red;
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .nav-list a{
+        font-size: 2em;
+    }
+
+    .banner img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        object-fit: cover;
+    }
+
+    .banner-text{
+        position: absolute;
+        top: 33em;   
+    }
+
+    .banner-text h1{
+        font-size: 4em;
+    }
+
+    .banner-text p {
+        font-size: 2em;
+    }
+}
+
+
+
+
+
