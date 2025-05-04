@@ -348,13 +348,15 @@ img {
 }
 
 .project-card {
-    width: 100%;
-    height: 50vh;
-    background-color: #f8f8f8;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff; /* White text for better contrast */
+    overflow: hidden;
     padding: 1.5rem;
-    cursor: pointer;
+    border-radius: 12px;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -382,8 +384,9 @@ img {
 .tech-stack span {
     display: inline-block;
     font-size: 0.9rem;
+    border: 2px solid white;
     margin: 0.25rem 0.25rem 0 0;
-    background: #e0e0e0;
+    background: black;
     padding: 0.4rem 0.8rem;
     border-radius: 999px;
 }
@@ -392,13 +395,41 @@ img {
     width: 24px;
     height: 24px;
     vertical-align: middle;
+    cursor: pointer;
+}
+
+/* Optional: Add dark overlay for readability */
+.project-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
+    z-index: 0;
+}
+
+/* Make sure text content appears above overlay */
+.project-card > * {
+    position: relative;
+    z-index: 1;
 }
 
 
 
+.card1 {
+    background-image: url('./Images/Scrawlsense.jpeg');
+}
 
+.card2 {
+    background-image: url('./Images/marss.jpg');
+}
 
+.card3 {
+    background-image: url('./Images/medisense.jpeg');
+}
 
+.card4 {
+    background-image: url('./Images/shape.jpeg');
+}
 
 
 
