@@ -106,155 +106,82 @@
         <!-----------------------------------------------PROJECT SECTION START------------------------------------------------------>
         <section id="project">
             <h1 class="project">Projects</h1>
+
             <div class="scroll-wrapper">
-                <button class="scroll-arrow left-arrow" onclick="scrollToLeft()">
-                    &#10094;
-                </button>
                 <div class="scroll-container">
-                    <div class="box">
-
-
-                        <div class="card1" onclick="toggleDetails(this)">
-                            <div class="cardTitle">
-                                <h1>ScrawlSense</h1>
+                    <div class="projects-grid">
+                        <!-- Project Card -->
+                        <div class="project-card" onclick="toggleDetails(this)">
+                            <div class="card-title">
+                                <h2>ScrawlSense</h2>
                             </div>
-
-                            <div class="pp">
+                            <div class="description">
                                 <p>ScrawlSense is an app that digitizes and analyzes handwritten text. Built with
                                     Flutter/Dart and Python, it lets users input handwriting via drawing or image
                                     uploads, converting it into digital text using advanced AI for seamless handwriting
                                     recognition and analysis.</p>
                             </div>
-
-                            <div class="firstusedPackages">
-                                <div class="package">
-                                    <p>Python</p>
-                                </div>
-                                <div class="package">
-                                    <P>Flutter</P>
-                                </div>
-                                <div class="package">
-                                    <P>Dart</P>
-                                </div>
-                                <div class="package">
-                                    <P>Machine Learning</P>
-                                </div>
+                            <div class="tech-stack">
+                                <span>Python</span><span>Flutter</span><span>Dart</span><span>Machine Learning</span>
                             </div>
-
                         </div>
 
+                        
 
-
-                        <div class="card2" onclick="toggleDetails(this)">
-                            <div class="cardTitle">
-                                <h1>MaRover</h1>
+                        <div class="project-card" onclick="toggleDetails(this)">
+                            <div class="card-title">
+                                <h2>MaRover</h2>
                             </div>
-
-                            <div class="pp">
+                            <div class="description">
                                 <p>MaRover is an app that explores the captivating landscapes of Mars by collecting
                                     images from NASA's Mars Rover Photos API. Built with HTML, CSS, and JavaScript, it
                                     allows users to view stunning visuals captured by the Perseverance and Curiosity
-                                    rovers. </p>
-
+                                    rovers.</p>
                                 <div class="info">
                                     Check it out here:
-
-                                    <img id="marsImage" src="./Images/mars.png" alt="logo" class="marsicon1"
-                                        style="cursor: pointer;">
+                                    <img src="./Images/mars.png" alt="Mars Icon" class="icon clickable" />
                                 </div>
                             </div>
-
-                            <div class="firstusedPackages">
-                                <div class="package">
-                                    <p>HTML</p>
-                                </div>
-                                <div class="package">
-                                    <P>JavaScript</P>
-                                </div>
-                                <div class="package">
-                                    <P>CSS</P>
-                                </div>
+                            <div class="tech-stack">
+                                <span>HTML</span><span>JavaScript</span><span>CSS</span>
                             </div>
-
-
                         </div>
 
-
-
-                        <div class="card3" onclick="toggleDetails(this)">
-                            <div class="cardTitle">
-                                <h1>MediSense</h1>
+                        <div class="project-card" onclick="toggleDetails(this)">
+                            <div class="card-title">
+                                <h2>MediSense</h2>
                             </div>
-
-                            <div class="pp">
+                            <div class="description">
                                 <p>MediSense is a real-time healthcare monitoring system leveraging machine learning,
                                     global data sources, and technologies like Pandas, Flask, HTML, CSS, and SQL to
-                                    enhance patient well-being, empower proactive health management, and build safer,
-                                    healthier communities.</p>
-                                <div class="info"></div>
+                                    enhance patient well-being and build healthier communities.</p>
                             </div>
-                            <div class="firstusedPackages">
-                                <div class="package">
-                                    <p>HTML & CSS</p>
-                                </div>
-                                <div class="package">
-                                    <P>SQL</P>
-                                </div>
-                                <div class="package">
-                                    <P>Pandas</P>
-                                </div>
-                                <div class="package">
-                                    <P>Flask</P>
-                                </div>
-                                <div class="package">
-                                    <P>Python</P>
-                                </div>
+                            <div class="tech-stack">
+                                <span>HTML &
+                                    CSS</span><span>SQL</span><span>Pandas</span><span>Flask</span><span>Python</span>
                             </div>
                         </div>
 
-
-
-
-                        <div class="card4" onclick="toggleDetails(this)">
-                            <div class="cardTitle">
-                                <h1>MorphMind</h1>
+                        <div class="project-card" onclick="toggleDetails(this)">
+                            <div class="card-title">
+                                <h2>MorphMind</h2>
                             </div>
-
-                            <div class="pp">
-                                <p>MorphMind is a game created using Godot that challenges players to memorize and
-                                    match sequences of shapes, testing their memory and focus as the difficulty
-                                    progressively increases. Using machine learning, the game can adapt to player
-                                    performance, dynamically adjusting difficulty and providing personalized challenges
-                                    for an engaging experience.</p>
-
+                            <div class="description">
+                                <p>MorphMind is a game created using Godot that challenges players to memorize and match
+                                    sequences of shapes. With machine learning, the game adapts to player performance,
+                                    dynamically adjusting difficulty for personalized gameplay.</p>
                                 <div class="info">
                                     Check it out here:
-
-                                    <img id="godotImage" src="./Images/godot.png" alt="logo" class="marsicon1"
-                                        style="cursor: pointer;">
+                                    <img src="./Images/godot.png" alt="Godot Icon" class="icon clickable" />
                                 </div>
                             </div>
-
-                            <div class="firstusedPackages">
-                                <div class="package">
-                                    <p>Godot</p>
-                                </div>
-                                <div class="package">
-                                    <P>GDScript</P>
-                                </div>
-                                <div class="package">
-                                    <P>Aseprite</P>
-                                </div>
-                                <div class="package">
-                                    <P>Machine Learning</P>
-                                </div>
+                            <div class="tech-stack">
+                                <span>Godot</span><span>GDScript</span><span>Aseprite</span><span>Machine
+                                    Learning</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="scroll-arrow right-arrow" onclick="scrollToRight()">
-                    &#10095;
-                </button>
             </div>
         </section>
 

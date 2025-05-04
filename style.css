@@ -18,9 +18,10 @@ body {
     margin: 0 auto;
     margin-top: 4em;
     margin-bottom: 4em;
+    border: 2px solid red;
 }
-  
-  
+
+
 
 
 /*-----------------------------------GLOBAL CALLS END--------------------------------------------*/
@@ -36,7 +37,7 @@ body {
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
     pointer-events: none;
-  }
+}
 
 
 
@@ -90,7 +91,7 @@ nav {
     position: relative;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .banner::before {
@@ -314,343 +315,84 @@ img {
 
 /*-------------------------------------------------------------------PROJECT SECTION START-----------------------------------------------------------*/
 
-.project {
-    font-size: 3.2em;
-    text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
-.scroll-wrapper {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    gap: 2em;
-}
-
-.scroll-arrow {
-    background-color: #2C3E50;
-    color: white;
-    border: none;
-    padding: 0.5em 0.9em;
-    font-size: 1.4em;
-    cursor: pointer;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.scroll-container {
-    overflow-x: auto;
-    padding: 1em;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
-    height: 80vh;
-    width: 100%;
-}
-
-.box {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    gap: 1em;
-}
-
-.card1::before,
-.card2::before,
-.card3::before,
-.card4::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 0;
-}
-
-/*--------------------------FIRST CARD START---------------------------------*/
-.card1 {
-    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8); */
-    flex: 0 0 auto;
-    width: 26em;
-    height: 100%;
-    background-image: url(./Images/Scrawlsense.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 80px;
-    color: black;
-    position: relative;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-}
-
-/* .card1 .details {
-    position: absolute;
-    bottom: -50%;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    background-color: rgba(44, 62, 80, 0.9);
-    color: white;
-    font-size: 0.8em;
-    padding: 0.7em;
-    text-align: center;
-    border-radius: 0 0 80px 80px;
-    transition: bottom 0.8s ease;
-    z-index: 0;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-    overflow: hidden;
-}
-
-.card1 .details p {
-    text-align: justify;
-}
-
-.card1.show-details .details {
-    bottom: 0;
-    z-index: 1;
-} */
-
-/*-------------------------FIRST CARD END-----------------------------*/
-
-
-
-
-
-
-
-
-/*---------------------------SECOND CARD START-----------------------------*/
-.card2 {
-    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 1); */
-    flex: 0 0 auto;
-    /* background: rgba(0, 0, 0, 0.7); */
-    width: 26em;
-    height: auto;
-    background-image: url(./Images/marss.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 80px;
-    /* color: black; */
-    position: relative;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-}
-
-
-
-/* .card2 .details {
-    position: absolute;
-    bottom: -50%;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    background-color: rgba(44, 62, 80, 0.9);
-    color: white;
-    font-size: 0.8em;
-    padding: 0.7em;
-    text-align: center;
-    border-radius: 0 0 80px 80px;
-    transition: bottom 0.8s ease;
-    z-index: 0;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-    overflow: hidden;
-}
-
-.card2 .details p {
-    text-align: justify;
-}
-
-.card2.show-details .details {
-    bottom: 0;
-    z-index: 1;
-} */
-
-.marsicon1 {
-    width: 10%;
-}
-
-/*---------------------------SECOND CARD END-------------------------------*/
-
-
-
-
-
-
-
-
-
-/*---------------------------THIRD CARD START-------------------------------*/
-.card3 {
-    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8); */
-    flex: 0 0 auto;
-    width: 26em;
-    height: auto;
-    background-image: url(./Images/medisense.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 80px;
-    /* color: black; */
-    position: relative;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-}
-
-/* .card3 .details {
-    position: absolute;
-    bottom: -50%;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    background-color: rgba(44, 62, 80, 0.9);
-    color: white;
-    font-size: 0.8em;
-    padding: 0.7em;
-    text-align: center;
-    border-radius: 0 0 80px 80px;
-    transition: bottom 0.8s ease;
-    z-index: 0;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-    overflow: hidden;
-}
-
-.card3 .details p {
-    text-align: justify;
-}
-
-.card3.show-details .details {
-    bottom: 0;
-    z-index: 1;
-} */
-
-/*-----------------------THIRD CARD END------------------------------*/
-
-
-
-
-
-
-
-
-/*------------------------FOURTH CARD START-----------------------------*/
-.card4 {
-    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8); */
-    flex: 0 0 auto;
-    width: 26em;
-    height: auto;
-    background-image: url(./Images/shape.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 80px;
-    /* color: black; */
-    position: relative;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-}
-
-
-
-/* .card4 .details {
-    position: absolute;
-    bottom: -50%;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    background-color: rgba(44, 62, 80, 0.9);
-    color: white;
-    font-size: 0.8em;
-    padding: 0.7em;
-    text-align: center;
-    border-radius: 0 0 80px 80px;
-    transition: bottom 0.8s ease;
-    z-index: 0;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-    overflow: hidden;
-} */
-
-/* .card4 .details p {
-    text-align: justify;
-}
-
-.card4.show-details .details {
-    bottom: 0;
-    z-index: 1;
-} */
-
-/*---------------------------FOURTH CARD END----------------------------*/
-.cardTitle {
-    color: white;
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    font-size: 1.5em;
-}
-
-.pp {
-    position: absolute;
-    color: white;
-    top: 90px;
-    width: 30em;
-    left: 40px;
-    text-align: justify;
-    font-size: 0.7em;
-
-}
-
-
-
-.info {
-    margin-top: 3em;
-    gap: 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-}
-
-.usedPackages {
-    display: flex;
-    gap: 1em;
-    margin-top: 1em;
-}
-
-.firstusedPackages {
-    display: flex;
-    position: absolute;
-    top: 45em;
-    /* border: 2px solid red; */
-    gap: 0.5em;
-    left: 40px;
-    font-size: 0.8em;
-}
-
-.package {
-    padding: 0.4em;
-    background-color: #F5E8D3;
-    border-radius: 5px;
-    color: #2C3E50;
-}
 
 /*-------------------------------------------------------------------PROJECT SECTION END-----------------------------------------------------------*/
 
+/* Base styles */
 
+.project {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem 0 1rem;
+}
+
+.scroll-wrapper {
+
+    padding: 0 1rem;
+    overflow-x: auto;
+}
+
+.scroll-container {
+    /* border: 2px solid red; */
+    /* display: flex; */
+    justify-content: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+}
+
+.project-card {
+    width: 100%;
+    height: 50vh;
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+}
+
+
+.card-title h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.description p {
+    font-size: 0.95rem;
+    flex-grow: 1;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.tech-stack span {
+    display: inline-block;
+    font-size: 0.9rem;
+    margin: 0.25rem 0.25rem 0 0;
+    background: #e0e0e0;
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
 
 
 
