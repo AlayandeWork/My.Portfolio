@@ -66,7 +66,7 @@ document.querySelectorAll('.flip-card').forEach(card => {
     });
 });
 function scrollToNextSection() {
-    const nextSection = document.querySelector('#about'); // Change '#about' to the 
+    const nextSection = document.querySelector('#about'); // Change '#about'
     if (nextSection) {
         nextSection.scrollIntoView({ behavior: 'smooth' });
     }
